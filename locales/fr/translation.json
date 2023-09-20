@@ -127,10 +127,10 @@
         "language_title": "Langue souhaitée",
         "mode_meet": "Mode de rencontre",
         "not_alone": {
-            "description": "Vérifions ton niveau ensemble !",
-            "description_title": "Nice,",
-            "subtitle": "Plusieurs personnes veulent s’exercer",
-            "title": "Tu n’es pas seul·e,",
+            "description": "vérifions ton niveau ensemble !",
+            "description_title": "Maintenant,",
+            "subtitle": " ",
+            "title": "Tu y es presque !",
             "validate_button": "Confirmer"
         },
         "subtitle": "Confirme tes options",
@@ -143,7 +143,7 @@
         "language_title": "Langue souhaitée",
         "mode_meet": "Mode de rencontre",
         "tandem": "tandem",
-        "title": "Nice, c’est terminé !",
+        "title": "Yes, c’est terminé !",
         "validate_button": "Continuer"
     },
     "pairing_options_page": {
@@ -173,7 +173,7 @@
         "validate_button": "Valider et continuer"
     },
     "pairing_quizz_introduction_page": {
-        "description": "Passe au niveau suivant une fois terminé",
+        "description": " ",
         "subtitle": "Découvre ton niveau en répondant à quelques questions",
         "time": "ça prendra 10 min max",
         "title": "Ton niveau",
@@ -231,7 +231,7 @@
         "subtitle": "Tu préfères travailler en présentiel ou en distanciel ?",
         "tandem_button": "tandem uniquement",
         "tandem_title": "J’apprends avec mon binôme en présentiel",
-        "title": "Pédagogie"
+        "title": "Mode de rencontre"
     },
     "pairing_select_level_page": {
         "no_knowledge": "Aucune connaissance",
