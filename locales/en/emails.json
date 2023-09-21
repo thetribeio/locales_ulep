@@ -9,6 +9,10 @@
                 "Best regards,"
             ],
             "signature": "Tandem's team of Lorraine university"
+        },
+        "footer": {
+          "unsubscribe": "You can unsubscribe by connecting to your account.",
+          "downloadApps": "Download our apps"
         }
     },
     "notifyUniversityAdminTandemToReview": {
@@ -21,6 +25,10 @@
                 "Best regards,"
             ],
             "signature": "Tandem's team of Lorraine University"
+        },
+        "footer": {
+          "unsubscribe": "You can unsubscribe by connecting to your account.",
+          "downloadApps": "Download our apps"
         }
     }
 }

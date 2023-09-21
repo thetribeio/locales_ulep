@@ -9,6 +9,10 @@
                 "Cordialement,"
             ],
             "signature": "L'équipe Tandem de l'Université de Lorraine"
+        },
+        "footer": {
+            "unsubscribe": "Vous pouvez vous désinscrire en vous connectant à votre compte.",
+            "downloadApps": "Téléchargez nos apps"
         }
     },
     "notifyUniversityAdminTandemToReview": {
@@ -21,6 +25,10 @@
                 "Cordialement,"
             ],
             "signature": "L'équipe Tandem de l'Université de Lorraine"
+        },
+        "footer": {
+            "unsubscribe": "Vous pouvez vous désinscrire en vous connectant à votre compte.",
+            "downloadApps": "Téléchargez nos apps"
         }
     }
 }
