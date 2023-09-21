@@ -4,10 +4,10 @@
         "title": "Votre partenaire tandem est prêt(e) à commencer",
         "content": {
             "introduction": "Cher(e) {{firstname}},",
-            "paragraphs": {
-                "1": "Nous sommes heureux de vous informer que votre partenaire Tandem a été trouvé(e) et est prêt(e) à commencer à apprendre la langue avec vous ! Votre partenaire est {{partnerFirstname}} {{partnerLastname}}, un(e) étudiant(e) de {{universityName}} qui partage votre passion pour l'apprentissage des langues et qui est impatient(e) de commencer cette aventure linguistique avec vous. Nous vous encourageons à prendre le temps de vous présenter à votre partenaire et de planifier votre première session de conversation. Nous vous rappelons que le programme Tandem est conçu pour être un échange équitable, alors n'hésitez pas à partager vos connaissances et à vous impliquer pleinement dans le programme. Si vous rencontrez des problèmes ou des défis, n'hésitez pas à contacter l'équipe Tandem de l'Université de Lorraine pour obtenir de l'aide. Nous sommes là pour vous aider à réussir dans votre apprentissage de la langue et nous sommes ravis de faire partie de votre parcours d'apprentissage.",
-                "2": "Cordialement,"
-            },
+            "paragraphs": [
+                "Nous sommes heureux de vous informer que votre partenaire Tandem a été trouvé(e) et est prêt(e) à commencer à apprendre la langue avec vous ! Votre partenaire est {{partnerFirstname}} {{partnerLastname}}, un(e) étudiant(e) de {{universityName}} qui partage votre passion pour l'apprentissage des langues et qui est impatient(e) de commencer cette aventure linguistique avec vous. Nous vous encourageons à prendre le temps de vous présenter à votre partenaire et de planifier votre première session de conversation. Nous vous rappelons que le programme Tandem est conçu pour être un échange équitable, alors n'hésitez pas à partager vos connaissances et à vous impliquer pleinement dans le programme. Si vous rencontrez des problèmes ou des défis, n'hésitez pas à contacter l'équipe Tandem de l'Université de Lorraine pour obtenir de l'aide. Nous sommes là pour vous aider à réussir dans votre apprentissage de la langue et nous sommes ravis de faire partie de votre parcours d'apprentissage.",
+                "Cordialement,"
+            ],
             "signature": "L'équipe Tandem de l'Université de Lorraine"
         }
     },
@@ -16,9 +16,10 @@
         "title": "Vous avez des tandems suggérés ou en attente",
         "content": {
             "introduction": "Bonjour,",
-            "paragraphs": {
-                "1": "Vous avez des tandems suggérés par la routine globale ou en attente de validation. Connectez vous sur le back-office pour arbitrer ces tandems."
-            },
+            "paragraphs": [
+                "Vous avez des tandems suggérés par la routine globale ou en attente de validation. Connectez vous sur le back-office pour arbitrer ces tandems.",
+                "Cordialement,"
+            ],
             "signature": "L'équipe Tandem de l'Université de Lorraine"
         }
     }
