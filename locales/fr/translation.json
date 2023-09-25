@@ -9,6 +9,7 @@
         "sunday": "Dimanche"
     },
     "errors": {
+        "ask_language": { "conflit": "Vous avez déjà demandé cette langue" },
         "global": "Une erreur est survenue",
         "userDoesntExist": "L'utilisateur n'existe pas",
         "userWrongCredentials": "Le mot de passe ou l'email est incorrect"
@@ -66,6 +67,7 @@
             "category_title": "Dis-nous ce qu'il s'est passé ?",
             "note": "Note",
             "report_button": "Signaler un problème",
+            "report_sent": "Le signalement a été envoyé",
             "send_button": "Envoyer",
             "title": "Signaler"
         },
@@ -115,6 +117,11 @@
             "title": "Mes demandes en attentes"
         }
     },
+    "languages": {
+        "french": "Français",
+        "english": "Anglais",
+        "chinese": "Chinois"
+    },
     "login_page": {
         "button": "Se connecter",
         "forgot": "Mot de passe oublié ?",
@@ -127,10 +134,10 @@
         "language_title": "Langue souhaitée",
         "mode_meet": "Mode de rencontre",
         "not_alone": {
-            "description": "vérifions ton niveau ensemble !",
-            "description_title": "Maintenant,",
-            "subtitle": " ",
-            "title": "Tu y es presque !",
+            "description": "Vérifions ton niveau ensemble !",
+            "description_title": "Nice,",
+            "subtitle": "Plusieurs personnes veulent s’exercer",
+            "title": "Tu n’es pas seul·e,",
             "validate_button": "Confirmer"
         },
         "subtitle": "Confirme tes options",
@@ -143,12 +150,12 @@
         "language_title": "Langue souhaitée",
         "mode_meet": "Mode de rencontre",
         "tandem": "tandem",
-        "title": "Yes, c’est terminé !",
+        "title": "Nice, c’est terminé !",
         "validate_button": "Continuer"
     },
     "pairing_options_page": {
         "certificat": "Certificat",
-        "pass_button": "Passer",
+        "none": "Pas d'options",
         "program": "Programme spécifique",
         "program_subtitle": "*Lorem ipsum, em ipsumem ipsum ",
         "same_tandem": "J'ai déjà participé au programme et je souhaite continuer avec la même personne",
@@ -173,7 +180,7 @@
         "validate_button": "Valider et continuer"
     },
     "pairing_quizz_introduction_page": {
-        "description": " ",
+        "description": "Passe au niveau suivant une fois terminé",
         "subtitle": "Découvre ton niveau en répondant à quelques questions",
         "time": "ça prendra 10 min max",
         "title": "Ton niveau",
@@ -185,7 +192,15 @@
     },
     "pairing_quizz_validation": {
         "description": "Continue sur ta lancée",
-        "description_next_step": "Tandem de choc ! De nombreux profils potentiels",
+        "description_next_step": {
+            "A0": "Tandem de choc ! De nombreux profils potentiels",
+            "A1": "Tandem de choc ! De nombreux profils potentiels",
+            "A2": "Tandem de choc ! De nombreux profils potentiels",
+            "B1": "Tandem de choc ! De nombreux profils potentiels",
+            "B2": "Tandem de choc ! De nombreux profils potentiels",
+            "C1": "Tandem de choc ! De nombreux profils potentiels",
+            "C2": "Tandem de choc ! De nombreux profils potentiels"
+        },
         "next_button": "Cool, la suite",
         "next_step_button": "C'est compris !",
         "subtitle": "Super, passons à tes préférences !",
@@ -231,7 +246,7 @@
         "subtitle": "Tu préfères travailler en présentiel ou en distanciel ?",
         "tandem_button": "tandem uniquement",
         "tandem_title": "J’apprends avec mon binôme en présentiel",
-        "title": "Mode de rencontre"
+        "title": "Pédagogie"
     },
     "pairing_select_level_page": {
         "no_knowledge": "Aucune connaissance",
@@ -318,6 +333,7 @@
     },
     "signup_languages_page": {
         "language": "Ma langue",
+        "none": "Aucune",
         "other_languages": "Autres langues maitrisées - C1 min/Bilingue (optionnel)",
         "placeholder_primary_language": "Veuillez séléctionner votre langue native",
         "placeholder_first_optional_language": "Vous pouvez selectionner une première langue maîtrisée",
@@ -326,18 +342,25 @@
         "validate_button": "Valider et continuer"
     },
     "signup_informations_page": {
+        "code": "Code",
         "confirm_password": "Confirme ton mot de passe",
         "cgu": "Accepter les conditions d'utilisation et la politique de confidentialité pour utiliser l'application.",
         "error_age": "Veuillez saisir un âge valide",
+        "error_code": "Veuillez saisir un code valide",
         "error_confirm_password": "Les mots de passes ne sont pas identiques",
+        "error_domain": "Veuillez saisir une adresse email valide ( vérifiez le format de l'email et le nom de domaine )",
         "error_email": "Veuillez saisir un email valide",
+        "error_email_already_exist": "L'adresse email a déjà été utilisée",
         "error_firstname": "Veuillez saisir un prénom valide",
         "error_gender": "Veuillez choisir un genre",
         "error_lastname": "Veuillez saisir un nom valide",
-        "error_password": "Veuillez saisir un mot de passe valide",
+        "error_password": "Veuillez saisir un mot de passe valide ( au moins une majuscule, un chiffre et une lettre )",
+        "error_picture_format": "L'image séléctionnée n'a pas un format valide ( JPG, PNG ou JPEG )",
+        "error_picture_weight": "L'image séléctionnée est trop lourde",
         "photo": "Ajouter une photo",
         "photo_selected": "Modifier",
         "placeholder_age": "Entre ton âge",
+        "placeholder_code": "Entre un code d'inscription",
         "placeholder_confirm_password": "Confirme ton mot de passe",
         "placeholder_email": "Ajoute ton email",
         "placeholder_firstname": "Entre ton prénom ici",
@@ -355,10 +378,11 @@
         "country_placeholder": "Sélectionne un pays dans la liste",
         "department_title": "Département",
         "diplome_title": "Diplôme",
-        "error": "Vous ne pourrez pas aller plus loin dans le processus d’inscription",
+        "error": "Vous ne pourrez pas aller plus loin dans le processus d’inscription ( les inscriptions sont terminées pour cette université )",
         "function_title": "Fonction",
         "footer_email": "Contactez-nous à",
         "footer_university": "Votre université n'est pas encore partenaire de l'",
+        "missing_field": "Veuillez saisir tous les champs",
         "profile_title": "Mon profil",
         "sso_button": "M’authentifier",
         "staff_role": "Personnel de l'université",
