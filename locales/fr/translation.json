@@ -9,7 +9,9 @@
         "sunday": "Dimanche"
     },
     "errors": {
-        "ask_language": { "conflit": "Vous avez déjà demandé cette langue" },
+        "ask_language": {
+            "conflit": "Vous avez déjà demandé cette langue"
+        },
         "global": "Une erreur est survenue",
         "userDoesntExist": "L'utilisateur n'existe pas",
         "userWrongCredentials": "Le mot de passe ou l'email est incorrect"
@@ -134,10 +136,10 @@
         "language_title": "Langue souhaitée",
         "mode_meet": "Mode de rencontre",
         "not_alone": {
-            "description": "Vérifions ton niveau ensemble !",
-            "description_title": "Nice,",
+            "description": "vérifions ton niveau ensemble !",
+            "description_title": "Et maintenant",
             "subtitle": "Plusieurs personnes veulent s’exercer",
-            "title": "Tu n’es pas seul·e,",
+            "title": "C'est parti !",
             "validate_button": "Confirmer"
         },
         "subtitle": "Confirme tes options",
