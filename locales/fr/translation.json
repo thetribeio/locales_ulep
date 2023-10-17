@@ -328,7 +328,7 @@
         "account": "ton compte est prêt 🎉",
         "description": "Penchons-nous maintenant sur la langue que tu souhaites travailler.",
         "thanks": "Merci",
-        "validate_button": "Continuer"
+        "validate_button": "Valider et continuer"
     },
     "signup_frequency_page": {
         "ONCE_A_WEEK": "1 fois / semaine",
