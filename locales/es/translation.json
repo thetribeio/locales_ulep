@@ -11,8 +11,7 @@
     "errors": {
         "global": "Ha ocurrido un error",
         "userDoesntExist": "El usuario no existe",
-        "userWrongCredentials": "Contraseña o correo electrónico 
-incorrectos",
+        "userWrongCredentials": "Contraseña o correo electrónico incorrectos",
         "connecteur": ""
     },
     "error_page": {
@@ -27,11 +26,9 @@ incorrectos",
     "forgot_password_sent_page": {
         "button": "Reenviar el correo electrónico",
         "footer_first_line": "No recibiste el correo electrónico",
-        "footer_second_line": "Revisa la carpeta de spam o vuelve a probar 
-con una dirección electrónica válida",
+        "footer_second_line": "Revisa la carpeta de spam o vuelve a probar con una dirección electrónica válida",
         "forgot": "Más tarde",
-        "subtitle": "Hemos envíado las instrucciones para recuperar la 
-contraseña por correo electrónico",
+        "subtitle": "Hemos envíado las instrucciones para recuperar la contraseña por correo electrónico",
         "title": "Consulta tus correos electrónicos"
     },
     "global": {
@@ -60,8 +57,7 @@ contraseña por correo electrónico",
     "connection_page": {
         "connect_title": "¿Ya tienes una cuenta?",
         "connect_button": "Conectarse",
-        "signup_title": "¿Es la primera vez que ingresas a la 
-aplicación?",
+        "signup_title": "¿Es la primera vez que ingresas a la aplicación?",
         "signup_button": "Crear una cuenta"
     },
     "home_page": {
@@ -96,21 +92,18 @@ aplicación?",
         },
         "tandem_draft": {
             "button": "¡Entendí!",
-            "subtitle": "Recibirás una notificación cuando se te proponga 
-un tándem",
+            "subtitle": "Recibirás una notificación cuando se te proponga un tándem",
             "title": "Un poco de paciencia"
         },
         "tandem_not_found": {
             "button": "¡Vamos!",
             "button_pass": "Seguir",
-            "subtitle": "Pide otro idioma o vuelve a tratar el próximo 
-semestre",
+            "subtitle": "Pide otro idioma o vuelve a tratar el próximo semestre",
             "title": "No encontramos un tándem disponible"
         },
         "tandem_validated": {
             "availabilities": "Sus disponibilidades",
-            "availabilities_note": "Observación sobre sus 
-disponibilidades",
+            "availabilities_note": "Observación sobre sus disponibilidades",
             "goals": "Objetivos",
             "interests": "Centros de interés",
             "incredible": "😲 Algo increíble que le haya pasado",
@@ -146,8 +139,7 @@ disponibilidades",
         "forgot": "¿Contraseña olvidada?",
         "invalid_email": "Correo electrónico inválido",
         "invalid_password": "Contraseña inválida",
-        "subtitle": "Conéctate con los identificantes de la universidad 
-para seguir utilizando la aplicación",
+        "subtitle": "Conéctate con los identificantes de la universidad para seguir utilizando la aplicación",
         "title": "Conectarse"
     },
     "pairing_confirm_language_page": {
@@ -166,8 +158,7 @@ para seguir utilizando la aplicación",
     },
     "pairing_final_page": {
         "congratulation": "¡Enhorabuena!",
-        "congratulation_text": "Ahora disponemos de todas las 
-informaciones para encontrarte un tándem",
+        "congratulation_text": "Ahora disponemos de todas las informaciones para encontrarte un tándem",
         "language_title": "Idioma deseado",
         "mode_meet": "Modo de encuentro",
         "tandem": "Tándem",
@@ -179,8 +170,7 @@ informaciones para encontrarte un tándem",
         "none": "Seguir",
         "program": "Programa específico",
         "program_subtitle": "",
-        "same_tandem": "Ya he participado en el programa y deseo continuar 
-con la misma persona",
+        "same_tandem": "Ya he participado en el programa y deseo continuar con la misma persona",
         "title": "Mis opciones",
         "validate_button": "Validar y continuar"
     },
@@ -194,10 +184,8 @@ con la misma persona",
     "pairing_quizz_description_page": {
         "A1": "Empiezo el aprendizaje de este idioma",
         "A2": "Puedo presentarme sencillamente en el idioma",
-        "B1": "Puedo participar en cualquier conversación de la vida 
-diaria",
-        "C1": "Puedo entenderlo todo, incluyendo las bromas. Me expreso 
-con facilidad al tratar cualquier tema con un lenguaje formal o informal",
+        "B1": "Puedo participar en cualquier conversación de la vida diaria",
+        "C1": "Puedo entenderlo todo, incluyendo las bromas. Me expreso con facilidad al tratar cualquier tema con un lenguaje formal o informal",
         "pass_button": "Seguir",
         "subtitle": "¿Cómo describes tu nivel de lengua?",
         "title": "Tu nivel",
@@ -247,16 +235,12 @@ con facilidad al tratar cualquier tema con un lenguaje formal o informal",
     },
     "pairing_other_languages_page": {
         "joker_checkbox": "Idioma comodín",
-        "joker_description": "Deseas ayudar a alguien con el francés y 
-descubrir un idioma extranjero",
+        "joker_description": "Deseas ayudar a alguien con el francés y descubrir un idioma extranjero",
         "selected_language": {
             "explain_first_start": "Lo sentimos mucho, ese idioma",
             "explain_first_end": "no está disponible por el momento",
-            "explain_second": "Encontrar tu tándem puede tardar un poco, 
-estarás en lista de espera",
-            "explain_third": "Hacemos lo posible para encontrar nuevos 
-idiomas, pero podría tardar un año o más si no encontramos suficientes 
-participantes. Muchas gracias por tu paciencia y comprensión.",
+            "explain_second": "Encontrar tu tándem puede tardar un poco, estarás en lista de espera",
+            "explain_third": "Hacemos lo posible para encontrar nuevos idiomas, pero podría tardar un año o más si no encontramos suficientes participantes. Muchas gracias por tu paciencia y comprensión.",
             "language": "Idioma deseado",
             "subtitle": "¿Qué idioma quieres trabajar con tu tándem?",
             "title": "Escoger el idioma",
@@ -288,11 +272,8 @@ participantes. Muchas gracias por tu paciencia y comprensión.",
         "next_button": "Escoger otro idioma",
         "next_title": "Deseo escoger otro idioma",
         "not_alone": {
-            "description": "Sin embargo, resulta complejo encontrar un 
-tándem para este idioma. Mientras lo buscamos, te proponemos otro idioma 
-disponible o consulta los recursos pedagógicos disponibles",
-            "subtitle": "Varias personas han efectuado una solicitud 
-especial",
+            "description": "Sin embargo, resulta complejo encontrar un tándem para este idioma. Mientras lo buscamos, te proponemos otro idioma disponible o consulta los recursos pedagógicos disponibles",
+            "subtitle": "Varias personas han efectuado una solicitud especial",
             "title": "No eres el/la único/a",
             "validate_button": "Continuar"
         },
@@ -300,8 +281,7 @@ especial",
         "ressource_title": "Los recursos para ayudarme",
         "pedagogy_button": "",
         "pedagogy_title": "",
-        "subtitle": "Encuentra los recursos y grupos de discusión en línea 
-para aprender el idioma por ti mismo",
+        "subtitle": "Encuentra los recursos y grupos de discusión en línea para aprender el idioma por ti mismo",
         "title": ""
     },
     "reset_password_page": {
@@ -309,8 +289,7 @@ para aprender el idioma por ti mismo",
         "confirm_password_title": "Confirmar la nueva contraseña",
         "confirm_password_error": "Las dos contraseñas deben ser iguales",
         "new_password_title": "Entrar una nueva contraseña",
-        "new_password_error": "Debe contener un número, una mayúscula y 
-una minúscula",
+        "new_password_error": "Debe contener un número, una mayúscula y una minúscula",
         "title": "Nueva contraseña"
     },
     "signup_availabilities_page": {
@@ -323,8 +302,7 @@ una minúscula",
             "title_note": "¿Deseas agregar un comentario?",
             "validate_button": "Validar"
         },
-        "subtitle": "Tus disponibilidades nos permitirán encontrar un 
-tándem que te corresponda",
+        "subtitle": "Tus disponibilidades nos permitirán encontrar un tándem que te corresponda",
         "timezone": "Zona horaria",
         "title": "Tus disponibilidades",
         "UNAVAILABLE": "No está disponible",
@@ -339,8 +317,7 @@ tándem que te corresponda",
         "place_title": "🏖️ Tu lugar preferido es…",
         "power_placeholder": "",
         "power_title": "⚡ Tu super poder es…",
-        "subtitle": "Sé creativo, tus respuestas podrán ser leídas por tu 
-tándem para facilitar la primera discusión",
+        "subtitle": "Sé creativo, tus respuestas podrán ser leídas por tu tándem para facilitar la primera discusión",
         "title": "Para que tu tándem te conozca un poco mejor…",
         "travel_placeholder": "",
         "travel_title": "🌎️ Tu mejor anécdota de viaje",
@@ -364,29 +341,24 @@ tándem para facilitar la primera discusión",
     },
     "signup_goals_page": {
         "pass_button": "Seguir",
-        "subtitle": "¿Cuáles son tus objetivos? ¡Te vamos a ayudar a 
-alcanzarlos!",
+        "subtitle": "¿Cuáles son tus objetivos? ¡Te vamos a ayudar a alcanzarlos!",
         "title": "Objetivos",
         "validate_button": "Siguiente"
     },
     "signup_languages_page": {
         "language": "Mi idioma",
         "none": "",
-        "other_languages": "Otros idiomas hablados - C1 mínimo / Bilingue 
-(opcional)",
+        "other_languages": "Otros idiomas hablados - C1 mínimo / Bilingue (opcional)",
         "placeholder_primary_language": "Escoja su lengua materna",
-        "placeholder_first_optional_language": "Puede escoger un primer 
-idioma hablado",
-        "placeholder_second_optional_language": "Puede escoger un segundo 
-idioma hablado",
+        "placeholder_first_optional_language": "Puede escoger un primer idioma hablado",
+        "placeholder_second_optional_language": "Puede escoger un segundo idioma hablado",
         "title": "Idiomas hablados",
         "validate_button": "Validar y continuar"
     },
     "signup_informations_page": {
         "code": "",
         "confirm_password": "Confirma tu contraseña",
-        "cgu": "Aceptar las condiciones de utilización y la política de 
-confidencialidad para utilizar la aplicación",
+        "cgu": "Aceptar las condiciones de utilización y la política de confidencialidad para utilizar la aplicación",
         "error_age": "Inscriba una edad válida",
         "error_code": "",
         "error_confirm_password": "Las contraseñas no son iguales",
@@ -412,8 +384,7 @@ confidencialidad para utilizar la aplicación",
         "validate_button": "Validar y continuar"
     },
     "signup_interests_page": {
-        "subtitle": "Tus centros de interés nos sirven para encontrar un 
-tándem que te corresponda",
+        "subtitle": "Tus centros de interés nos sirven para encontrar un tándem que te corresponda",
         "title": "Escoje al menos cinco centros de interés",
         "validate_button": "Validar y continuar"
     },
@@ -436,8 +407,7 @@ tándem que te corresponda",
     },
     "suspended_page": {
         "contact_us": "Contáctenos para más informaciones",
-        "subtitle": "Lo sentimos mucho, pero tu cuenta ha sido cancelada 
-por el no respeto de nuestras reglas y condiciones de utilización",
+        "subtitle": "Lo sentimos mucho, pero tu cuenta ha sido cancelada por el no respeto de nuestras reglas y condiciones de utilización",
         "title": "Cuenta cancelada",
         "validate_button": "Contactarnos"
     },
@@ -632,4 +602,3 @@ por el no respeto de nuestras reglas y condiciones de utilización",
         "*": "Joker"
     }
 }
-
