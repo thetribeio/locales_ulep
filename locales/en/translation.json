@@ -11,13 +11,9 @@
     "errors": {
         "global": "An error has occurred",
         "userDoesntExist": "This username does not exist",
-        "userWrongCredentials": "The password or email is incorrect",
-        "connecteur": ""
+        "userWrongCredentials": "The password or email is incorrect"
     },
-    "error_page": {
-        "title": "",
-        "subtitle": ""
-    },
+    "error_page": {},
     "forgot_password_page": {
         "button": "Send",
         "invalid_email": "Invalid email address",
@@ -71,7 +67,6 @@
             "category_title": "Tell us what happened?",
             "note": "Note",
             "report_button": "Report a problem",
-            "report_sent": "",
             "send_button": "Send",
             "title": "Report"
         },
@@ -121,12 +116,7 @@
             "title": "My pending requests"
         }
     },
-    "instance": {
-        "button": "",
-        "error": "",
-        "subtitle": "",
-        "title": ""
-    },
+    "instance": {},
     "languages": {
         "french": "French",
         "english": "English",
@@ -148,7 +138,6 @@
         "not_alone": {
             "description": "Let's test your level together!",
             "description_title": "Now",
-            "subtitle": "",
             "title": "You're almost there!",
             "validate_button": "Confirm"
         },
@@ -169,7 +158,6 @@
         "certificat": "Certificate",
         "none": "Pass",
         "program": "Specific programme",
-        "program_subtitle": "",
         "same_tandem": "I have already participated in this programme and would like to continue with the same person",
         "title": "My options",
         "validate_button": "Confirm and continue"
@@ -192,7 +180,6 @@
         "validate_button": "Confirm and continue"
     },
     "pairing_quizz_introduction_page": {
-        "description": "",
         "subtitle": "Discover your level by answering a few questions",
         "time": "it will take a maximum of 10 minutes",
         "title": "Your level",
@@ -204,15 +191,7 @@
     },
     "pairing_quizz_validation": {
         "description": "Continue on your journey",
-        "description_next_step": {
-            "A0": "",
-            "A1": "",
-            "A2": "",
-            "B1": "",
-            "B2": "",
-            "C1": "",
-            "C2": ""
-        },
+        "description_next_step": {},
         "next_button": "Cool, next",
         "next_step_button": "Understood!",
         "subtitle": "Great, let's move on to your preferences!",
@@ -234,7 +213,6 @@
         "validate_button": "Confirm and continue"
     },
     "pairing_other_languages_page": {
-        "joker_checkbox": "",
         "joker_description": "You want to help someone with their French while discovering a foreign language",
         "selected_language": {
             "explain_first_start": "We are sorry, this language",
@@ -279,8 +257,6 @@
         },
         "ressource_button": "SEE THE AVAILABLE RESOURCES",
         "ressource_title": "Resources to help me",
-        "pedagogy_button": "",
-        "pedagogy_title": "",
         "subtitle": "Find resources and group discussions online to practise the language.",
         "title": "This language is not available in tandem"
     },
@@ -311,15 +287,11 @@
     },
     "signup_biography_page": {
         "error_message": "Minimum 10 characters",
-        "incredible_placeholder": "",
         "incredible_title": "😲 Something incredible which has happened to you",
-        "place_placeholder": "",
         "place_title": "🏖️ Your favourite place is…",
-        "power_placeholder": "",
         "power_title": "⚡ Your superpower is…",
         "subtitle": "Be creative, your tandem could read your answers to facilitate your first discussion",
         "title": "For your tandem to get to know you better…",
-        "travel_placeholder": "",
         "travel_title": "🌎️ Your favourite travel anecdote",
         "validate_button": "Next"
     },
@@ -347,7 +319,6 @@
     },
     "signup_languages_page": {
         "language": "My language",
-        "none": "",
         "other_languages": "Other mastered languages - C1 min/Bilingual (optional)",
         "placeholder_primary_language": "Please select your native language",
         "placeholder_first_optional_language": "You may select a first language that your are fluent with",
@@ -356,25 +327,18 @@
         "validate_button": "Confirm and continue"
     },
     "signup_informations_page": {
-        "code": "",
         "confirm_password": "Confirm your password",
         "cgu": "Accept the terms of use and privacy policy to use the application.",
         "error_age": "Please enter a valid age",
-        "error_code": "",
         "error_confirm_password": "The passwords are not identical",
-        "error_domain": "",
         "error_email": "Please enter a valid email",
-        "error_email_already_exist": "",
         "error_firstname": "Please enter a valid first name",
         "error_gender": "Please select a gender",
         "error_lastname": "Please enter a valid last name",
         "error_password": "Please enter a valid password",
-        "error_picture_format": "",
-        "error_picture_weight": "",
         "photo": "Add a photo",
         "photo_selected": "Update",
         "placeholder_age": "Enter your age",
-        "placeholder_code": "",
         "placeholder_confirm_password": "Confirm your password",
         "placeholder_email": "Add your email",
         "placeholder_firstname": "Enter your first name here",
@@ -396,7 +360,6 @@
         "function_title": "Profession",
         "footer_email": "Contact us at",
         "footer_university": "Our university is not yet a partner of",
-        "missing_field": "",
         "profile_title": "My profile",
         "sso_button": "Sign in",
         "staff_role": "University staff",
@@ -425,7 +388,6 @@
         "ay": "Aymara",
         "az": "Azerbaijani",
         "ba": "Bashkir",
-        "bb": "",
         "be": "Belarusian",
         "bg": "Bulgarian",
         "bh": "Bihari",

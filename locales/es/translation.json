@@ -11,13 +11,9 @@
     "errors": {
         "global": "Ha ocurrido un error",
         "userDoesntExist": "El usuario no existe",
-        "userWrongCredentials": "Contraseña o correo electrónico incorrectos",
-        "connecteur": ""
+        "userWrongCredentials": "Contraseña o correo electrónico incorrectos"
     },
-    "error_page": {
-        "title": "",
-        "subtitle": ""
-    },
+    "error_page": {},
     "forgot_password_page": {
         "button": "Enviar",
         "invalid_email": "Correo electrónico inválido",
@@ -71,7 +67,6 @@
             "category_title": "¿Nos puedes decir qué pasó?",
             "note": "Observación",
             "report_button": "Señalar un problema",
-            "report_sent": "",
             "send_button": "Enviar",
             "title": "Señalar"
         },
@@ -121,19 +116,8 @@
             "title": "Mis solicitudes en espera"
         }
     },
-    "instance": {
-        "button": "",
-        "error": "",
-        "subtitle": "",
-        "title": ""
-    },
-    "languages": {
-        "french": "",
-        "english": "",
-        "deutsche": "",
-        "spanish": "",
-        "chinese": ""
-    },
+    "instance": {},
+    "languages": {},
     "login_page": {
         "button": "Conectarse",
         "forgot": "¿Contraseña olvidada?",
@@ -148,7 +132,6 @@
         "not_alone": {
             "description": "¡Comprobemos juntos tu nivel!",
             "description_title": "Ahora",
-            "subtitle": "",
             "title": "¡Casi listo!",
             "validate_button": "Confirmar"
         },
@@ -169,7 +152,6 @@
         "certificat": "Certificado",
         "none": "Seguir",
         "program": "Programa específico",
-        "program_subtitle": "",
         "same_tandem": "Ya he participado en el programa y deseo continuar con la misma persona",
         "title": "Mis opciones",
         "validate_button": "Validar y continuar"
@@ -192,7 +174,6 @@
         "validate_button": "Validad y continuar"
     },
     "pairing_quizz_introduction_page": {
-        "description": "",
         "subtitle": "Descubre tu nivel respondiendo a algunas preguntas",
         "time": "Tarda máximo 10 minutos",
         "title": "Tu nivel",
@@ -204,15 +185,7 @@
     },
     "pairing_quizz_validation": {
         "description": "Sigue por el mismo camino",
-        "description_next_step": {
-            "A0": "",
-            "A1": "",
-            "A2": "",
-            "B1": "",
-            "B2": "",
-            "C1": "",
-            "C2": ""
-        },
+        "description_next_step": {},
         "next_button": "Genial, seguimos",
         "next_step_button": "¡Entendí!",
         "subtitle": "¡Bien, veamos tus preferencias!",
@@ -279,10 +252,7 @@
         },
         "ressource_button": "VER LOS RECURSOS DISPONIBLES",
         "ressource_title": "Los recursos para ayudarme",
-        "pedagogy_button": "",
-        "pedagogy_title": "",
-        "subtitle": "Encuentra los recursos y grupos de discusión en línea para aprender el idioma por ti mismo",
-        "title": ""
+        "subtitle": "Encuentra los recursos y grupos de discusión en línea para aprender el idioma por ti mismo"
     },
     "reset_password_page": {
         "button": "Validar",
@@ -311,15 +281,11 @@
     },
     "signup_biography_page": {
         "error_message": "Mínimo 10 caracteres",
-        "incredible_placeholder": "",
         "incredible_title": "😲 Algo increíble que te haya pasado",
-        "place_placeholder": "",
         "place_title": "🏖️ Tu lugar preferido es…",
-        "power_placeholder": "",
         "power_title": "⚡ Tu super poder es…",
         "subtitle": "Sé creativo, tus respuestas podrán ser leídas por tu tándem para facilitar la primera discusión",
         "title": "Para que tu tándem te conozca un poco mejor…",
-        "travel_placeholder": "",
         "travel_title": "🌎️ Tu mejor anécdota de viaje",
         "validate_button": "Siguiente"
     },
@@ -347,7 +313,6 @@
     },
     "signup_languages_page": {
         "language": "Mi idioma",
-        "none": "",
         "other_languages": "Otros idiomas hablados - C1 mínimo / Bilingue (opcional)",
         "placeholder_primary_language": "Escoja su lengua materna",
         "placeholder_first_optional_language": "Puede escoger un primer idioma hablado",
@@ -356,25 +321,18 @@
         "validate_button": "Validar y continuar"
     },
     "signup_informations_page": {
-        "code": "",
         "confirm_password": "Confirma tu contraseña",
         "cgu": "Aceptar las condiciones de utilización y la política de confidencialidad para utilizar la aplicación",
         "error_age": "Inscriba una edad válida",
-        "error_code": "",
         "error_confirm_password": "Las contraseñas no son iguales",
-        "error_domain": "",
         "error_email": "Inscriba un correo electrónico válido",
-        "error_email_already_exist": "",
         "error_firstname": "Inscriba un nombre válido",
         "error_gender": "Escoja el género",
         "error_lastname": "Inscriba un apellido válido",
         "error_password": "Inscriba una contraseña válida",
-        "error_picture_format": "",
-        "error_picture_weight": "",
         "photo": "Agregar una foto",
         "photo_selected": "Modificar",
         "placeholder_age": "Entra tu edad",
-        "placeholder_code": "",
         "placeholder_confirm_password": "Confirma tu contraseña",
         "placeholder_email": "Agrega tu correo electrónico",
         "placeholder_firstname": "Inscribe tu nombre aquí",
@@ -396,7 +354,6 @@
         "function_title": "Función",
         "footer_email": "Contactenos en",
         "footer_university": "Su universidad no está aún asociada a",
-        "missing_field": "",
         "profile_title": "Mi perfil",
         "sso_button": "Iniciar mi sesión",
         "staff_role": "Personal de la universidad",
@@ -425,7 +382,6 @@
         "ay": "Aimara",
         "az": "Azerí",
         "ba": "Baskir",
-        "bb": "",
         "be": "Bielorruso",
         "bg": "Búlgaro",
         "bh": "Bhoyapurí",
@@ -519,7 +475,6 @@
         "mk": "Macedonio",
         "ml": "Malayalam",
         "mn": "Mongol",
-        "mo": "",
         "mr": "Maratí",
         "ms": "Malayo",
         "mt": "Maltés",
@@ -556,7 +511,6 @@
         "sd": "Sindhi",
         "se": "Sami Septentrional",
         "sg": "Sango",
-        "sh": "",
         "si": "Cingalés",
         "sk": "Eslovaco",
         "sl": "Esloveno",

@@ -11,13 +11,9 @@
     "errors": {
         "global": "Es ist ein Fehler aufgetreten",
         "userDoesntExist": "Der Benutzer existiert nicht",
-        "userWrongCredentials": "Das Passwort oder die E-Mail-Adresse ist falsch",
-        "connecteur": ""
+        "userWrongCredentials": "Das Passwort oder die E-Mail-Adresse ist falsch"
     },
-    "error_page": {
-        "title": "",
-        "subtitle": ""
-    },
+    "error_page": {},
     "forgot_password_page": {
         "button": "Senden",
         "invalid_email": "Ungültige E-Mail-Adresse",
@@ -71,7 +67,6 @@
             "category_title": "Erzähl uns, was passiert ist.",
             "note": "Kommentar",
             "report_button": "Ein Problem melden",
-            "report_sent": "",
             "send_button": "Senden",
             "title": "Melden"
         },
@@ -121,19 +116,8 @@
             "title": "Meine ausstehenden Anfragen"
         }
     },
-    "instance": {
-        "button": "",
-        "error": "",
-        "subtitle": "",
-        "title": ""
-    },
-    "languages": {
-        "french": "",
-        "english": "",
-        "deutsche": "",
-        "spanish": "",
-        "chinese": ""
-    },
+    "instance": {},
+    "languages": {},
     "login_page": {
         "button": "Anmelden",
         "forgot": "Passwort vergessen?",
@@ -148,7 +132,6 @@
         "not_alone": {
             "description": "Lass uns gemeinsam dein Niveau überprüfen!",
             "description_title": "Jetzt",
-            "subtitle": "",
             "title": "Du hast es fast geschafft!",
             "validate_button": "Bestätigen"
         },
@@ -169,7 +152,6 @@
         "certificat": "Zertifikat",
         "none": "Weiter",
         "program": "Spezifisches Programm",
-        "program_subtitle": "",
         "same_tandem": "Ich habe bereits am Programm teilgenommen und möchte mit derselben Person weitermachen",
         "title": "Meine Optionen",
         "validate_button": "Bestätigen und weiter"
@@ -192,7 +174,6 @@
         "validate_button": "Bestätigen und weiter"
     },
     "pairing_quizz_introduction_page": {
-        "description": "",
         "subtitle": "Finde dein Niveau heraus, indem du einige Fragen beantwortest",
         "time": "Dazu brauchst du max. 10 Minuten",
         "title": "Dein Niveau",
@@ -204,15 +185,7 @@
     },
     "pairing_quizz_validation": {
         "description": "Weiter so",
-        "description_next_step": {
-            "A0": "",
-            "A1": "",
-            "A2": "",
-            "B1": "",
-            "B2": "",
-            "C1": "",
-            "C2": ""
-        },
+        "description_next_step": {},
         "next_button": "Das wird cool",
         "next_step_button": "Alles klar!",
         "subtitle": "Super, kommen wir zu deinen Präferenzen!",
@@ -279,8 +252,6 @@
         },
         "ressource_button": "DIE VERFÜGBAREN RESSOURCEN ANSEHEN",
         "ressource_title": "Ressourcen, die mir helfen können",
-        "pedagogy_button": "",
-        "pedagogy_title": "",
         "subtitle": "Finde Online-Ressourcen und -Diskussionsgruppen, um die Sprache selbstständig zu lernen.",
         "title": "Sprache nicht als Tandem verfügbar"
     },
@@ -311,15 +282,11 @@
     },
     "signup_biography_page": {
         "error_message": "Mindestens 10 Zeichen",
-        "incredible_placeholder": "",
         "incredible_title": "😲 Etwas Unglaubliches, das dir passiert ist",
-        "place_placeholder": "",
         "place_title": "🏖️ Dein Lieblingsort ist ...",
-        "power_placeholder": "",
         "power_title": "⚡ Deine magische Fähigkeit ist ...",
         "subtitle": "Sei kreativ, deine Antworten können von deinem/r Tandempartner/in gelesen werden und euer erstes Gespräch erleichtern",
         "title": "Damit dein/e Tandempartner/in dich ein bisschen besser kennenlernt...",
-        "travel_placeholder": "",
         "travel_title": "🌎️ Deine beste Reiseanekdote",
         "validate_button": "Weiter"
     },
@@ -347,7 +314,6 @@
     },
     "signup_languages_page": {
         "language": "Meine Sprache",
-        "none": "",
         "other_languages": "Andere beherrschte Sprachen - mind. C1/zweisprachig (optional)",
         "placeholder_primary_language": "Bitte wähle deine Muttersprache aus",
         "placeholder_first_optional_language": "Du kannst eine erste Sprache auswählen, die du beherrschst",
@@ -356,25 +322,18 @@
         "validate_button": "Bestätigen und weiter"
     },
     "signup_informations_page": {
-        "code": "",
         "confirm_password": "Passwort bestätigen",
         "cgu": "Die Nutzungsbedingungen und Datenschutzrichtlinien akzeptieren, um die App zu nutzen.",
         "error_age": "Bitte gib ein gültiges Alter ein",
-        "error_code": "",
         "error_confirm_password": "Die Passwörter sind nicht identisch",
-        "error_domain": "",
         "error_email": "Bitte gib eine gültige E-Mail-Adresse ein",
-        "error_email_already_exist": "",
         "error_firstname": "Bitte gib einen gültigen Vornamen ein",
         "error_gender": "Bitte wähle ein Geschlecht",
         "error_lastname": "Bitte gib einen gültigen Namen ein",
         "error_password": "Bitte gib ein gültiges Passwort ein",
-        "error_picture_format": "",
-        "error_picture_weight": "",
         "photo": "ein Foto hinzufügen",
         "photo_selected": "Bearbeiten",
         "placeholder_age": "Gib dein Alter ein",
-        "placeholder_code": "",
         "placeholder_confirm_password": "Passwort bestätigen",
         "placeholder_email": "Füge deine E-Mail-Adresse hinzu",
         "placeholder_firstname": "Gib deinen Vornamen hier ein",
@@ -396,7 +355,6 @@
         "function_title": "Funktion",
         "footer_email": "Kontaktiere uns unter",
         "footer_university": "Deine Universität ist noch kein Partner der",
-        "missing_field": "",
         "profile_title": "Mein Profil",
         "sso_button": "Mich authentifizieren",
         "staff_role": "Mitarbeiter/in der Universität",
@@ -425,7 +383,6 @@
         "ay": "Aymara",
         "az": "Aserbaidschanisch",
         "ba": "Baschkirisch",
-        "bb": "",
         "be": "Belarussisch",
         "bg": "Bulgarisch",
         "bh": "Bihari",
@@ -519,7 +476,6 @@
         "mk": "Mazedonisch",
         "ml": "Malayalam",
         "mn": "Mongolisch",
-        "mo": "",
         "mr": "Marathi",
         "ms": "Malaiisch",
         "mt": "Maltesisch",

@@ -11,13 +11,9 @@
     "errors": {
         "global": "出现错误",
         "userDoesntExist": "用户不存在",
-        "userWrongCredentials": "密码或电子邮件不正确",
-        "connecteur": ""
+        "userWrongCredentials": "密码或电子邮件不正确"
     },
-    "error_page": {
-        "title": "",
-        "subtitle": ""
-    },
+    "error_page": {},
     "forgot_password_page": {
         "button": "发送",
         "invalid_email": "电子邮件无效",
@@ -71,7 +67,6 @@
             "category_title": "告诉我们发生了什么？",
             "note": "注释",
             "report_button": "举报问题",
-            "report_sent": "",
             "send_button": "发送",
             "title": "报告"
         },
@@ -121,19 +116,8 @@
             "title": "等待中的申请"
         }
     },
-    "instance": {
-        "button": "",
-        "error": "",
-        "subtitle": "",
-        "title": ""
-    },
-    "languages": {
-        "french": "",
-        "english": "",
-        "deutsche": "",
-        "spanish": "",
-        "chinese": ""
-    },
+    "instance": {},
+    "languages": {},
     "login_page": {
         "button": "登录",
         "forgot": "忘记密码",
@@ -148,7 +132,6 @@
         "not_alone": {
             "description": "检查一下你的语言水平！",
             "description_title": "现在",
-            "subtitle": "",
             "title": "很快就好了！",
             "validate_button": "确认"
         },
@@ -169,7 +152,6 @@
         "certificat": "证书",
         "none": "略过",
         "program": "特殊项目",
-        "program_subtitle": "",
         "same_tandem": "我已经参加过项目，我希望与同一个人继续",
         "title": "我的选择",
         "validate_button": "确认并继续"
@@ -192,7 +174,6 @@
         "validate_button": "确认并继续"
     },
     "pairing_quizz_introduction_page": {
-        "description": "",
         "subtitle": "通过回答几个问题来了解你的语言水平",
         "time": "最多10分钟",
         "title": "你的语言水平",
@@ -204,15 +185,7 @@
     },
     "pairing_quizz_validation": {
         "description": "乘势追击",
-        "description_next_step": {
-            "A0": "",
-            "A1": "",
-            "A2": "",
-            "B1": "",
-            "B2": "",
-            "C1": "",
-            "C2": ""
-        },
+        "description_next_step": {},
         "next_button": "酷，接下来",
         "next_step_button": "明白了！",
         "subtitle": "太好了，我们来看看你的喜好吧！",
@@ -279,8 +252,6 @@
         },
         "ressource_button": "查看现有资源",
         "ressource_title": "可以帮助我的资源",
-        "pedagogy_button": "",
-        "pedagogy_title": "",
         "subtitle": "寻找语言学习资源和在线谈论小组。",
         "title": "此语言不存在"
     },
@@ -311,15 +282,11 @@
     },
     "signup_biography_page": {
         "error_message": "至少十位字符",
-        "incredible_placeholder": "",
         "incredible_title": "😲 发生在你身上某件难以置信的事情",
-        "place_placeholder": "",
         "place_title": "🏖️ 你最喜欢的地方是…",
-        "power_placeholder": "",
         "power_title": "⚡ 你的超能力是",
         "subtitle": "有点儿创意，你的回答可以成为你们的第一次交谈主题。",
         "title": "为了让你的语伴更好的了解你……",
-        "travel_placeholder": "",
         "travel_title": "🌎️ 你最好的旅行趣闻",
         "validate_button": "下一步"
     },
@@ -347,7 +314,6 @@
     },
     "signup_languages_page": {
         "language": "我的语言",
-        "none": "",
         "other_languages": "其它掌握的语言 - 至少C1/ 精通 (非必选)",
         "placeholder_primary_language": "请选择你的母语",
         "placeholder_first_optional_language": "你可以选择第一门掌握的语言",
@@ -356,25 +322,18 @@
         "validate_button": "确认并继续"
     },
     "signup_informations_page": {
-        "code": "",
         "confirm_password": "确认你的密码",
         "cgu": "请接受使用条件和隐私政策才可以使用本平台。",
         "error_age": "请输入有效年龄",
-        "error_code": "",
         "error_confirm_password": "密码不一样",
-        "error_domain": "",
         "error_email": "请输入有效的电子邮件",
-        "error_email_already_exist": "",
         "error_firstname": "请输入有效的名字",
         "error_gender": "请选择性别",
         "error_lastname": "请输入有效的姓氏",
         "error_password": "请输入有效的密码",
-        "error_picture_format": "",
-        "error_picture_weight": "",
         "photo": "添加照片",
         "photo_selected": "修改",
         "placeholder_age": "输入年龄",
-        "placeholder_code": "",
         "placeholder_confirm_password": "确认密码",
         "placeholder_email": "添加电子邮件",
         "placeholder_firstname": "在这里输入你的名字",
@@ -396,7 +355,6 @@
         "function_title": "职位",
         "footer_email": "请联系我们：",
         "footer_university": "你的大学暂不是XXXX的合作伙伴",
-        "missing_field": "",
         "profile_title": "我的主页",
         "sso_button": "认证",
         "staff_role": "大学工作人员",
@@ -425,7 +383,6 @@
         "ay": "艾马拉语巴斯克语",
         "az": "阿塞拜疆语",
         "ba": "巴什基尔语",
-        "bb": "",
         "be": "白俄罗斯语",
         "bg": "保加利亚语",
         "bh": "比哈尔语",
@@ -519,7 +476,6 @@
         "mk": "马其顿语",
         "ml": "马拉雅拉姆语",
         "mn": "蒙古语",
-        "mo": "",
         "mr": "马拉地语",
         "ms": "马来语",
         "mt": "马耳他语",
@@ -556,7 +512,6 @@
         "sd": "信德语",
         "se": "北萨米语",
         "sg": "桑戈语",
-        "sh": "",
         "si": "僧伽罗语",
         "sk": "斯洛伐克语",
         "sl": "斯洛文尼亚语",
@@ -598,7 +553,6 @@
         "yo": "约鲁巴语",
         "za": "壮语",
         "zh": "汉语",
-        "zu": "祖鲁语",
-        "*": ""
+        "zu": "祖鲁语"
     }
 }
