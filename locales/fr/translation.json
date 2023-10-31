@@ -360,7 +360,7 @@
         "code": "Code",
         "confirm_password": "Confirme ton mot de passe",
         "cgu": {
-            "condfidentiality": "politique de confidentialité",
+            "confidentiality": "politique de confidentialité",
             "cgu": "conditions d'utilisation",
             "prefix": "Accepter les",
             "separator": "et la",
