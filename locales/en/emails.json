@@ -49,4 +49,17 @@
             "downloadApps": "Download our apps"
         }
     }
+    "resetPasswordSSO": {
+        "subject": "Reset ULEP SSO",
+        "title": "Reset ULEP SSO",
+        "content": {
+          "introduction": "Dear {{firstname}},",
+          "paragraphs": ["<a href="https://google.fr">Link</a>"],
+          "signature": "Tandem's team of Lorraine University",
+        },
+        "footer": {
+          "unsubscribe": "You can unsubscribe by connecting to your account.",
+          "downloadApps": "Download our apps",
+        },
+    },
 }
