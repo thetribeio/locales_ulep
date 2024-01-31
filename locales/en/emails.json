@@ -54,7 +54,7 @@
         "title": "Reset ULEP SSO",
         "content": {
           "introduction": "Dear {{firstname}},",
-          "paragraphs": ["<a href="https://google.fr">Link</a>"],
+          "paragraphs": ["<a href='https://google.fr'>Link</a>"],
           "signature": "Tandem's team of Lorraine University",
         },
         "footer": {
