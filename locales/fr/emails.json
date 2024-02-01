@@ -50,14 +50,13 @@
         }
     },
     "resetPasswordSSO": {
-        "subject": "Bienvenue sur ULEP",
-        "title": "Bienvenue sur ULEP",
+        "subject": "Demande de changement de mot de passe ULEP",
+        "title": "Demande de changement de mot de passe ULEP",
         "content": {
             "introduction": "Cher(e) {{firstname}},",
             "paragraphs": [
-                "Nous sommes ravis de vous accueillir au programme Tandem de l'Université de Lorraine ! Vous êtes maintenant inscrit(e) pour apprendre une nouvelle langue avec un(e) étudiant(e) partenaire qui partage votre passion pour l'apprentissage des langues. Dans les prochains jours, vous recevrez une notification par e-mail vous informant que vous avez été jumelé(e) avec votre partenaire Tandem.",
-                "Nous vous recommandons de prendre le temps de vous présenter à votre partenaire et de planifier votre première session de conversation. Nous vous encourageons à être ouvert d'esprit et à vous impliquer pleinement dans le programme pour en tirer le meilleur parti.",
-                "Si vous avez des questions ou des préoccupations, n'hésitez pas à nous contacter. Nous sommes là pour vous aider à réussir dans votre apprentissage de la langue et nous sommes ravis de faire partie de votre parcours d'apprentissage.",
+                "Vous avez fait une demande de changement de mot de passe. Votre compte est configuré en single sign on, vous pouvez uliser le bouton "M'authentifier" depuis la page login",
+                "<a href=\"{{loginUrl}}\">Accéder à la page login</a>",
                 "Cordialement,"
             ],
             "signature": "L'équipe Tandem de l'Université de Lorraine"
@@ -66,5 +65,5 @@
             "unsubscribe": "Vous pouvez vous désinscrire en vous connectant à votre compte.",
             "downloadApps": "Téléchargez nos apps"
         }
-    }
+    },
 }
