@@ -55,7 +55,7 @@
         "content": {
             "introduction": "Dear {{firstname}},",
             "paragraphs": [
-                "You have requested a password reset. Your account is configured as single sign on, you can use the "Authenticate me" button from the login page",
+                "You have requested a password reset. Your account is configured as single sign on, you can use the \"Authenticate me\" button from the login page",
                 "<a href=\"{{loginUrl}}\">Go to login page</a>",
                 "Best regards,",
             ],
