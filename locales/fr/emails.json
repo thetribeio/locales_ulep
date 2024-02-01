@@ -55,7 +55,7 @@
         "content": {
             "introduction": "Cher(e) {{firstname}},",
             "paragraphs": [
-                "Vous avez fait une demande de changement de mot de passe. Votre compte est configuré en single sign on, vous pouvez uliser le bouton "M'authentifier" depuis la page login",
+                "Vous avez fait une demande de changement de mot de passe. Votre compte est configuré en single sign on, vous pouvez uliser le bouton \"M'authentifier\" depuis la page login",
                 "<a href=\"{{loginUrl}}\">Accéder à la page login</a>",
                 "Cordialement,"
             ],
