@@ -48,7 +48,7 @@
             "unsubscribe": "You can unsubscribe by connecting to your account.",
             "downloadApps": "Download our apps"
         }
-    }
+    },
     "resetPasswordSSO": {
         "subject": "Reset ULEP account",
         "title": "Reset ULEP account",
