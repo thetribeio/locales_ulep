@@ -57,13 +57,13 @@
             "paragraphs": [
                 "You have requested a password reset. Your account is configured as single sign on, you can use the \"Authenticate me\" button from the login page",
                 "<a href=\"{{loginUrl}}\">Go to login page</a>",
-                "Best regards,",
+                "Best regards,"
             ],
-            "signature": "Tandem's team of Lorraine University",
+            "signature": "Tandem's team of Lorraine University"
         },
         "footer": {
             "unsubscribe": "You can unsubscribe by connecting to your account.",
-            "downloadApps": "Download our apps",
-        },
-    },
+            "downloadApps": "Download our apps"
+        }
+    }
 }
