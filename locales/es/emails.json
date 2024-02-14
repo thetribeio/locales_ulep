@@ -1,0 +1,52 @@
+{
+    "tandemBecomeActive": {
+        "subject": "Tu compañero/a de tándem está listo/a para empezar",
+        "title": "Tu compañero/a de tándem está listo/a para empezar",
+        "content": {
+            "introduction": "Estimado/a {{firstname}},",
+            "paragraphs": [
+                "Estamos encantados de informarte de que tu compañero Tándem ha sido encontrado y está listo para empezar a aprender el idioma contigo. Tu compañero es {{partnerFirstname}} {{partnerLastname}}, un estudiante de {{universityName}} que comparte tu pasión por aprender idiomas y está deseando empezar esta aventura lingüística contigo. Te animamos a que te tomes tu tiempo para presentarte a tu compañero y planificar vuestra primera sesión de conversación. Te recordamos que el programa Tándem está diseñado para ser un intercambio abierto, así que no dudes en compartir tus conocimientos e implicarte plenamente en el programa. Si tienes algún problema, no dudes en ponerte en contacto con el equipo Tándem de la Universidad de Lorraine para solicitar ayuda. Estamos aquí para ayudarte a tener éxito en tu aprendizaje de idiomas y estamos encantados de formar parte de tu viaje de aprendizaje.",
+                "Cordialmente,"
+            ],
+            "signature": "El equipo Tándem de la Universidad de Lorraine"
+        },
+        "footer": {
+            "downloadApps": "Descarga nuestras apps",
+            "unsubscribe": "Puedes darte de baja accediendo a tu cuenta."
+        }
+    },
+    "notifyUniversityAdminTandemToReview": {
+        "subject": "Tienes tándems sugeridos o pendientes",
+        "title": "Tiene tándems sugeridos o pendientes",
+        "content": {
+            "introduction": "Hola,",
+            "paragraphs": [
+                "Tiene tándems sugeridos por la dinámica general o pendientes de validación. Conéctese al back-office para procesar estos tándems.",
+                "Cordialmente,"
+            ],
+            "signature": "El equipo Tándem de la Universidad de Lorraine"
+        },
+        "footer": {
+            "unsubscribe": "Puedes darte de baja accediendo a tu cuenta.",
+            "downloadApps": "Descarga nuestras apps"
+        }
+    },
+    "welcome": {
+        "subject": "Bienvenido a la ULEP",
+        "title": "Bienvenido a la ULEP",
+        "content": {
+            "introduction": "Estimado/a {{firstname}},",
+            "paragraphs": [
+                "Nos complace darle la bienvenida al programa Tándem de la Universidad de Lorraine. Ahora está inscrito para aprender un nuevo idioma con un compañero estudiante que comparte su pasión por el aprendizaje de idiomas. En los próximos días, recibirá una notificación por correo electrónico si un compañero Tándem coincide con su solicitud.",
+                "Te recomendamos que te tomes tu tiempo para conocer a tu pareja y planificar la primera sesión de conversación. Te animamos a que tengas una mentalidad abierta y te involucres plenamente en el programa para sacarle el máximo partido.",
+                "Si tienes alguna pregunta o duda, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte a tener éxito en tu aprendizaje de idiomas y estamos encantados de formar parte de tu viaje de aprendizaje.",
+                "Cordialmente,"
+            ],
+            "signature": "El equipo Tándem de la Universidad de Lorraine"
+        },
+        "footer": {
+            "unsubscribe": "Puedes darte de baja accediendo a tu cuenta.",
+            "downloadApps": "Descarga nuestras apps"
+        }
+    }
+}
