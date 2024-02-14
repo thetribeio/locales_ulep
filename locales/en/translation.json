@@ -11,9 +11,13 @@
     "errors": {
         "global": "An error has occurred",
         "userDoesntExist": "This username does not exist",
-        "userWrongCredentials": "The password or email is incorrect"
+        "userWrongCredentials": "The password or email is incorrect",
+        "ask_language": {
+            "conflit": "sss"
+        },
+        "connecteur": "Data submission error",
+        "gateway": "An error occurred with your personal details"
     },
-    "error_page": {},
     "forgot_password_page": {
         "button": "Send",
         "invalid_email": "Invalid email address",
@@ -68,7 +72,8 @@
             "note": "Note",
             "report_button": "Report a problem",
             "send_button": "Send",
-            "title": "Report"
+            "title": "Report",
+            "report_sent": "Your form has been submitted"
         },
         "settings": {
             "account": "My account",
@@ -106,7 +111,12 @@
             "place": "🏖️ Their favourite place",
             "power": "⚡️ Their superpower",
             "title": "Tandem found 🎉",
-            "travel": "✈ Their travels"
+            "travel": "✈ Their travels",
+            "type": {
+                "BOTH": "E-tandem / Tandem",
+                "ETANDEM": "E-tandem",
+                "TANDEM": "Tandem"
+            }
         },
         "waiting_tandem": {
             "button": "Make a new request",
@@ -116,7 +126,6 @@
             "title": "My pending requests"
         }
     },
-    "instance": {},
     "languages": {
         "french": "French",
         "english": "English",
@@ -129,8 +138,10 @@
         "forgot": "Forgotten password?",
         "invalid_email": "Invalid email",
         "invalid_password": "Invalid password",
-        "subtitle": "Sign in with your university credentials to continue using the application",
-        "title": "Sign in"
+        "subtitle": "Sign in with your University log-in details to continue using the application",
+        "title": "Sign in",
+        "sso_button": "Sign in",
+        "sso_title": "Student of (Name of University), log in with your University log-in details"
     },
     "pairing_confirm_language_page": {
         "language_title": "Preferred language",
@@ -139,7 +150,8 @@
             "description": "Let's test your level together!",
             "description_title": "Now",
             "title": "You're almost there!",
-            "validate_button": "Confirm"
+            "validate_button": "Confirm",
+            "subtitle": ""
         },
         "subtitle": "Confirm your options",
         "title": "Choose your language",
@@ -160,7 +172,8 @@
         "program": "Specific programme",
         "same_tandem": "I have already participated in this programme and would like to continue with the same person",
         "title": "My options",
-        "validate_button": "Confirm and continue"
+        "validate_button": "Confirm and continue",
+        "program_subtitle": ""
     },
     "pairing_preference_page": {
         "none": "No preference",
@@ -183,7 +196,8 @@
         "subtitle": "Discover your level by answering a few questions",
         "time": "it will take a maximum of 10 minutes",
         "title": "Your level",
-        "validate_button": "Start"
+        "validate_button": "Start",
+        "description": ""
     },
     "pairing_quizz_page": {
         "subtitle": "Answer the following questions",
@@ -191,17 +205,27 @@
     },
     "pairing_quizz_validation": {
         "description": "Continue on your journey",
-        "description_next_step": {},
         "next_button": "Cool, next",
         "next_step_button": "Understood!",
         "subtitle": "Great, let's move on to your preferences!",
         "title": "Your level",
-        "validated": "Confirmed"
+        "validated": "Confirmed",
+        "description_next_step": {
+            "A0": "Top Tandem! Several potential profiles",
+            "A1": "Top Tandem! Several potential profiles",
+            "A2": "Top Tandem! Several potential profiles",
+            "B1": "Top Tandem! Several potential profiles",
+            "B2": "Top Tandem! Several potential profiles",
+            "C1": "Top Tandem! Several potential profiles",
+            "C2": "Top Tandem! Several potential profiles"
+        }
     },
     "pairing_languages_page": {
         "subtitle": "Which language do you want to practice with your tandem?",
         "title": "Chosen language",
-        "validate_button": "Confirm and continue"
+        "validate_button": "Confirm and continue",
+        "home_button": "Return to main page",
+        "no_languages": "No languages available"
     },
     "pairing_level_page": {
         "know_button": "Go",
@@ -226,7 +250,8 @@
         },
         "subtitle": "Choose your preferences",
         "title": "Chosen language",
-        "validate_button": "Confirm and continue"
+        "validate_button": "Confirm and continue",
+        "joker_checkbox": ""
     },
     "pairing_pedagogy_page": {
         "both_button": "TANDEM OR E-TANDEM",
@@ -258,7 +283,9 @@
         "ressource_button": "SEE THE AVAILABLE RESOURCES",
         "ressource_title": "Resources to help me",
         "subtitle": "Find resources and group discussions online to practise the language.",
-        "title": "This language is not available in tandem"
+        "title": "This language is not available in tandem",
+        "pedagogy_button": "Select another way to meet up",
+        "pedagogy_title": "I wish to choose another way of meeting up"
     },
     "reset_password_page": {
         "button": "Confirm",
@@ -293,7 +320,11 @@
         "subtitle": "Be creative, your tandem could read your answers to facilitate your first discussion",
         "title": "For your tandem to get to know you better…",
         "travel_title": "🌎️ Your favourite travel anecdote",
-        "validate_button": "Next"
+        "validate_button": "Next",
+        "incredible_placeholder": "",
+        "place_placeholder": "",
+        "power_placeholder": "",
+        "travel_placeholder": ""
     },
     "signup_end_page": {
         "account": "your account is ready 🎉",
@@ -324,11 +355,18 @@
         "placeholder_first_optional_language": "You may select a first language that your are fluent with",
         "placeholder_second_optional_language": "You may select a second language that your are fluent with",
         "title": "Spoken languages",
-        "validate_button": "Confirm and continue"
+        "validate_button": "Confirm and continue",
+        "none": "None"
     },
     "signup_informations_page": {
         "confirm_password": "Confirm your password",
-        "cgu": "Accept the terms of use and privacy policy to use the application.",
+        "cgu": {
+            "confidentiality": "privacy policy",
+            "cgu": "Terms and conditions",
+            "prefix": "Accept",
+            "separator": "",
+            "suffix": " to use the app"
+        },
         "error_age": "Please enter a valid age",
         "error_confirm_password": "The passwords are not identical",
         "error_email": "Please enter a valid email",
@@ -345,7 +383,14 @@
         "placeholder_name": "Enter your last name here",
         "placeholder_password": "Enter your password",
         "title": "Create my profile",
-        "validate_button": "Confirm and continue"
+        "validate_button": "Confirm and continue",
+        "code": "Code",
+        "error_code": "Please enter a valid code",
+        "error_domain": "Please enter a valid email address (check the format of the email and the provider)",
+        "error_email_already_exist": "This email address has already been used",
+        "error_picture_format": "The selected image is not in a valid format (JPG, PNG or JPEG)",
+        "error_picture_weight": "The file size of the selected image is too large",
+        "placeholder_code": "Enter your inscription number"
     },
     "signup_interests_page": {
         "subtitle": "Your interests would help us find a suitable tandem for you.",
@@ -366,13 +411,16 @@
         "student_role": "Student",
         "title": "My profile",
         "university_title": "Institution",
-        "validate_button": "Confirm and continue"
+        "validate_button": "Confirm and continue",
+        "missing_field": "Please fill in all sections"
     },
     "suspended_page": {
         "contact_us": "Contact us for more information.",
         "subtitle": "We are sorry but your account has been suspended for non compliance of our rules and terms of use.",
         "title": "Account suspended",
-        "validate_button": "Contact us"
+        "validate_button": "Contact us",
+        "subtitle_canceled": "We are sorry but your account has been deleted",
+        "title_canceled": "Account has been deleted"
     },
     "languages_code": {
         "aa": "Afar",
@@ -561,6 +609,30 @@
         "za": "Zhuang, Chuang",
         "zh": "Chinese",
         "zu": "Zulu",
-        "*": "Joker"
+        "*": "Joker",
+        "bb": ""
+    },
+    "error_page": {
+        "title": "Error",
+        "subtitle": "Please accept our apologies but an error has occurred. Please refresh the page or click back."
+    },
+    "maintenance_page": {
+        "title": "Maintenance in progress",
+        "subtitle": "Please accept our apologies - maintenance in progress"
+    },
+    "confirm_modal": {
+        "cancel": "Cancel",
+        "title": "Are you sure you want to delete your account?",
+        "validate": "Yes"
+    },
+    "instance": {
+        "button": "Save and continue",
+        "error": "Error when loading",
+        "subtitle": "Choose an option from the list below",
+        "title": "Your programme"
+    },
+    "service_close": {
+        "subtitle": "This service is closed for the moment, here are the opening times ( start – until - end)",
+        "title": "Service unavailable"
     }
 }

@@ -1,0 +1,52 @@
+{
+    "tandemBecomeActive": {
+        "subject": "Dein(e) Tandempartner(in) wartet auf dich",
+        "title": "Dein(e) Tandempartner(in) wartet auf dich",
+        "content": {
+            "introduction": "Liebe(r) {{firstname}},",
+            "paragraphs": [
+                "wir freuen uns, dir mitteilen zu können, dass dein Tandempartner gefunden wurde und darauf wartet, die Sprache mit dir zu lernen! Dein(e) Partner(in) ist {{partnerFirstname}}{{partnerLastname}}, ein(e) Student(in) der {{universityName}}, der/die deine Leidenschaft für das Sprachenlernen teilt und es nicht erwarten kann, dieses Sprachabenteuer mit dir zu beginnen. Wir ermuntern dich dazu, dir die Zeit zu nehmen, dich deinem Partner/deiner Partnerin vorzustellen und deine erste Unterhaltungssitzung zu planen. Wir möchten dich daran erinnern, dass das Tandemprogramm für einen ausgewogenen Austausch entworfen wurde, teile also deine Kenntnisse und lass dich ganz auf das Programm ein. Wenn Probleme auftreten, kannst du jederzeit das Tandemteam der Université de Lorraine kontaktieren, um Hilfe zu erhalten. Wir sind dafür da, dir zu helfen, erfolgreich die Sprache zu lernen, und wir freuen uns, Teil deines Lernwegs zu sein.",
+                "Mit freundlichen Grüßen"
+            ],
+            "signature": "das Tandemteam der Université de Lorraine"
+        },
+        "footer": {
+            "downloadApps": "Lade unsere Apps herunter",
+            "unsubscribe": "Du kannst dich abmelden, indem du dich in deinem Konto einloggst."
+        }
+    },
+    "notifyUniversityAdminTandemToReview": {
+        "content": {
+            "introduction": "Guten Tag,",
+            "paragraphs": [
+                "Sie haben Tandems, die von global routine vorgeschlagen wurden oder auf Validierung warten. Melden Sie sich beim Backoffice an, um über diese Tandems zu entscheiden.",
+                "Mit freundlichen Grüßen"
+            ],
+            "signature": "das Tandemteam der Université de Lorraine"
+        },
+        "footer": {
+            "downloadApps": "Lade unsere Apps herunter",
+            "unsubscribe": "Du kannst dich abmelden, indem du dich in deinem Konto einloggst."
+        },
+        "subject": "Du hast Tandems, die dir vorgeschlagen wurden oder auf dich warten",
+        "title": "Du hast Tandems, die dir vorgeschlagen wurden oder auf dich warten"
+    },
+    "welcome": {
+        "content": {
+            "paragraphs": [
+                "Wir freuen uns, dich beim Tandemprogramm der Université de Lorraine zu begrüßen! Du bist jetzt dafür eingeschrieben, eine neue Sprache mit einem Partnerstudent/einer Partnerstudentin zu lernen, der/die deine Leidenschaft teilt, Sprachen zu lernen. In den nächsten Tagen erhältst du eine Benachrichtigung per E-Mail, falls ein Tandempartner deiner Anfrage entspricht.",
+                "Wir empfehlen dir, dir die Zeit zu nehmen, dich deinem Partner/deiner Partnerin vorzustellen und deine erste Unterhaltungssitzung zu planen. Wir ermutigen dich dazu, offen zu sein und dich ganz auf das Programm einzulassen, um den größten Nutzen daraus zu ziehen.",
+                "Wenn du noch Fragen oder Sorgen hast, kannst du uns gerne kontaktieren. Wir sind dafür da, dir zu helfen, erfolgreich die Sprache zu lernen, und freuen uns, Teil deines Lernwegs zu sein.",
+                "Mit freundlichen Grüßen"
+            ],
+            "introduction": "Liebe(r) {{firstname}},",
+            "signature": "das Tandemteam der Université de Lorraine"
+        },
+        "subject": "Willkommen bei ULEP",
+        "title": "Willkommen bei ULEP",
+        "footer": {
+            "unsubscribe": "Du kannst dich abmelden, indem du dich in deinem Konto einloggst.",
+            "downloadApps": "Lade unsere Apps herunter"
+        }
+    }
+}

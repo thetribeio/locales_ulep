@@ -1,34 +1,34 @@
 {
     "tandemBecomeActive": {
-        "subject": "Votre partenaire tandem est prêt(e) à commencer",
-        "title": "Votre partenaire tandem est prêt(e) à commencer",
+        "subject": "Ton/ta partenaire tandem est prêt(e) à commencer",
+        "title": "Ton/ta partenaire tandem est prêt(e) à commencer",
         "content": {
             "introduction": "Cher(e) {{firstname}},",
             "paragraphs": [
-                "Nous sommes heureux de vous informer que votre partenaire Tandem a été trouvé(e) et est prêt(e) à commencer à apprendre la langue avec vous ! Votre partenaire est {{partnerFirstname}} {{partnerLastname}}, un(e) étudiant(e) de {{universityName}} qui partage votre passion pour l'apprentissage des langues et qui est impatient(e) de commencer cette aventure linguistique avec vous. Nous vous encourageons à prendre le temps de vous présenter à votre partenaire et de planifier votre première session de conversation. Nous vous rappelons que le programme Tandem est conçu pour être un échange équitable, alors n'hésitez pas à partager vos connaissances et à vous impliquer pleinement dans le programme. Si vous rencontrez des problèmes ou des défis, n'hésitez pas à contacter l'équipe Tandem de l'Université de Lorraine pour obtenir de l'aide. Nous sommes là pour vous aider à réussir dans votre apprentissage de la langue et nous sommes ravis de faire partie de votre parcours d'apprentissage.",
+                "Nous sommes heureux de t'informer que ton/ta partenaire Tandem a été trouvé(e) et est prêt(e) à commencer à apprendre la langue avec toi ! Ton/ta partenaire est {{partnerFirstname}} {{partnerLastname}}, un(e) étudiant(e) de {{universityName}} qui partage ta passion pour l'apprentissage des langues et qui est impatient(e) de commencer cette aventure linguistique avec toi. Nous t'encourageons à prendre le temps de te présenter à ton partenaire et de planifier votre première session de conversation. Nous te rappelons que le programme Tandem est conçu pour être un échange équitable, alors n'hésite pas à partager tes connaissances et à t'impliquer pleinement dans le programme. Si tu rencontres des problèmes, n'hésite pas à contacter l'équipe Tandem de l'Université de Lorraine pour obtenir de l'aide. Nous sommes là pour t'aider à réussir dans ton apprentissage de la langue et nous sommes ravis de faire partie de ton parcours d'apprentissage.",
                 "Cordialement,"
             ],
             "signature": "L'équipe Tandem de l'Université de Lorraine"
         },
         "footer": {
-            "unsubscribe": "Vous pouvez vous désinscrire en vous connectant à votre compte.",
-            "downloadApps": "Téléchargez nos apps"
+            "unsubscribe": "Tu peux te désinscrire en te connectant à ton compte.",
+            "downloadApps": "Télécharge nos apps"
         }
     },
     "notifyUniversityAdminTandemToReview": {
-        "subject": "Vous avez des tandems suggérés ou en attente",
-        "title": "Vous avez des tandems suggérés ou en attente",
+        "subject": "Tu as des tandems suggérés ou en attente",
+        "title": "Tu as des tandems suggérés ou en attente",
         "content": {
             "introduction": "Bonjour,",
             "paragraphs": [
-                "Vous avez des tandems suggérés par la routine globale ou en attente de validation. Connectez vous sur le back-office pour arbitrer ces tandems.",
+                "Vous avez des tandems suggérés par la routine globale ou en attente de validation. Connectez-vous sur le back-office pour arbitrer ces tandems.",
                 "Cordialement,"
             ],
             "signature": "L'équipe Tandem de l'Université de Lorraine"
         },
         "footer": {
-            "unsubscribe": "Vous pouvez vous désinscrire en vous connectant à votre compte.",
-            "downloadApps": "Téléchargez nos apps"
+            "unsubscribe": "Tu peux te désinscrire en te connectant à ton compte.",
+            "downloadApps": "Télécharge nos apps"
         }
     },
     "welcome": {
@@ -37,16 +37,16 @@
         "content": {
             "introduction": "Cher(e) {{firstname}},",
             "paragraphs": [
-                "Nous sommes ravis de vous accueillir au programme Tandem de l'Université de Lorraine ! Vous êtes maintenant inscrit(e) pour apprendre une nouvelle langue avec un(e) étudiant(e) partenaire qui partage votre passion pour l'apprentissage des langues. Dans les prochains jours, vous recevrez une notification par e-mail vous informant que vous avez été jumelé(e) avec votre partenaire Tandem.",
-                "Nous vous recommandons de prendre le temps de vous présenter à votre partenaire et de planifier votre première session de conversation. Nous vous encourageons à être ouvert d'esprit et à vous impliquer pleinement dans le programme pour en tirer le meilleur parti.",
-                "Si vous avez des questions ou des préoccupations, n'hésitez pas à nous contacter. Nous sommes là pour vous aider à réussir dans votre apprentissage de la langue et nous sommes ravis de faire partie de votre parcours d'apprentissage.",
+                "Nous sommes ravis de t'accueillir au programme Tandem de l'Université de Lorraine ! Tu es maintenant inscrit(e) pour apprendre une nouvelle langue avec un(e) étudiant(e) partenaire qui partage ta passion pour l'apprentissage des langues. Dans les prochains jours, tu recevras une notification par e-mail si un(e) partenaire Tandem correspond à ta demande.",
+                "Nous te recommandons de prendre le temps de te présenter à ton/ta partenaire et de planifier votre première session de conversation. Nous t'encourageons à être ouvert d'esprit et à t'impliquer pleinement dans le programme pour en tirer le meilleur parti.",
+                "Si tu as des questions ou des préoccupations, n'hésite pas à nous contacter. Nous sommes là pour t'aider à réussir dans ton apprentissage de la langue et nous sommes ravis de faire partie de ton parcours d'apprentissage.",
                 "Cordialement,"
             ],
             "signature": "L'équipe Tandem de l'Université de Lorraine"
         },
         "footer": {
-            "unsubscribe": "Vous pouvez vous désinscrire en vous connectant à votre compte.",
-            "downloadApps": "Téléchargez nos apps"
+            "unsubscribe": "Tu peux te désinscrire en te connectant à ton compte.",
+            "downloadApps": "Télécharge nos apps"
         }
     },
     "resetPasswordSSO": {

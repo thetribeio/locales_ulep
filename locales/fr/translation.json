@@ -9,18 +9,21 @@
         "sunday": "Dimanche"
     },
     "errors": {
-        "ask_language": { "conflit": "Vous avez déjà demandé cette langue" },
+        "ask_language": {
+            "conflit": "Vous avez déjà demandé cette langue"
+        },
         "global": "Une erreur est survenue",
         "userDoesntExist": "L'utilisateur n'existe pas",
         "userWrongCredentials": "Le mot de passe ou l'email est incorrect",
-        "connecteur": "Erreur lors de la récupération des informations utilisateur"
+        "connecteur": "Erreur lors de la récupération des informations utilisateur",
+        "gateway": "Une erreur est survenue lors de la récupération de vos données"
     },
     "error_page": {
         "title": "Une erreur est survenue",
         "subtitle": "Veuillez nous excusez mais une erreur est survenue, veuillez rafraichir la page ou effectuer un retour en arrière"
     },
     "maintenance_page": {
-        "title": "Maitenance en cours",
+        "title": "Maintenance en cours",
         "subtitle": "Veuillez nous excusez mais une maintenance est en cours"
     },
     "forgot_password_page": {
@@ -67,7 +70,7 @@
     },
     "confirm_modal": {
         "cancel": "Annuler",
-        "title": "Voulez-vous vraiment supprimer votre compte ?",
+        "title": "Veux-tu vraiment supprimer ton compte ?",
         "validate": "Confirmer"
     },
     "home_page": {
@@ -98,7 +101,7 @@
             "unsubscribe": "Se désinscrire"
         },
         "tandem": {
-            "title": "Mes tandems"
+            "title": "Mes tandems en cours"
         },
         "tandem_draft": {
             "button": "C'est compris !",
@@ -140,7 +143,7 @@
         "button": "Valider et continuer",
         "error": "Erreur pendant le chargement de l'instance",
         "subtitle": "Choisis ton instance dans la liste ci-dessous",
-        "title": "Votre programme"
+        "title": "Ton programme"
     },
     "languages": {
         "french": "Français",
@@ -156,7 +159,7 @@
         "invalid_password": "Mot de passe invalide",
         "sso_button": "M’authentifier",
         "sso_title": "Étudiant de l’{{name}}, connecte-toi avec des identifiants de l’université",
-        "subtitle": "Connecte-toi avec tes identifiants de l’université pour continuer à utiliser l’application",
+        "subtitle": "Étudiant d'université partenaire, connecte-toi avec tes identifiants d'inscription pour continuer à utiliser l’application",
         "title": "Se connecter"
     },
     "pairing_confirm_language_page": {
@@ -301,7 +304,7 @@
         "pedagogy_button": "Choisir un autre moyen de rencontre",
         "pedagogy_title": "Je souhaite choisir une autre moyen de rencontre",
         "subtitle": "Trouve des ressources et des groupes de discussion en ligne pour apprendre la langue par toi-même.",
-        "title": "Langue non disponible en tandem"
+        "title": "Langue non disponible en e-tandem"
     },
     "reset_password_page": {
         "button": "Valider",
@@ -313,7 +316,7 @@
     },
     "service_close": {
         "subtitle": "Le service est fermé pour le moment, voici les dates d'ouvertures de service {{start}} jusqu'à {{end}}",
-        "title": "Service indisponnible"
+        "title": "Service indisponible"
     },
     "signup_availabilities_page": {
         "AVAILABLE": "Peu disponible",
@@ -398,7 +401,7 @@
         "error_gender": "Veuillez choisir un genre",
         "error_lastname": "Veuillez saisir un nom valide",
         "error_password": "Veuillez saisir un mot de passe valide",
-        "error_unauthorized": "Vous n'êtes pas autorisé à vous inscrire",
+		"error_unauthorized": "Vous n'êtes pas autorisé à vous inscrire",
         "error_picture_format": "L'image séléctionnée n'a pas un format valide ( JPG, PNG ou JPEG )",
         "error_picture_weight": "L'image séléctionnée est trop lourde",
         "photo": "Ajouter une photo",
@@ -422,7 +425,7 @@
         "country_placeholder": "Sélectionne un pays dans la liste",
         "department_title": "Département",
         "diplome_title": "Diplôme",
-        "error": "Vous ne pourrez pas aller plus loin dans le processus d’inscription",
+        "error": "Vous ne pourrez pas aller plus loin dans le processus d’inscription, les inscriptions ne sont pas ouvertes.",
         "function_title": "Fonction",
         "footer_email": "Contactez-nous à",
         "footer_university": "Votre université n'est pas encore partenaire de l'",
