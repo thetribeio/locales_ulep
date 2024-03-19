@@ -13,7 +13,6 @@
         "userDoesntExist": "用户不存在",
         "userWrongCredentials": "密码或电子邮件不正确"
     },
-    "error_page": {},
     "forgot_password_page": {
         "button": "发送",
         "invalid_email": "电子邮件无效",
@@ -116,8 +115,6 @@
             "title": "等待中的申请"
         }
     },
-    "instance": {},
-    "languages": {},
     "login_page": {
         "button": "登录",
         "forgot": "忘记密码",
@@ -185,7 +182,6 @@
     },
     "pairing_quizz_validation": {
         "description": "乘势追击",
-        "description_next_step": {},
         "next_button": "酷，接下来",
         "next_step_button": "明白了！",
         "subtitle": "太好了，我们来看看你的喜好吧！",
@@ -553,6 +549,16 @@
         "yo": "约鲁巴语",
         "za": "壮语",
         "zh": "汉语",
-        "zu": "祖鲁语"
+        "zu": "祖鲁语",
+        "mo": "",
+        "sh": "",
+        "*": ""
+    },
+    "languages": {
+        "french": "",
+        "english": "",
+        "deutsche": "",
+        "spanish": "",
+        "chinese": ""
     }
 }
