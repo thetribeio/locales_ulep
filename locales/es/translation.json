@@ -13,7 +13,6 @@
         "userDoesntExist": "El usuario no existe",
         "userWrongCredentials": "Contraseña o correo electrónico incorrectos"
     },
-    "error_page": {},
     "forgot_password_page": {
         "button": "Enviar",
         "invalid_email": "Correo electrónico inválido",
@@ -116,8 +115,6 @@
             "title": "Mis solicitudes en espera"
         }
     },
-    "instance": {},
-    "languages": {},
     "login_page": {
         "button": "Conectarse",
         "forgot": "¿Contraseña olvidada?",
@@ -185,7 +182,6 @@
     },
     "pairing_quizz_validation": {
         "description": "Sigue por el mismo camino",
-        "description_next_step": {},
         "next_button": "Genial, seguimos",
         "next_step_button": "¡Entendí!",
         "subtitle": "¡Bien, veamos tus preferencias!",
@@ -252,7 +248,8 @@
         },
         "ressource_button": "VER LOS RECURSOS DISPONIBLES",
         "ressource_title": "Los recursos para ayudarme",
-        "subtitle": "Encuentra los recursos y grupos de discusión en línea para aprender el idioma por ti mismo"
+        "subtitle": "Encuentra los recursos y grupos de discusión en línea para aprender el idioma por ti mismo",
+        "title": ""
     },
     "reset_password_page": {
         "button": "Validar",
@@ -553,6 +550,15 @@
         "za": "Chuan",
         "zh": "Chino",
         "zu": "Zulú",
-        "*": "Joker"
+        "*": "Joker",
+        "mo": "",
+        "sh": ""
+    },
+    "languages": {
+        "french": "",
+        "english": "",
+        "deutsche": "",
+        "spanish": "",
+        "chinese": ""
     }
 }
