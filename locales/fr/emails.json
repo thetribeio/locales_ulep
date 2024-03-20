@@ -1,6 +1,6 @@
 {
     "tandemBecomeActive": {
-        "subject": "Votre partenaire tandem est prêt(e) à commencer!",
+        "subject": "Votre partenaire tandem est prêt(e) à commencer ouai",
         "title": "Votre partenaire tandem est prêt(e) à commencer",
         "content": {
             "introduction": "Cher(e) {{firstname}},",
