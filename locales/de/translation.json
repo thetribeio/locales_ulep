@@ -13,7 +13,6 @@
         "userDoesntExist": "Der Benutzer existiert nicht",
         "userWrongCredentials": "Das Passwort oder die E-Mail-Adresse ist falsch"
     },
-    "error_page": {},
     "forgot_password_page": {
         "button": "Senden",
         "invalid_email": "Ungültige E-Mail-Adresse",
@@ -116,8 +115,6 @@
             "title": "Meine ausstehenden Anfragen"
         }
     },
-    "instance": {},
-    "languages": {},
     "login_page": {
         "button": "Anmelden",
         "forgot": "Passwort vergessen?",
@@ -185,7 +182,6 @@
     },
     "pairing_quizz_validation": {
         "description": "Weiter so",
-        "description_next_step": {},
         "next_button": "Das wird cool",
         "next_step_button": "Alles klar!",
         "subtitle": "Super, kommen wir zu deinen Präferenzen!",
@@ -555,6 +551,14 @@
         "za": "Zhuang",
         "zh": "Chinesisch",
         "zu": "isiZulu",
-        "*": "Joker"
+        "*": "Joker",
+        "mo": ""
+    },
+    "languages": {
+        "english": "",
+        "deutsche": "",
+        "spanish": "",
+        "chinese": "",
+        "french": ""
     }
 }
