@@ -1,1 +1,69 @@
-{}
+{
+    "tandemBecomeActive": {
+        "subject": "",
+        "title": "",
+        "content": {
+            "introduction": "",
+            "paragraphs": [
+                "",
+                ""
+            ],
+            "signature": ""
+        },
+        "footer": {
+            "unsubscribe": "",
+            "downloadApps": ""
+        }
+    },
+    "welcome": {
+        "title": "",
+        "subject": "",
+        "content": {
+            "introduction": "",
+            "paragraphs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "signature": ""
+        },
+        "footer": {
+            "unsubscribe": "",
+            "downloadApps": ""
+        }
+    },
+    "notifyUniversityAdminTandemToReview": {
+        "subject": "",
+        "title": "",
+        "content": {
+            "introduction": "",
+            "paragraphs": [
+                "",
+                ""
+            ],
+            "signature": ""
+        },
+        "footer": {
+            "unsubscribe": "",
+            "downloadApps": ""
+        }
+    },
+    "resetPasswordSSO": {
+        "content": {
+            "introduction": "",
+            "paragraphs": [
+                "",
+                "",
+                ""
+            ],
+            "signature": ""
+        },
+        "footer": {
+            "unsubscribe": "",
+            "downloadApps": ""
+        },
+        "subject": "",
+        "title": ""
+    }
+}
