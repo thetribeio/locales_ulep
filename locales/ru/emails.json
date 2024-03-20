@@ -1,5 +1,69 @@
 {
     "tandemBecomeActive": {
-        "subject": "test translation RU"
+        "subject": "test translation RU",
+        "content": {
+            "introduction": "",
+            "paragraphs": [
+                "",
+                ""
+            ],
+            "signature": ""
+        },
+        "title": "",
+        "footer": {
+            "unsubscribe": "",
+            "downloadApps": ""
+        }
+    },
+    "notifyUniversityAdminTandemToReview": {
+        "footer": {
+            "downloadApps": "",
+            "unsubscribe": ""
+        },
+        "subject": "",
+        "title": "",
+        "content": {
+            "introduction": "",
+            "paragraphs": [
+                "",
+                ""
+            ],
+            "signature": ""
+        }
+    },
+    "welcome": {
+        "title": "",
+        "content": {
+            "introduction": "",
+            "paragraphs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "signature": ""
+        },
+        "footer": {
+            "unsubscribe": "",
+            "downloadApps": ""
+        },
+        "subject": ""
+    },
+    "resetPasswordSSO": {
+        "content": {
+            "introduction": "",
+            "paragraphs": [
+                "",
+                "",
+                ""
+            ],
+            "signature": ""
+        },
+        "subject": "",
+        "title": "",
+        "footer": {
+            "unsubscribe": "",
+            "downloadApps": ""
+        }
     }
 }
