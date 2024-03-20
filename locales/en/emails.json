@@ -1,6 +1,6 @@
 {
     "tandemBecomeActive": {
-        "subject": "Your tandem's partner is ready to start yes",
+        "subject": "Your tandem's partner is ready to start",
         "title": "Your tandem's partner is ready to start",
         "content": {
             "introduction": "Dear {{firstname}},",
@@ -11,8 +11,8 @@
             "signature": "Tandem's team of Lorraine university"
         },
         "footer": {
-          "unsubscribe": "You can unsubscribe by connecting to your account.",
-          "downloadApps": "Download our apps"
+            "unsubscribe": "You can unsubscribe by connecting to your account.",
+            "downloadApps": "Download our apps"
         }
     },
     "notifyUniversityAdminTandemToReview": {
@@ -27,8 +27,8 @@
             "signature": "Tandem's team of Lorraine University"
         },
         "footer": {
-          "unsubscribe": "You can unsubscribe by connecting to your account.",
-          "downloadApps": "Download our apps"
+            "unsubscribe": "You can unsubscribe by connecting to your account.",
+            "downloadApps": "Download our apps"
         }
     },
     "welcome": {
