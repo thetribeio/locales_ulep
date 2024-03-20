@@ -1,6 +1,6 @@
 {
     "tandemBecomeActive": {
-        "subject": "Your tandem's partner is ready to start",
+        "subject": "Your tandem's partner is ready to start !",
         "title": "Your tandem's partner is ready to start",
         "content": {
             "introduction": "Dear {{firstname}},",
