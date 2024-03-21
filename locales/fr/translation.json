@@ -15,7 +15,8 @@
         "global": "Une erreur est survenue",
         "userDoesntExist": "L'utilisateur n'existe pas",
         "userWrongCredentials": "Le mot de passe ou l'email est incorrect",
-        "connecteur": "Erreur lors de la récupération des informations utilisateur"
+        "connecteur": "Erreur lors de la récupération des informations utilisateur",
+        "fileSizeExceed": "Le fichier est trop volumineux, il doit être inférieur à {maxSize}"
     },
     "error_page": {
         "title": "Une erreur est survenue",
@@ -383,7 +384,13 @@
     "signup_informations_page": {
         "code": "Code",
         "confirm_password": "Confirme ton mot de passe",
-        "cgu": "",
+        "cgu": {
+            "confidentiality": "politique de confidentialité",
+            "cgu": "conditions d'utilisation",
+            "prefix": "Accepter les",
+            "separator": "et la",
+            "suffix": " pour utiliser l'application."
+        },
         "error_age": "Veuillez saisir un âge valide",
         "error_code": "Veuillez saisir un code valide",
         "error_confirm_password": "Les mots de passes ne sont pas identiques",
