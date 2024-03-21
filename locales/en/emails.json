@@ -13,7 +13,7 @@
     },
     "accountBlocked": {
       "title": "Your account is locked",
-      "bodyHtml": "<p>Hello {{firstname}}, we regret to inform you that your account in the ULEP application is locked. However, you still have the ability to contact us using the reporting form within the application.</p><p>Best regards,</p><p>Tandem's team of Lorraine University</p>"
+      "bodyHtml": "<p>Hello {{user.firstname}}, we regret to inform you that your account in the ULEP application is locked. However, you still have the ability to contact us using the reporting form within the application.</p><p>Best regards,</p><p>Tandem's team of Lorraine University</p>"
     },
     "tandemValidationNotice": {
       "title": "You have suggested or pending tandems",
@@ -21,7 +21,7 @@
     },
     "newTandem": {
       "title": "Your tandem's partner is ready to start",
-      "bodyHtml": "<p>Dear {{user.firstname}},</p><p>We are happy to inform you that you're tandem's partner has been found and is ready to start learning language with you ! Your partner is {{partner.firstname}} {{partnerLastname}}, student from {{partner.university}} who shares you passion for learning languages and is excited to start this linguistic adventure with you. We recommend that you take time to introduce yourself to your partner and planify your first conversation session. We remind you that Tandem's program is designed to be a fair trade, so don't hesitate to share you knowledge and fully involve in the program. If you meet problems or challenge, feel free to contact Tandem's team of Université de Lorraine to get some help. We are here to help you succeed in your learning and are happy to be part of your learning journey.</p><p>Best regards,</p><p>Tandem's team of Lorraine university</p>"
+      "bodyHtml": "<p>Dear {{user.firstname}},</p><p>We are happy to inform you that you're tandem's partner has been found and is ready to start learning language with you ! Your partner is {{partner.firstname}} {{partner.lastname}}, student from {{partner.university}} who shares you passion for learning languages and is excited to start this linguistic adventure with you. We recommend that you take time to introduce yourself to your partner and planify your first conversation session. We remind you that Tandem's program is designed to be a fair trade, so don't hesitate to share you knowledge and fully involve in the program. If you meet problems or challenge, feel free to contact Tandem's team of Université de Lorraine to get some help. We are here to help you succeed in your learning and are happy to be part of your learning journey.</p><p>Best regards,</p><p>Tandem's team of Lorraine university</p>"
     },
     "newTandemNotice": {
       "title": "A new tandem is formed",
@@ -29,7 +29,7 @@
     },
     "tandemCanceled": {
       "title": "Your tandem has been canceled",
-      "bodyHtml": "<p>Hello {{firstname}}, we regret to inform you that you no longer have a Tandem partner in ULEP. On the application's homepage, you can check if your Tandem request is pending. There could be several reasons for this; if you wish to know more, you can contact us through the application.</p><p>Best regards,</p><p>Tandem's team of Lorraine University</p>"
+      "bodyHtml": "<p>Hello {{user.firstname}}, we regret to inform you that you no longer have a Tandem partner in ULEP. On the application's homepage, you can check if your Tandem request is pending. There could be several reasons for this; if you wish to know more, you can contact us through the application.</p><p>Best regards,</p><p>Tandem's team of Lorraine University</p>"
     },
     "tandemCanceledNotice": {
       "title": "A tandem has been canceled",
