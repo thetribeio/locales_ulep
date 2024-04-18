@@ -35,6 +35,10 @@
         "title": "Un tandem est dissocié",
         "bodyHtml": "<p>Bonjour, un tandem de l’application ULEP vient d’être défait.</p<p>Les utilisateurs précédemment en tandem sont:</p><ul><li>{{user.firstname}} {{user.lastname}} {{user.university}}</li><li>{{partner.firstname}} {{partner.lastname}} {{partner.university}}</li></ul><p>Si vous n’êtes pas à l’origine de cette dissociation, vous pouvez consulter le back-office pour vérifier les demandes de tandems se trouvant en attente du fait de ce changement.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
     },
+    "tandemClosureNotice": {
+        "title": "Un tandem va être terminé",
+        "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>Nous sommes au regret de t’annoncer que le service de {{university.name}} va bientôt fermer le {{university.closeDate}} terminant les sessions entre les tandems.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+    },
     "footer": {
         "unsubscribe": "Vous pouvez vous désinscrire en vous connectant à votre compte.",
         "downloadApps": "Téléchargez nos apps"
