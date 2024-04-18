@@ -37,7 +37,7 @@
     },
     "tandemClosureNotice": {
         "title": "Un tandem va être terminé",
-        "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>Nous sommes au regret de t’annoncer que le service de {{university.name}} va bientôt fermer le {{university.closeDate}} terminant les sessions entre les tandems.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+        "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>Nous sommes au regret de t’annoncer que le service de {{university.name}} va fermer le {{university.closeDate}} terminant les sessions entre les tandems.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
     },
     "footer": {
         "unsubscribe": "Vous pouvez vous désinscrire en vous connectant à votre compte.",
