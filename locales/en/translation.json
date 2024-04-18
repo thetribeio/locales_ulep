@@ -380,6 +380,10 @@
     "signup_informations_page": {
         "code": "Code",
         "confirm_password": "Confirm your password",
+        "password_infos": {
+            "title": "The password must contain at least :",
+            "rules": ["8 characters", "1 uppercase character", "1 lowercase character", "1 digit"]
+        },
         "cgu": {
             "confidentiality": "privacy policy",
             "cgu": "terms of use",
