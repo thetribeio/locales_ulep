@@ -3,6 +3,14 @@
     "title": "A tandem will be finished",
     "body": "We regret to inform you that the {{university.name}} service will close the {{university.closeDate}} terminating sessions between tandems."
   },
+  "tandemPaused": {
+    "title": "A tandem has been paused",
+    "body": "We regret to inform you that one of your tandems has been put on pause."
+  },
+  "tandemUnpaused": {
+    "title": "A tandem was released from the break",
+    "body": "We're happy to announce that one of your tandems is no longer on break."
+  },
   "welcome": {
     "body": "Welcome to the ulep application! ",
     "title": "Hello !"
