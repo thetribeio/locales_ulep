@@ -35,6 +35,26 @@
       "title": "A tandem has been canceled",
       "bodyHtml": "<p>Hello, a tandem from the ULEP application has just been undone. The users previously in tandem are:</p><ul><li>{{user.firstname}} {{user.lastname}} {{user.university}}</li><li>{{partner.firstname}} {{partner.lastname}} {{partner.university}}</li></ul><p>If you did not initiate this dissociation, you can consult the back-office to check for pending tandem requests due to this change.</p><p>Best regards,</p><p>Tandem's team of Lorraine University</p>"
     },
+    "tandemClosureNotice": {
+        "title": "A tandem will be ended",
+        "bodyHtml":"<p>Hello {{user.firstname}},</p><p>We regret to inform you that the {{university.name}} service will close on {{university.closeDate}} terminating sessions between tandems.</p><p>Cordially,</p><p>The Tandem team of the University of Lorraine</p>"
+    },
+    "tandemPausedAdminNotice": {
+        "title": "A tandem will be paused",
+        "bodyHtml":"<p>Hello, a tandem in the ULEP application has just been paused.</p<p>The paused users are:</p><ul><li>{{user.firstname}} {{user.lastname}} {{user.university}}</li><li>{{partner.firstname}} {{partner.lastname}} {{partner. university}}</li></ul><p>If you did not initiate this action, you can check the back-office for tandem requests that are pending due to this change.</p><p>Cordially,</p><p>The Tandem team at Université de Lorraine</p>"
+    },
+    "tandemPausedNotice": {
+        "title": "A tandem will be paused",
+        "bodyHtml":"<p>Hello {{user.firstname}},</p><p>We regret to inform you that we have paused a ULEP Tandem. On the home page of the application you can check which tandem is paused. There may be many reasons for this, so if you'd like to know more, you can contact us via the application.</p><p>Cordially,</p><p>The Université de Lorraine Tandem team</p>"
+    },
+    "tandemUnpausedAdminNotice": {
+        "title": "A tandem will be unpaused",
+        "bodyHtml":"<p>Hello, a tandem in the ULEP application has just been released from a pause.</p<p>The paused users are:</p><ul><li>{{user.firstname}} {{user.lastname}} {{user.university}}</li><li>{{partner.firstname}} {{partner.lastname}} {{partner. university}}</li></ul><p>If you did not initiate this action, you can check the back-office for tandem requests that are pending due to this change.</p><p>Cordially,</p><p>The Tandem team at Université de Lorraine</p>"
+    },
+    "tandemUnpausedNotice": {
+        "title": "A tandem will be unpaused",
+        "bodyHtml":"<p>Hello {{user.firstname}},</p><p>We are pleased to announce that we have removed the pause on one of your ULEP Tandem. You can now resume communications with your Tandem.</p><p>Cordially,</p><p>The Université de Lorraine Tandem team</p>"
+    },
     "footer": {
       "unsubscribe": "You can unsubscribe by connecting to your account.",
       "downloadApps": "Download our apps"
