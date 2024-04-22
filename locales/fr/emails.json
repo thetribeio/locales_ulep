@@ -39,6 +39,22 @@
         "title": "Un tandem va être terminé",
         "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>Nous sommes au regret de t’annoncer que le service de {{university.name}} va fermer le {{university.closeDate}} terminant les sessions entre les tandems.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
     },
+    "tandemPausedAdminNotice": {
+        "title": "Un tandem est mit en pause",
+        "bodyHtml": "<p>Bonjour, un tandem de l’application ULEP vient d’être mit en pause.</p<p>Les utilisateurs en pause sont:</p><ul><li>{{user.firstname}} {{user.lastname}} {{user.university}}</li><li>{{partner.firstname}} {{partner.lastname}} {{partner.university}}</li></ul><p>Si vous n’êtes pas à l’origine de cette action, vous pouvez consulter le back-office pour vérifier les demandes de tandems se trouvant en attente du fait de ce changement.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+    },
+    "tandemPausedNotice": {
+        "title": "Un tandem est mit en pause",
+        "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>Nous sommes au regret de t’annoncer que nous avons mit en pause un Tandem ULEP. Sur la page d’accueil de l’application tu pourras vérifier quel tandem est en pause. Les raisons peuvent être multiples, si tu souhaites en savoir plus, tu peux nous contacter via l’application.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+    },
+    "tandemUnpausedAdminNotice": {
+        "title": "Un tandem n'est plus en pause",
+        "bodyHtml": "<p>Bonjour, un tandem de l’application ULEP vient d’être libéré d'une pause.</p<p>Les utilisateurs en pause sont:</p><ul><li>{{user.firstname}} {{user.lastname}} {{user.university}}</li><li>{{partner.firstname}} {{partner.lastname}} {{partner.university}}</li></ul><p>Si vous n’êtes pas à l’origine de cette action, vous pouvez consulter le back-office pour vérifier les demandes de tandems se trouvant en attente du fait de ce changement.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+    },
+    "tandemUnpausedNotice": {
+        "title": "Un tandem n'est plus en pause",
+        "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>Nous sommes heureux de t’annoncer que nous avons enlevé la pause sur un de tes Tandem ULEP. Tu peux maintenant reprendre les communications avec ton Tandem.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+    },
     "footer": {
         "unsubscribe": "Vous pouvez vous désinscrire en vous connectant à votre compte.",
         "downloadApps": "Téléchargez nos apps"
