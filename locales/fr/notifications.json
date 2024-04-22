@@ -4,8 +4,8 @@
     "body": "Nous sommes au regret de t’annoncer que le service de {{university.name}} va fermer le {{university.closeDate}} terminant les sessions entre les tandems."
   },
   "tandemPaused": {
-    "title": "Un tandem a été mit en pause",
-    "body": "Nous sommes au regret de t’annoncer que un de tes tandems a été mit en pause."
+    "title": "Un tandem a été mis en pause",
+    "body": "Nous sommes au regret de t’annoncer que un de tes tandems a été mis en pause."
   },
   "tandemUnpaused": {
     "title": "Un tandem a été libéré de la pause",
