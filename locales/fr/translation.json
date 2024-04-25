@@ -23,7 +23,7 @@
         "subtitle": "Veuillez nous excusez mais une erreur est survenue, veuillez rafraichir la page ou effectuer un retour en arrière"
     },
     "maintenance_page": {
-        "title": "Maitenance en cours",
+        "title": "Maintenance en cours",
         "subtitle": "Veuillez nous excusez mais une maintenance est en cours"
     },
     "forgot_password_page": {
@@ -386,7 +386,12 @@
         "confirm_password": "Confirme ton mot de passe",
         "password_infos": {
             "title": "Le mot de passe doit contenir au moins :",
-            "rules": ["8 caractères", "1 caractère MAJUSCULE", "1 caractère minuscule", "1 chiffre"]
+            "rules": [
+                "8 caractères",
+                "1 caractère MAJUSCULE",
+                "1 caractère minuscule",
+                "1 chiffre"
+            ]
         },
         "cgu": {
             "confidentiality": "politique de confidentialité",
