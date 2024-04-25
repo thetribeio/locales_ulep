@@ -2,7 +2,7 @@ name: Minio
 on:
   push:
     #dev
-    branches: ["ci"]
+    branches: ["develop"]
 
 jobs:
   minio-push:
