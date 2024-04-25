@@ -16,7 +16,7 @@ jobs:
           endpoint: ${{ secrets.MINIO_ENDPOINT }}
           access_key: ${{ secrets.MINIO_ACCESS_KEY }}
           secret_key: ${{ secrets.MINIO_SECRET_KEY }}
-          bucket: "i18n"
+          bucket: ${{ secrets.MINIO_I18N_BUCKET }}
           # Optional inputs with their defaults:
           source_dir: "locales/"
           target_dir: "/"
