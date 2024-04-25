@@ -1,5 +1,61 @@
 {
     "welcome": {
-        "title": "欢迎来到 ULEP"
+        "title": "欢迎来到 ULEP",
+        "bodyHtml": ""
+    },
+    "tandemClosureNotice": {
+        "title": "",
+        "bodyHtml": ""
+    },
+    "tandemPausedAdminNotice": {
+        "title": "",
+        "bodyHtml": ""
+    },
+    "passwordChangeDenied": {
+        "title": "",
+        "bodyHtml": ""
+    },
+    "tandemCanceledNotice": {
+        "bodyHtml": "",
+        "title": ""
+    },
+    "newUserRegistrationNotice": {
+        "title": "",
+        "bodyHtml": ""
+    },
+    "tandemCanceled": {
+        "bodyHtml": "",
+        "title": ""
+    },
+    "tandemValidationNotice": {
+        "bodyHtml": "",
+        "title": ""
+    },
+    "tandemUnpausedAdminNotice": {
+        "title": "",
+        "bodyHtml": ""
+    },
+    "newTandem": {
+        "bodyHtml": "",
+        "title": ""
+    },
+    "tandemPausedNotice": {
+        "bodyHtml": "",
+        "title": ""
+    },
+    "footer": {
+        "downloadApps": "",
+        "unsubscribe": ""
+    },
+    "newTandemNotice": {
+        "title": "",
+        "bodyHtml": ""
+    },
+    "accountBlocked": {
+        "bodyHtml": ""
+    },
+    "tandemUnpausedNotice": {
+        "bodyHtml": "",
+        "title": ""
     }
 }
