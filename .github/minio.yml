@@ -8,9 +8,10 @@ jobs:
   minio-push:
     environment: staging    
     steps:
+      - uses: actions/checkout@master
       - name: Minio Deploy
-        runs-on: ubuntu-latest
         uses: mamal72/minio-perfect-deploy-action@main
+        runs-on: ubuntu-latest        
         with:
           endpoint: ${{ secrets.MINIO_ENDPOINT }}
           access_key: ${{ secrets.MINIO_ACCESS_KEY }}
