@@ -2,7 +2,7 @@ name: Minio
 on:
   push:
     #dev
-    branches: ["develop"]
+    branches: ["weblate-translations"]
 
 jobs:
   minio-push:
