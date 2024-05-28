@@ -16,7 +16,7 @@
         "userDoesntExist": "This username does not exist",
         "userWrongCredentials": "Authentication error: Bad email or bad password.",
         "connecteur": "",
-        "fileSizeExceed": "The file is too big, it must be less than {{maxSize}}M"
+        "fileSizeExceed": "The file is too big, it must be less than {{maxSize}}Mo"
     },
     "error_page": {
         "title": "An error has occurred",
@@ -382,7 +382,12 @@
         "confirm_password": "Confirm your password",
         "password_infos": {
             "title": "The password must contain at least :",
-            "rules": ["8 characters", "1 uppercase character", "1 lowercase character", "1 digit"]
+            "rules": [
+                "8 characters",
+                "1 uppercase character",
+                "1 lowercase character",
+                "1 digit"
+            ]
         },
         "cgu": {
             "confidentiality": "privacy policy",
