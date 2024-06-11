@@ -19,6 +19,10 @@
       "title": "You have suggested or pending tandems",
       "bodyHtml": "<p>Hi,</p><p>You have tandem suggested by global routine or pending validation. Connect to the back-office to arbitrate these tandems.</p><p>Best regards,</p><p>Tandem's team of Lorraine University</p>"
     },
+    "message": {
+        "title": "You have received a message",
+        "bodyHtml": "<p>Dear {{user.firstname}},</p><p>You have received a message from {{sender.lastname}} {{sender.firstname}} : </p><p>{{content}}</p><p>Best regards,</p><p>Tandem's team of Lorraine University</p>"
+    },
     "newTandem": {
       "title": "Your tandem's partner is ready to start",
       "bodyHtml": "<p>Dear {{user.firstname}},</p><p>We are happy to inform you that you're tandem's partner has been found and is ready to start learning language with you ! Your partner is {{partner.firstname}} {{partner.lastname}}, student from {{partner.university}} who shares you passion for learning languages and is excited to start this linguistic adventure with you. We recommend that you take time to introduce yourself to your partner and planify your first conversation session. We remind you that Tandem's program is designed to be a fair trade, so don't hesitate to share you knowledge and fully involve in the program. If you meet problems or challenge, feel free to contact Tandem's team of Université de Lorraine to get some help. We are here to help you succeed in your learning and are happy to be part of your learning journey.</p><p>Best regards,</p><p>Tandem's team of Lorraine university</p>"
