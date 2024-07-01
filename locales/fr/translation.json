@@ -22,6 +22,24 @@
         "title": "Une erreur est survenue",
         "subtitle": "Veuillez nous excusez mais une erreur est survenue, veuillez rafraichir la page ou effectuer un retour en arrière"
     },
+    "message": {
+        "type": {
+            "noMessage": "Aucun message",
+            "image": "Image",
+            "audio": "Audio",
+            "file": "Fichier"
+        }
+    },
+    "date": {
+        "today": "Aujourd'hui",
+        "yesterday": "Hier"
+    },
+    "record": {
+        "error": {
+            "permission": "Permission refusée",
+            "unexpected": "Erreur inconnue"
+        }
+    },
     "maintenance_page": {
         "title": "Maintenance en cours.",
         "subtitle": "Veuillez nous excusez mais une maintenance est en cours"
@@ -61,6 +79,17 @@
         "tandem_etandem": "Tandem / Etandem",
         "woman": "Féminin",
         "yes": "Oui"
+    },
+    "chat": {
+        "fileDownloaded": "Fichier téléchargé",
+        "me": "Moi",
+        "title": "Messages avec {{name}}",
+        "input": {
+            "placeholder": "Écris ton message..."
+        }
+    },
+    "conversations": {
+        "title": "Ma messagerie"
     },
     "connection_page": {
         "connect_title": "As-tu déjà un compte ?",
