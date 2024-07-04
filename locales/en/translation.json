@@ -22,6 +22,24 @@
         "title": "An error has occurred",
         "subtitle": "We apologize but an error has occurred, please refresh the page or go back"
     },
+    "message": {
+        "type": {
+            "noMessage": "No message",
+            "image": "Image",
+            "audio": "Audio",
+            "file": "File"
+        }
+    },
+    "date": {
+        "today": "Today",
+        "yesterday": "Yesterday"
+    },
+    "record": {
+        "error": {
+            "permission": "Permission denied",
+            "unexpected": "Unexpected error"
+        }
+    },
     "maintenance_page": {
         "title": "Maintenance is in progress",
         "subtitle": "We apologize, but maintenance is in progress."
@@ -61,6 +79,17 @@
         "tandem_etandem": "Tandem / Etandem",
         "woman": "female",
         "yes": "Yes"
+    },
+    "chat": {
+        "fileDownloaded": "File downloaded",
+        "me": "Me",
+        "title": "Messages with {{name}}",
+        "input": {
+            "placeholder": "Write your message..."
+        }
+    },
+    "conversations": {
+        "title": "My messaging"
     },
     "connection_page": {
         "connect_title": "Already have an account ?",
@@ -160,7 +189,8 @@
         "sso_button": "Authenticate myself",
         "sso_title": "Student of {{name}}, log in with university credentials",
         "subtitle": "Sign in with your university credentials to continue using the application",
-        "title": "Sign in"
+        "title": "Sign in",
+        "update_instance": "Change instance"
     },
     "pairing_confirm_language_page": {
         "language_title": "Preferred language",

@@ -22,6 +22,24 @@
         "title": "Une erreur est survenue",
         "subtitle": "Veuillez nous excusez mais une erreur est survenue, veuillez rafraichir la page ou effectuer un retour en arrière"
     },
+    "message": {
+        "type": {
+            "noMessage": "Aucun message",
+            "image": "Image",
+            "audio": "Audio",
+            "file": "Fichier"
+        }
+    },
+    "date": {
+        "today": "Aujourd'hui",
+        "yesterday": "Hier"
+    },
+    "record": {
+        "error": {
+            "permission": "Permission refusée",
+            "unexpected": "Erreur inconnue"
+        }
+    },
     "maintenance_page": {
         "title": "Maintenance en cours.",
         "subtitle": "Veuillez nous excusez mais une maintenance est en cours"
@@ -61,6 +79,17 @@
         "tandem_etandem": "Tandem / Etandem",
         "woman": "Féminin",
         "yes": "Oui"
+    },
+    "chat": {
+        "fileDownloaded": "Fichier téléchargé",
+        "me": "Moi",
+        "title": "Messages avec {{name}}",
+        "input": {
+            "placeholder": "Écris ton message..."
+        }
+    },
+    "conversations": {
+        "title": "Ma messagerie"
     },
     "connection_page": {
         "connect_title": "As-tu déjà un compte ?",
@@ -160,13 +189,15 @@
         "sso_button": "M’authentifier",
         "sso_title": "Étudiant de l’{{name}}, connecte-toi avec des identifiants de l’université",
         "subtitle": "Connecte-toi avec tes identifiants de l’université pour continuer à utiliser l’application",
-        "title": "Se connecter"
+        "title": "Se connecter",
+        "update_instance": "Changer d'instance"
     },
     "pairing_confirm_language_page": {
         "language_title": "Langue souhaitée",
         "mode_meet": "Mode de rencontre",
         "not_alone": {
             "description": "Vérifions ton niveau ensemble !",
+            "description_joker": "Tu peux passer à la suite !",
             "description_title": "Maintenant",
             "subtitle": "",
             "title": "Tu y es presque !",

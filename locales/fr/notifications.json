@@ -1,4 +1,8 @@
 {
+  "message": {
+    "title": "Tu as reçu un message de {{sender.lastname}} {{sender.firstname}}",
+    "body": "{{content}}"
+  },
   "tandemClosureNotice": {
     "title": "Un tandem va être terminé",
     "body": "Nous sommes au regret de t’annoncer que le service de {{university.name}} va fermer le {{university.closeDate}} terminant les sessions entre les tandems."
