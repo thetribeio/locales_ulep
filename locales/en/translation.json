@@ -16,7 +16,7 @@
         "userDoesntExist": "This username does not exist",
         "userWrongCredentials": "Authentication error: Bad email or bad password.",
         "connecteur": "",
-        "fileSizeExceed": "The file is too big, it must be less than {{maxSize}}M"
+        "fileSizeExceed": "The file is too big, it must be less than {{maxSize}}Mo"
     },
     "error_page": {
         "title": "An error has occurred",
@@ -38,6 +38,16 @@
         "error": {
             "permission": "Permission denied",
             "unexpected": "Unexpected error"
+        }
+    },
+    "navigation": {
+        "bottom_bar": {
+            "home": "Home",
+            "conversations": "Conversations"
+        },
+        "sidebar": {
+            "home": "Home",
+            "conversations": "Conversations"
         }
     },
     "maintenance_page": {
@@ -78,18 +88,51 @@
         "tandem": "Tandem",
         "tandem_etandem": "Tandem / Etandem",
         "woman": "female",
-        "yes": "Yes"
+        "yes": "Yes",
+        "go_back": "Go back",
+        "change_avatar": "Update your avatar",
+        "welcome": "Bienvenue sur ULEP,",
+        "welcome_subtext": "le meilleur moyen de pratiquer une langue",
+        "welcome_btn": "Apprends une nouvelle langue en tandem",
+        "close": "Close",
+        "download": "Download"
     },
     "chat": {
+        "ariaLabelFileDownloaded": "Downloading file : {{filename}}",
         "fileDownloaded": "File downloaded",
         "me": "Me",
+        "messageReport": "Message sent by {{firstname}} {{lastname}} on {{date}} --- {{message}}",
+        "messageReported": "Message reported",
+        "noMessages": "There is no message",
+        "send_button": {
+            "aria_label": "Stay pressed to record an audio or write your message to switch to send mode"
+        },
+        "search": {
+            "placeholder": "Search in conversation"
+        },
         "title": "Messages with {{name}}",
         "input": {
-            "placeholder": "Write your message..."
-        }
-    },
-    "conversations": {
-        "title": "My messaging"
+            "placeholder": {
+                "blocked": "The tandem is on pause, you cannot send messages",
+                "unblocked": "Write your message..."
+            }
+        },
+        "conversation_menu": {
+            "aria_label": "Conversation menu",
+            "search": "Search in conversation",
+            "medias": "Show media"
+        },
+        "medias": {
+            "title": "Shared media",
+            "files": "Files",
+            "images": "Images",
+            "images-alt": "Shared image",
+            "audios": "Audios",
+            "links": "Links"
+        },
+        "reportMessageButton": "Report message",
+        "no_messages": "No messages",
+        "no_conversations": "No conversations"
     },
     "connection_page": {
         "connect_title": "Already have an account ?",
@@ -101,6 +144,9 @@
         "cancel": "Cancel",
         "title": "Are you sure you want to delete your account?",
         "validate": "Confirm"
+    },
+    "conversations": {
+        "title": "My messaging"
     },
     "home_page": {
         "profile": {
@@ -115,7 +161,8 @@
             "report_button": "Report a problem",
             "report_sent": "",
             "send_button": "Send",
-            "title": "Report"
+            "title": "Report",
+            "note_required": "The note is required"
         },
         "settings": {
             "account": "My account",
@@ -413,7 +460,8 @@
         "confirm_password": "Confirm your password",
         "password_infos": {
             "title": "The password must contain at least :",
-            "rules": ["8 characters", "1 uppercase character", "1 lowercase character", "1 digit"]
+            "rules": ["8 characters", "1 uppercase character", "1 lowercase character", "1 digit"],
+            "close": "Close password information"
         },
         "cgu": {
             "confidentiality": "privacy policy",
@@ -431,7 +479,6 @@
         "error_firstname": "Please enter a valid first name",
         "error_gender": "Please select a gender",
         "error_lastname": "Please enter a valid last name",
-        "error_password": "Please enter a valid password",
         "error_picture_format": "The selected image does not have a valid format (JPG, PNG or JPEG)",
         "error_picture_weight": "The selected image is too heavy",
         "photo": "Add a photo",

@@ -16,7 +16,7 @@
         "userDoesntExist": "L'utilisateur n'existe pas",
         "userWrongCredentials": "Authentification en erreur : mauvais email ou mauvais mot de passe.",
         "connecteur": "Erreur lors de la récupération des informations utilisateur",
-        "fileSizeExceed": "Le fichier est trop volumineux, il doit être inférieur à {{maxSize}}M"
+        "fileSizeExceed": "Le fichier est trop volumineux, il doit être inférieur à {{maxSize}}Mo"
     },
     "error_page": {
         "title": "Une erreur est survenue",
@@ -40,8 +40,18 @@
             "unexpected": "Erreur inconnue"
         }
     },
+    "navigation": {
+        "bottom_bar": {
+            "home": "Accueil",
+            "conversations": "Conversations"
+        },
+        "sidebar": {
+            "home": "Accueil",
+            "conversations": "Conversations"
+        }
+    },
     "maintenance_page": {
-        "title": "Maintenance en cours.",
+        "title": "Maitenance en cours",
         "subtitle": "Veuillez nous excusez mais une maintenance est en cours"
     },
     "forgot_password_page": {
@@ -62,7 +72,9 @@
         "age": "Âge",
         "binary": "Non binaire",
         "country": "Pays",
+        "cefr_quizz_title": "Test de niveau",
         "create_account_title": "Création de compte",
+        "edit_account_title": "Modification de compte",
         "email": "Email",
         "etandem": "Etandem",
         "error": "Erreur",
@@ -78,18 +90,55 @@
         "tandem": "Tandem",
         "tandem_etandem": "Tandem / Etandem",
         "woman": "Féminin",
-        "yes": "Oui"
+        "yes": "Oui",
+        "go_back": "Retour",
+        "change_avatar": "Modifier mon avatar",
+        "welcome": "Bienvenue sur ULEP,",
+        "welcome_subtext": "le meilleur moyen de pratiquer une langue",
+        "welcome_btn": "Apprends une nouvelle langue en tandem",
+        "close": "Fermer",
+        "signup-progress-bar-label": "Progression de l'inscription",
+        "required_fields_mention_part1": "Les champs suivis d'un",
+        "required_fields_mention_part2": "sont obligatoires",
+        "close_profile": "Fermer le profil",
+        "download": "Télécharger"
     },
     "chat": {
+        "ariaLabelFileDownloaded": "Téléchargement du fichier : {{filename}}",
         "fileDownloaded": "Fichier téléchargé",
+        "messageReport": "Message envoyé par : {{firstname}} {{lastname}} le {{date}} ---- {{message}}",
         "me": "Moi",
+        "messageReported": "Message signalé",
+        "noMessages": "Il n'y a aucun message",
         "title": "Messages avec {{name}}",
+        "send_button": {
+            "aria_label": "Restez appuyé pour enregister un audio ou écrivez votre message pour passer en mode envoie"
+        },
         "input": {
-            "placeholder": "Écris ton message..."
-        }
-    },
-    "conversations": {
-        "title": "Ma messagerie"
+            "placeholder": {
+                "blocked": "Le tandem est en pause, tu ne peux pas envoyer de messages",
+                "unblocked": "Écris ton message..."
+            }
+        },
+        "search": {
+            "placeholder": "Rechercher dans la conversation"
+        },
+        "conversation_menu": {
+            "aria_label": "Menu de la conversation",
+            "search": "Rechercher dans la conversation",
+            "medias": "Afficher les médias"
+        },
+        "medias": {
+            "title": "Médias partagés",
+            "files": "Fichiers",
+            "images": "Images",
+            "images-alt": "Image partagée",
+            "audios": "Audios",
+            "links": "Liens"
+        },
+        "reportMessageButton": "Signaler le message",
+        "no_messages": "Aucun message",
+        "no_conversations": "Aucune conversation"
     },
     "connection_page": {
         "connect_title": "As-tu déjà un compte ?",
@@ -102,10 +151,25 @@
         "title": "Voulez-vous vraiment supprimer votre compte ?",
         "validate": "Confirmer"
     },
+    "conversations": {
+        "title": "Ma messagerie"
+    },
     "home_page": {
+        "my_university": {
+            "period": "Période d'ouverture",
+            "title": "Mon université"
+        },
+        "partner_universities": {
+            "title": "Universités partenaires"
+        },
+        "proficiency_test": {
+            "button": "Faire le test",
+            "subtitle": "Mes langues",
+            "title": "Mon niveau"
+        },
         "profile": {
             "disconnect": "Se déconnecter",
-            "edit": "Editer mon profil",
+            "edit": "Modifier mon avatar",
             "parameters": "Paramètres",
             "title": "Profile"
         },
@@ -115,13 +179,15 @@
             "report_button": "Signaler un problème",
             "report_sent": "Le signalement a été envoyé",
             "send_button": "Envoyer",
-            "title": "Signaler"
+            "title": "Signaler",
+            "note_required": "La note est obligatoire"
         },
         "settings": {
             "account": "Mon compte",
             "CGU": "Condition d'utilisation",
             "confidentiality": "Politique de confidentalité",
             "deletion": "Demande de suppression envoyée",
+            "edit_account": "Modifier mon inscription",
             "language": "Langue de l'application",
             "logout": "Se déconnecter",
             "notifications": "Notifications",
@@ -276,7 +342,8 @@
         "subtitle": "Quelle langue veux-tu travailler avec ton tandem ?",
         "no_languages": "Aucune langue disponible",
         "title": "Choix de la langue",
-        "validate_button": "Valider et continuer"
+        "validate_button": "Valider et continuer",
+        "required_mention": "Vous devez choisir votre langue d'apprentissage"
     },
     "pairing_level_page": {
         "know_button": "Go",
@@ -302,7 +369,8 @@
         },
         "subtitle": "Choisis tes préférences",
         "title": "Choix de la langue",
-        "validate_button": "Valider et continuer"
+        "validate_button": "Valider et continuer",
+        "choosing_another_language": "Choix d'une autre langue"
     },
     "pairing_pedagogy_page": {
         "both_button": "TANDEM OU E-TANDEM",
@@ -395,7 +463,8 @@
         "title": "Tes disponibilités",
         "TWICE_A_MONTH": "2 fois / mois",
         "TWICE_A_WEEK": "2 fois / semaine",
-        "validate_button": "Valider et continuer"
+        "validate_button": "Valider et continuer",
+        "required_mention": "Vous devez choisir votre fréquence de rencontre"
     },
     "signup_goals_page": {
         "pass_button": "Passer",
@@ -411,26 +480,25 @@
         "placeholder_first_optional_language": "Vous pouvez selectionner une première langue maîtrisée",
         "placeholder_second_optional_language": "Vous pouvez selectionner une seconde langue maîtrisée",
         "title": "Langues parlées",
-        "validate_button": "Valider et continuer"
+        "validate_button": "Valider et continuer",
+        "aria_label": "Sélectionner votre langue natale, votre langue parlée et vos langues maîtrisées",
+        "mastered_aria_label": "Sélectionner vos langues maîtrisées"
     },
     "signup_informations_page": {
         "code": "Code",
         "confirm_password": "Confirme ton mot de passe",
         "password_infos": {
             "title": "Le mot de passe doit contenir au moins :",
-            "rules": [
-                "8 caractères",
-                "1 caractère MAJUSCULE",
-                "1 caractère minuscule",
-                "1 chiffre"
-            ]
+            "rules": ["8 caractères", "1 caractère MAJUSCULE", "1 caractère minuscule", "1 chiffre"],
+            "close": "Fermer les informations de mot de passe"
         },
         "cgu": {
             "confidentiality": "politique de confidentialité",
             "cgu": "conditions d'utilisation",
             "prefix": "Accepter les",
             "separator": "et la",
-            "suffix": " pour utiliser l'application."
+            "suffix": " pour utiliser l'application.",
+            "aria_label": "Accepter les conditions d'utilisation et la politique de confidentialité pour utiliser l'application"
         },
         "error_age": "Veuillez saisir un âge valide",
         "error_code": "Veuillez saisir un code valide",
@@ -441,8 +509,6 @@
         "error_firstname": "Veuillez saisir un prénom valide",
         "error_gender": "Veuillez choisir un genre",
         "error_lastname": "Veuillez saisir un nom valide",
-        "error_password": "Veuillez saisir un mot de passe valide",
-        "error_unauthorized": "Vous n'êtes pas autorisé à vous inscrire",
         "error_picture_format": "L'image séléctionnée n'a pas un format valide ( JPG, PNG ou JPEG )",
         "error_picture_weight": "L'image séléctionnée est trop lourde",
         "photo": "Ajouter une photo",
@@ -460,10 +526,12 @@
     "signup_interests_page": {
         "subtitle": "Tes centres d’intérêts nous servent à trouver un tandem qui te correspond.",
         "title": "Choisis au moins 5 centres d’intérêts",
-        "validate_button": "Valider et continuer"
+        "validate_button": "Valider et continuer",
+        "required_mention": "Vous devez choisir entre 5 et 10 centres d'intérêts"
     },
     "signup_page": {
         "country_placeholder": "Sélectionne un pays dans la liste",
+        "country_aria_label": "Sélectionner le pays de votre université, afin de choisir votre université",
         "department_title": "Département",
         "diplome_title": "Diplôme",
         "error": "Vous ne pourrez pas aller plus loin dans le processus d’inscription",
@@ -477,7 +545,9 @@
         "student_role": "Étudiant·e",
         "title": "Mon profil",
         "university_title": "Établissement",
-        "validate_button": "Valider et continuer"
+        "validate_button": "Valider et continuer",
+        "university_aria_label": "Sélectionner votre université",
+        "role_aria_label": "Sélectionner votre rôle dans l'université"
     },
     "suspended_page": {
         "contact_us": "Contacte-nous pour plus d'informations.",
