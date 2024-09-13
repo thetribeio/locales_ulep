@@ -67,7 +67,7 @@
     "title": "Un utilisateur a effectué un signalement",
     "bodyHtml": "<p>Bonjour,</p><p>{{user.firstname}} {{user.lastname}} a fait un signalement dans l’application ULEP de la catégorie {{reportType}}.</p><p>Vous pourrez retrouver les détails du signalement dans le back-office.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
   },
-  "messageReported": {
+  "reportMessage": {
     "title": "Un message a été signalé",
     "bodyHtml": "<p>Bonjour,</p><p>{{user.firstname}} {{user.lastname}} a signalé un message de {{reportedUser.firstname}} {{reportedUser.lastname}} dans l’application ULEP. </p><p>Vous pourrez retrouver les détails du signalement dans le back-office.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
   }
