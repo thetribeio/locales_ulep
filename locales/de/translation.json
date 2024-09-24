@@ -12,12 +12,11 @@
         "global": "Es ist ein Fehler aufgetreten",
         "userDoesntExist": "Der Benutzer existiert nicht",
         "userWrongCredentials": "Das Passwort oder die E-Mail-Adresse ist falsch",
-        "connecteur": "",
-        "fileSizeExceed": ""
-    },
-    "error_page": {
-        "title": "",
-        "subtitle": ""
+        "ask_language": {
+            "conflit": "Sie haben diese Sprache bereits angefordert"
+        },
+        "connecteur": "Fehler bei der Wiederherstellung der Nutzerinformationen",
+        "gateway": "Ein Fehler ist bei der Wiederherstellung Ihrer Nutzerdaten aufgetreten"
     },
     "forgot_password_page": {
         "button": "Senden",
@@ -72,9 +71,9 @@
             "category_title": "Erzähl uns, was passiert ist.",
             "note": "Kommentar",
             "report_button": "Ein Problem melden",
-            "report_sent": "",
             "send_button": "Senden",
-            "title": "Melden"
+            "title": "Melden",
+            "report_sent": "Die Meldung wurde gesendet"
         },
         "settings": {
             "account": "Mein Konto",
@@ -112,7 +111,12 @@
             "place": "🏖️ Ihr/Sein Lieblingsort",
             "power": "⚡️ Ihre/Seine magische Fähigkeit",
             "title": "Wir haben deine/n Tandempartner/in gefunden 🎉",
-            "travel": "✈ Ihre/Seine Reisen"
+            "travel": "✈ Ihre/Seine Reisen",
+            "type": {
+                "BOTH": "Etandem / Tandem",
+                "ETANDEM": "Etandem",
+                "TANDEM": "Tandem"
+            }
         },
         "waiting_tandem": {
             "button": "Eine neue Anfrage stellen",
@@ -122,26 +126,15 @@
             "title": "Meine ausstehenden Anfragen"
         }
     },
-    "instance": {
-        "button": "",
-        "error": "",
-        "subtitle": "",
-        "title": ""
-    },
-    "languages": {
-        "french": "",
-        "english": "",
-        "deutsche": "",
-        "spanish": "",
-        "chinese": ""
-    },
     "login_page": {
         "button": "Anmelden",
         "forgot": "Passwort vergessen?",
         "invalid_email": "Ungültige E-Mail-Adresse",
         "invalid_password": "Ungültiges Passwort",
-        "subtitle": "Melde dich mit deinen Universitätszugangsdaten an, um die App weiterhin benutzen zu können.",
-        "title": "Anmelden"
+        "subtitle": "Melde dich mit deinen Universitätszugangsdaten an, um die App weiterhin benutzen zu können",
+        "title": "Anmelden",
+        "sso_button": "Mich einloggen",
+        "sso_title": "Student der {{name}}, logg dich mit den Zugangsdaten der Universität ein"
     },
     "pairing_confirm_language_page": {
         "language_title": "Gewünschte Sprache",
@@ -149,9 +142,9 @@
         "not_alone": {
             "description": "Lass uns gemeinsam dein Niveau überprüfen!",
             "description_title": "Jetzt",
-            "subtitle": "",
             "title": "Du hast es fast geschafft!",
-            "validate_button": "Bestätigen"
+            "validate_button": "Bestätigen",
+            "subtitle": ""
         },
         "subtitle": "Bestätige deine Optionen",
         "title": "Sprache auswählen",
@@ -170,10 +163,10 @@
         "certificat": "Zertifikat",
         "none": "Weiter",
         "program": "Spezifisches Programm",
-        "program_subtitle": "",
         "same_tandem": "Ich habe bereits am Programm teilgenommen und möchte mit derselben Person weitermachen",
         "title": "Meine Optionen",
-        "validate_button": "Bestätigen und weiter"
+        "validate_button": "Bestätigen und weiter",
+        "program_subtitle": ""
     },
     "pairing_preference_page": {
         "none": "Keine Präferenzen",
@@ -193,11 +186,11 @@
         "validate_button": "Bestätigen und weiter"
     },
     "pairing_quizz_introduction_page": {
-        "description": "",
         "subtitle": "Finde dein Niveau heraus, indem du einige Fragen beantwortest",
         "time": "Dazu brauchst du max. 10 Minuten",
         "title": "Dein Niveau",
-        "validate_button": "Anfangen"
+        "validate_button": "Anfangen",
+        "description": ""
     },
     "pairing_quizz_page": {
         "subtitle": "Beantworte die folgenden Fragen",
@@ -205,25 +198,27 @@
     },
     "pairing_quizz_validation": {
         "description": "Weiter so",
-        "description_next_step": {
-            "A0": "",
-            "A1": "",
-            "A2": "",
-            "B1": "",
-            "B2": "",
-            "C1": "",
-            "C2": ""
-        },
         "next_button": "Das wird cool",
         "next_step_button": "Alles klar!",
         "subtitle": "Super, kommen wir zu deinen Präferenzen!",
         "title": "Dein Niveau",
-        "validated": "Bestätigt"
+        "validated": "Bestätigt",
+        "description_next_step": {
+            "A0": "Toptandem! Zahlreiche potenzielle Profile",
+            "A1": "Toptandem! Zahlreiche potenzielle Profile",
+            "A2": "Toptandem! Zahlreiche potenzielle Profile",
+            "B1": "Toptandem! Zahlreiche potenzielle Profile",
+            "B2": "Toptandem! Zahlreiche potenzielle Profile",
+            "C1": "Toptandem! Zahlreiche potenzielle Profile",
+            "C2": "Toptandem! Zahlreiche potenzielle Profile"
+        }
     },
     "pairing_languages_page": {
         "subtitle": "Welche Sprache möchtest du mit deinem/r Tandempartner/in üben?",
         "title": "Sprache auswählen",
-        "validate_button": "Bestätigen und weiter"
+        "validate_button": "Bestätigen und weiter",
+        "home_button": "Zurück zur Hauptseite",
+        "no_languages": "Keine Sprache verfügbar"
     },
     "pairing_level_page": {
         "know_button": "Los geht's",
@@ -280,10 +275,10 @@
         },
         "ressource_button": "DIE VERFÜGBAREN RESSOURCEN ANSEHEN",
         "ressource_title": "Ressourcen, die mir helfen können",
-        "pedagogy_button": "",
-        "pedagogy_title": "",
         "subtitle": "Finde Online-Ressourcen und -Diskussionsgruppen, um die Sprache selbstständig zu lernen.",
-        "title": "Sprache nicht als Tandem verfügbar"
+        "title": "Sprache nicht als Tandem verfügbar",
+        "pedagogy_button": "Ein anderes Mittel für ein Treffen auswählen",
+        "pedagogy_title": "Ich möchte gerne ein anderes Mittel für ein Treffen auswählen"
     },
     "reset_password_page": {
         "button": "Bestätigen",
@@ -312,17 +307,17 @@
     },
     "signup_biography_page": {
         "error_message": "Mindestens 10 Zeichen",
-        "incredible_placeholder": "",
         "incredible_title": "😲 Etwas Unglaubliches, das dir passiert ist",
-        "place_placeholder": "",
         "place_title": "🏖️ Dein Lieblingsort ist ...",
-        "power_placeholder": "",
         "power_title": "⚡ Deine magische Fähigkeit ist ...",
         "subtitle": "Sei kreativ, deine Antworten können von deinem/r Tandempartner/in gelesen werden und euer erstes Gespräch erleichtern",
         "title": "Damit dein/e Tandempartner/in dich ein bisschen besser kennenlernt...",
-        "travel_placeholder": "",
         "travel_title": "🌎️ Deine beste Reiseanekdote",
-        "validate_button": "Weiter"
+        "validate_button": "Weiter",
+        "incredible_placeholder": "",
+        "place_placeholder": "",
+        "power_placeholder": "",
+        "travel_placeholder": ""
     },
     "signup_end_page": {
         "account": "Dein Konto ist bereit 🎉",
@@ -348,41 +343,47 @@
     },
     "signup_languages_page": {
         "language": "Meine Sprache",
-        "none": "",
         "other_languages": "Andere beherrschte Sprachen - mind. C1/zweisprachig (optional)",
         "placeholder_primary_language": "Bitte wähle deine Muttersprache aus",
         "placeholder_first_optional_language": "Du kannst eine erste Sprache auswählen, die du beherrschst",
         "placeholder_second_optional_language": "Du kannst eine zweite Sprache auswählen, die du beherrschst",
         "title": "Sprachen, die du sprichst",
-        "validate_button": "Bestätigen und weiter"
+        "validate_button": "Bestätigen und weiter",
+        "none": "Kein"
     },
     "signup_informations_page": {
-        "code": "",
         "confirm_password": "Passwort bestätigen",
-        "cgu": "Die Nutzungsbedingungen und Datenschutzrichtlinien akzeptieren, um die App zu nutzen.",
+        "cgu": {
+            "confidentiality": "Datenschutzerklärung",
+            "cgu": "Nutzungsbedingungen",
+            "prefix": "",
+            "separator": "und die",
+            "suffix": " , um die App zu nutzen."
+        },
         "error_age": "Bitte gib ein gültiges Alter ein",
-        "error_code": "",
         "error_confirm_password": "Die Passwörter sind nicht identisch",
-        "error_domain": "",
         "error_email": "Bitte gib eine gültige E-Mail-Adresse ein",
-        "error_email_already_exist": "",
         "error_firstname": "Bitte gib einen gültigen Vornamen ein",
         "error_gender": "Bitte wähle ein Geschlecht",
         "error_lastname": "Bitte gib einen gültigen Namen ein",
         "error_password": "Bitte gib ein gültiges Passwort ein",
-        "error_picture_format": "",
-        "error_picture_weight": "",
         "photo": "ein Foto hinzufügen",
         "photo_selected": "Bearbeiten",
         "placeholder_age": "Gib dein Alter ein",
-        "placeholder_code": "",
         "placeholder_confirm_password": "Passwort bestätigen",
         "placeholder_email": "Füge deine E-Mail-Adresse hinzu",
         "placeholder_firstname": "Gib deinen Vornamen hier ein",
         "placeholder_name": "Gib deinen Nachnamen hier ein",
         "placeholder_password": "Gib dein Passwort hier ein",
         "title": "Mein Profil erstellen",
-        "validate_button": "Bestätigen und weiter"
+        "validate_button": "Bestätigen und weiter",
+        "code": "Code",
+        "error_code": "Bitte geben Sie einen gültigen Code ein",
+        "error_domain": "Bitte geben Sie eine gültige E-Mail-Adresse ein (überprüfen Sie das E-Mail-Format und nicht den Domainenamen)",
+        "error_email_already_exist": "Die E-Mail-Adresse wurde bereits verwendet",
+        "error_picture_format": "Das ausgewählte Bild hat nicht das unterstützte Format (JPG, PNG oder JPEG)",
+        "error_picture_weight": "Das ausgewählte Bild ist zu groß",
+        "placeholder_code": "Den Anmeldungscode eingeben"
     },
     "signup_interests_page": {
         "subtitle": "Deine Interessen helfen uns, eine/n passende/n Tandempartner/in zu finden.",
@@ -397,20 +398,22 @@
         "function_title": "Funktion",
         "footer_email": "Kontaktiere uns unter",
         "footer_university": "Deine Universität ist noch kein Partner der",
-        "missing_field": "",
         "profile_title": "Mein Profil",
         "sso_button": "Mich authentifizieren",
         "staff_role": "Mitarbeiter/in der Universität",
         "student_role": "Studierende/r",
         "title": "Mein Profil",
         "university_title": "Einrichtung",
-        "validate_button": "Bestätigen und weiter"
+        "validate_button": "Bestätigen und weiter",
+        "missing_field": "Bitte füllen Sie alle Felder aus"
     },
     "suspended_page": {
         "contact_us": "Kontaktiere uns für weitere Informationen.",
         "subtitle": "Es tut uns leid, aber dein Konto wurde gesperrt, weil du gegen unsere Regeln und Nutzungsbedingungen verstoßen hast.",
         "title": "Konto gesperrt",
-        "validate_button": "Uns kontaktieren"
+        "validate_button": "Uns kontaktieren",
+        "subtitle_canceled": "Es tut uns leid, aber dein Konto wurde gelöscht",
+        "title_canceled": "Konto gelöscht"
     },
     "languages_code": {
         "aa": "Afar",
@@ -426,7 +429,6 @@
         "ay": "Aymara",
         "az": "Aserbaidschanisch",
         "ba": "Baschkirisch",
-        "bb": "Batak",
         "be": "Belarussisch",
         "bg": "Bulgarisch",
         "bh": "Bihari",
@@ -520,7 +522,6 @@
         "mk": "Mazedonisch",
         "ml": "Malayalam",
         "mn": "Mongolisch",
-        "mo": "",
         "mr": "Marathi",
         "ms": "Malaiisch",
         "mt": "Maltesisch",
@@ -600,6 +601,38 @@
         "za": "Zhuang",
         "zh": "Chinesisch",
         "zu": "isiZulu",
-        "*": "Joker"
+        "*": "Joker",
+        "bb": "Batak",
+        "mo": "Moldawisch"
+    },
+    "error_page": {
+        "title": "Ein Fehler ist aufgetreten",
+        "subtitle": "Entschuldigen Sie bitte, aber es ist ein Fehler aufgetreten, laden Sie die Seite bitte erneut oder kehren Sie zur vorigen Seite zurück"
+    },
+    "maintenance_page": {
+        "title": "Wartungsarbeiten",
+        "subtitle": "Entschuldigen Sie bitte, es werden gerade Wartungsarbeiten durchgeführt"
+    },
+    "confirm_modal": {
+        "cancel": "Abbrechen",
+        "title": "Möchtest du wirklich dein Konto löschen?",
+        "validate": "Bestätigen"
+    },
+    "instance": {
+        "button": "Bestätigen und fortfahren",
+        "error": "Fehler beim Laden",
+        "subtitle": "",
+        "title": "Dein Programm"
+    },
+    "languages": {
+        "french": "Französisch",
+        "english": "Englisch",
+        "deutsche": "Deutsch",
+        "spanish": "Spanisch",
+        "chinese": "Chinesisch"
+    },
+    "service_close": {
+        "subtitle": "Der Dienst ist momentan geschlossen, die Öffnungszeiten des Dienstes sind von {{start}} bis {{end}}",
+        "title": "Dienst nicht verfügbar"
     }
 }
