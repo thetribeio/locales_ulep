@@ -9,40 +9,14 @@
         "sunday": "Sunday"
     },
     "errors": {
-        "ask_language": {
-            "conflit": "You have already requested this language"
-        },
         "global": "An error has occurred",
         "userDoesntExist": "This username does not exist",
-        "userWrongCredentials": "Authentication error: Bad email or bad password.",
-        "connecteur": "",
-        "fileSizeExceed": "The file is too big, it must be less than {{maxSize}}Mo"
-    },
-    "error_page": {
-        "title": "An error has occurred",
-        "subtitle": "We apologize but an error has occurred, please refresh the page or go back"
-    },
-    "message": {
-        "type": {
-            "noMessage": "No message",
-            "image": "Image",
-            "audio": "Audio",
-            "file": "File"
-        }
-    },
-    "date": {
-        "today": "Today",
-        "yesterday": "Yesterday"
-    },
-    "record": {
-        "error": {
-            "permission": "Permission denied",
-            "unexpected": "Unexpected error"
-        }
-    },
-    "maintenance_page": {
-        "title": "Maintenance is in progress",
-        "subtitle": "We apologize, but maintenance is in progress."
+        "userWrongCredentials": "The password or email is incorrect",
+        "ask_language": {
+            "conflit": "sss"
+        },
+        "connecteur": "Data submission error",
+        "gateway": "An error occurred with your personal details"
     },
     "forgot_password_page": {
         "button": "Send",
@@ -78,29 +52,21 @@
         "tandem": "Tandem",
         "tandem_etandem": "Tandem / Etandem",
         "woman": "female",
-        "yes": "Yes"
-    },
-    "chat": {
-        "fileDownloaded": "File downloaded",
-        "me": "Me",
-        "title": "Messages with {{name}}",
-        "input": {
-            "placeholder": "Write your message..."
-        }
-    },
-    "conversations": {
-        "title": "My messaging"
+        "yes": "Yes",
+        "edit_account_title": "Account modify",
+        "cefr_quizz_title": "Level test",
+        "go_back": "Back",
+        "change_avatar": "Modify my avatar",
+        "welcome": "Welcome in ULEP,",
+        "welcome_subtext": "the best way to practice languages",
+        "welcome_btn": "Learn a new language in tandem",
+        "close": "Close"
     },
     "connection_page": {
         "connect_title": "Already have an account ?",
         "connect_button": "Sign in",
         "signup_title": "First time on the application?",
         "signup_button": "Create an account"
-    },
-    "confirm_modal": {
-        "cancel": "Cancel",
-        "title": "Are you sure you want to delete your account?",
-        "validate": "Confirm"
     },
     "home_page": {
         "profile": {
@@ -113,9 +79,9 @@
             "category_title": "Tell us what happened?",
             "note": "Note",
             "report_button": "Report a problem",
-            "report_sent": "",
             "send_button": "Send",
-            "title": "Report"
+            "title": "Report",
+            "report_sent": "Your form has been submitted"
         },
         "settings": {
             "account": "My account",
@@ -127,7 +93,8 @@
             "notifications": "Notifications",
             "other": "Other settings",
             "title": "Settings",
-            "unsubscribe": "Unsubscribe"
+            "unsubscribe": "Unsubscribe",
+            "edit_account": "Modify my account"
         },
         "tandem": {
             "title": "My tandems"
@@ -155,8 +122,8 @@
             "title": "Tandem found 🎉",
             "travel": "✈ Their travels",
             "type": {
-                "BOTH": "Etandem / Tandem",
-                "ETANDEM": "Etandem",
+                "BOTH": "E-tandem / Tandem",
+                "ETANDEM": "E-tandem",
                 "TANDEM": "Tandem"
             }
         },
@@ -166,13 +133,19 @@
             "tandem_not_found": "Tandem not found",
             "tandem_unavailable": "Tandem unavailable",
             "title": "My pending requests"
+        },
+        "proficiency_test": {
+            "button": "Launch the test",
+            "subtitle": "My langagues",
+            "title": "My level"
+        },
+        "my_university": {
+            "period": "Opening period",
+            "title": "My university"
+        },
+        "partner_universities": {
+            "title": "Partners universities"
         }
-    },
-    "instance": {
-        "button": "Validate and continue",
-        "error": "Error loading instance",
-        "subtitle": "Choose your instance from the list below",
-        "title": "Your program"
     },
     "languages": {
         "french": "French",
@@ -186,11 +159,10 @@
         "forgot": "Forgotten password?",
         "invalid_email": "Invalid email",
         "invalid_password": "Invalid password",
-        "sso_button": "Authenticate myself",
-        "sso_title": "Student of {{name}}, log in with university credentials",
-        "subtitle": "Sign in with your university credentials to continue using the application",
+        "subtitle": "Sign in with your University log-in details to continue using the application",
         "title": "Sign in",
-        "update_instance": "Change instance"
+        "sso_button": "Sign in",
+        "sso_title": "Student of (Name of University), log in with your University log-in details"
     },
     "pairing_confirm_language_page": {
         "language_title": "Preferred language",
@@ -198,9 +170,9 @@
         "not_alone": {
             "description": "Let's test your level together!",
             "description_title": "Now",
-            "subtitle": "",
             "title": "You're almost there!",
-            "validate_button": "Confirm"
+            "validate_button": "Confirm",
+            "subtitle": "Last step"
         },
         "subtitle": "Confirm your options",
         "title": "Choose your language",
@@ -219,10 +191,10 @@
         "certificat": "Certificate",
         "none": "Pass",
         "program": "Specific programme",
-        "program_subtitle": "",
         "same_tandem": "I have already participated in this programme and would like to continue with the same person",
         "title": "My options",
-        "validate_button": "Confirm and continue"
+        "validate_button": "Confirm and continue",
+        "program_subtitle": "Planified in my cursus"
     },
     "pairing_preference_page": {
         "none": "No preference",
@@ -242,11 +214,11 @@
         "validate_button": "Confirm and continue"
     },
     "pairing_quizz_introduction_page": {
-        "description": "",
         "subtitle": "Discover your level by answering a few questions",
         "time": "it will take a maximum of 10 minutes",
         "title": "Your level",
-        "validate_button": "Start"
+        "validate_button": "Start",
+        "description": "Yes or no ?"
     },
     "pairing_quizz_page": {
         "subtitle": "Answer the following questions",
@@ -254,27 +226,27 @@
     },
     "pairing_quizz_validation": {
         "description": "Continue on your journey",
-        "description_next_step": {
-            "A0": "Shock tandem! Many potential profiles",
-            "A1": "Shock tandem! Many potential profiles",
-            "A2": "Shock tandem! Many potential profiles",
-            "B1": "Shock tandem! Many potential profiles",
-            "B2": "Shock tandem! Many potential profiles",
-            "C1": "Shock tandem! Many potential profiles",
-            "C2": "Shock tandem! Many potential profiles"
-        },
         "next_button": "Cool, next",
         "next_step_button": "Understood!",
         "subtitle": "Great, let's move on to your preferences!",
         "title": "Your level",
-        "validated": "Confirmed"
+        "validated": "Confirmed",
+        "description_next_step": {
+            "A0": "Top Tandem! Several potential profiles",
+            "A1": "Top Tandem! Several potential profiles",
+            "A2": "Top Tandem! Several potential profiles",
+            "B1": "Top Tandem! Several potential profiles",
+            "B2": "Top Tandem! Several potential profiles",
+            "C1": "Top Tandem! Several potential profiles",
+            "C2": "Top Tandem! Several potential profiles"
+        }
     },
     "pairing_languages_page": {
-        "home_button": "Return to main page",
         "subtitle": "Which language do you want to practice with your tandem?",
-        "no_languages": "No language available",
         "title": "Chosen language",
-        "validate_button": "Confirm and continue"
+        "validate_button": "Confirm and continue",
+        "home_button": "Return to main page",
+        "no_languages": "No languages available"
     },
     "pairing_level_page": {
         "know_button": "Go",
@@ -286,7 +258,6 @@
         "validate_button": "Confirm and continue"
     },
     "pairing_other_languages_page": {
-        "joker_checkbox": "Joker language",
         "joker_description": "You want to help someone with their French while discovering a foreign language",
         "selected_language": {
             "explain_first_start": "We are sorry, this language",
@@ -300,7 +271,8 @@
         },
         "subtitle": "Choose your preferences",
         "title": "Chosen language",
-        "validate_button": "Confirm and continue"
+        "validate_button": "Confirm and continue",
+        "joker_checkbox": "Joker language"
     },
     "pairing_pedagogy_page": {
         "both_button": "TANDEM OR E-TANDEM",
@@ -331,10 +303,10 @@
         },
         "ressource_button": "SEE THE AVAILABLE RESOURCES",
         "ressource_title": "Resources to help me",
-        "pedagogy_button": "Choose another way to meet",
-        "pedagogy_title": "I would like to choose another method of meeting",
         "subtitle": "Find resources and group discussions online to practise the language.",
-        "title": "This language is not available in tandem"
+        "title": "This language is not available in e-tandem",
+        "pedagogy_button": "Select another way to meet up",
+        "pedagogy_title": "I wish to choose another way of meeting up"
     },
     "reset_password_page": {
         "button": "Confirm",
@@ -363,17 +335,17 @@
     },
     "signup_biography_page": {
         "error_message": "Minimum 10 characters",
-        "incredible_placeholder": "",
         "incredible_title": "😲 Something incredible which has happened to you",
-        "place_placeholder": "",
         "place_title": "🏖️ Your favourite place is…",
-        "power_placeholder": "",
         "power_title": "⚡ Your superpower is…",
         "subtitle": "Be creative, your tandem could read your answers to facilitate your first discussion",
         "title": "For your tandem to get to know you better…",
-        "travel_placeholder": "",
         "travel_title": "🌎️ Your favourite travel anecdote",
-        "validate_button": "Next"
+        "validate_button": "Next",
+        "incredible_placeholder": "",
+        "place_placeholder": "",
+        "power_placeholder": "",
+        "travel_placeholder": ""
     },
     "signup_end_page": {
         "account": "your account is ready 🎉",
@@ -399,56 +371,48 @@
     },
     "signup_languages_page": {
         "language": "My language",
-        "none": "",
         "other_languages": "Other mastered languages - C1 min/Bilingual (optional)",
         "placeholder_primary_language": "Please select your native language",
         "placeholder_first_optional_language": "You may select a first language that your are fluent with",
         "placeholder_second_optional_language": "You may select a second language that your are fluent with",
         "title": "Spoken languages",
-        "validate_button": "Confirm and continue"
+        "validate_button": "Confirm and continue",
+        "none": "None"
     },
     "signup_informations_page": {
-        "code": "Code",
         "confirm_password": "Confirm your password",
-        "password_infos": {
-            "title": "The password must contain at least :",
-            "rules": [
-                "8 characters",
-                "1 uppercase character",
-                "1 lowercase character",
-                "1 digit"
-            ]
-        },
         "cgu": {
             "confidentiality": "privacy policy",
-            "cgu": "terms of use",
-            "prefix": "Accept the",
+            "cgu": "Terms and conditions",
+            "prefix": "Accept",
             "separator": "and the",
-            "suffix": " to use the application."
+            "suffix": " to use the app"
         },
         "error_age": "Please enter a valid age",
-        "error_code": "Please enter a valid code",
         "error_confirm_password": "The passwords are not identical",
-        "error_domain": "Please enter a valid email address (check email format and domain name)",
         "error_email": "Please enter a valid email",
-        "error_email_already_exist": "",
         "error_firstname": "Please enter a valid first name",
         "error_gender": "Please select a gender",
         "error_lastname": "Please enter a valid last name",
         "error_password": "Please enter a valid password",
-        "error_picture_format": "The selected image does not have a valid format (JPG, PNG or JPEG)",
-        "error_picture_weight": "The selected image is too heavy",
         "photo": "Add a photo",
         "photo_selected": "Update",
         "placeholder_age": "Enter your age",
-        "placeholder_code": "Enter a registration code",
         "placeholder_confirm_password": "Confirm your password",
         "placeholder_email": "Add your email",
         "placeholder_firstname": "Enter your first name here",
         "placeholder_name": "Enter your last name here",
         "placeholder_password": "Enter your password",
         "title": "Create my profile",
-        "validate_button": "Confirm and continue"
+        "validate_button": "Confirm and continue",
+        "code": "Code",
+        "error_code": "Please enter a valid code",
+        "error_domain": "Please enter a valid email address (check the format of the email and the provider)",
+        "error_email_already_exist": "This email address has already been used",
+        "error_picture_format": "The selected image is not in a valid format (JPG, PNG or JPEG)",
+        "error_picture_weight": "The file size of the selected image is too large",
+        "placeholder_code": "Enter your inscription number",
+        "error_unauthorized": "You are not allowed to subscribe"
     },
     "signup_interests_page": {
         "subtitle": "Your interests would help us find a suitable tandem for you.",
@@ -463,20 +427,22 @@
         "function_title": "Profession",
         "footer_email": "Contact us at",
         "footer_university": "Our university is not yet a partner of",
-        "missing_field": "Please enter all fields",
         "profile_title": "My profile",
         "sso_button": "Sign in",
         "staff_role": "University staff",
         "student_role": "Student",
         "title": "My profile",
         "university_title": "Institution",
-        "validate_button": "Confirm and continue"
+        "validate_button": "Confirm and continue",
+        "missing_field": "Please fill in all sections"
     },
     "suspended_page": {
         "contact_us": "Contact us for more information.",
         "subtitle": "We are sorry but your account has been suspended for non compliance of our rules and terms of use.",
         "title": "Account suspended",
-        "validate_button": "Contact us"
+        "validate_button": "Contact us",
+        "subtitle_canceled": "We are sorry but your account has been deleted",
+        "title_canceled": "Account has been deleted"
     },
     "languages_code": {
         "aa": "Afar",
@@ -492,7 +458,6 @@
         "ay": "Aymara",
         "az": "Azerbaijani",
         "ba": "Bashkir",
-        "bb": "Batak",
         "be": "Belarusian",
         "bg": "Bulgarian",
         "bh": "Bihari",
@@ -666,6 +631,30 @@
         "za": "Zhuang, Chuang",
         "zh": "Chinese",
         "zu": "Zulu",
-        "*": "Joker"
+        "*": "Joker",
+        "bb": "Batak"
+    },
+    "error_page": {
+        "title": "Error",
+        "subtitle": "Please accept our apologies but an error has occurred. Please refresh the page or click back."
+    },
+    "maintenance_page": {
+        "title": "Maintenance in progress",
+        "subtitle": "Please accept our apologies - maintenance in progress"
+    },
+    "confirm_modal": {
+        "cancel": "Cancel",
+        "title": "Are you sure you want to delete your account?",
+        "validate": "Yes"
+    },
+    "instance": {
+        "button": "Save and continue",
+        "error": "Error when loading",
+        "subtitle": "Choose an option from the list below",
+        "title": "Your programme"
+    },
+    "service_close": {
+        "subtitle": "This service is closed for the moment, here are the opening times ( {{start}} until {{end}})",
+        "title": "Service unavailable"
     }
 }

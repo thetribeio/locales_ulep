@@ -16,7 +16,8 @@
         "userDoesntExist": "L'utilisateur n'existe pas",
         "userWrongCredentials": "Authentification en erreur : mauvais email ou mauvais mot de passe.",
         "connecteur": "Erreur lors de la récupération des informations utilisateur",
-        "fileSizeExceed": "Le fichier est trop volumineux, il doit être inférieur à {{maxSize}}Mo"
+        "gateway": "Une erreur est survenue lors de la récupération de vos données",
+        "fileSizeExceed": "Le fichier est trop volumineux, il doit être inférieur à {maxSize}Mo"
     },
     "error_page": {
         "title": "Une erreur est survenue",
@@ -40,8 +41,21 @@
             "unexpected": "Erreur inconnue"
         }
     },
+    "navigation": {
+        "bottom_bar": {
+            "home": "Accueil",
+            "conversations": "Conversations"
+        },
+        "sidebar": {
+            "home": "Accueil",
+            "conversations": "Conversations",
+            "disconnect": "Déconnexion",
+            "profile": "Profil",
+            "settings": "Paramètres"
+        }
+    },
     "maintenance_page": {
-        "title": "Maintenance en cours.",
+        "title": "Maintenance en cours",
         "subtitle": "Veuillez nous excusez mais une maintenance est en cours"
     },
     "forgot_password_page": {
@@ -52,7 +66,7 @@
     "forgot_password_sent_page": {
         "button": "Renvoyer l'email",
         "footer_first_line": "Tu n'as pas reçu d'email",
-        "footer_second_line": "Vérifie ton dossier de spam ou réessaie avec une addresse email valide.",
+        "footer_second_line": "Vérifie ton dossier de spam ou réessaie avec une adresse email valide.",
         "forgot": "Plus tard",
         "subtitle": "Nous avons envoyé les instructions de récupération du mot de passe par email",
         "title": "Consulte tes emails"
@@ -62,7 +76,9 @@
         "age": "Âge",
         "binary": "Non binaire",
         "country": "Pays",
+        "cefr_quizz_title": "Test de niveau",
         "create_account_title": "Création de compte",
+        "edit_account_title": "Modification de compte",
         "email": "Email",
         "etandem": "Etandem",
         "error": "Erreur",
@@ -78,31 +94,82 @@
         "tandem": "Tandem",
         "tandem_etandem": "Tandem / Etandem",
         "woman": "Féminin",
-        "yes": "Oui"
+        "yes": "Oui",
+        "go_back": "Retour",
+        "change_avatar": "Modifier mon avatar",
+        "welcome": "Bienvenue sur ULEP,",
+        "welcome_subtext": "le meilleur moyen de pratiquer une langue",
+        "welcome_btn": "Apprends une nouvelle langue en tandem",
+        "close": "Fermer",
+        "signup-progress-bar-label": "Progression de l'inscription",
+        "required_fields_mention_part1": "Les champs suivis d'un",
+        "required_fields_mention_part2": "sont obligatoires",
+        "close_profile": "Fermer le profil",
+        "download": "Télécharger"
     },
     "chat": {
+        "ariaLabelFileDownloaded": "Téléchargement du fichier : {{filename}}",
         "fileDownloaded": "Fichier téléchargé",
+        "messageReport": "Message envoyé par : {{firstname}} {{lastname}} le {{date}} ---- {{message}}",
+        "mediaReport": "Média envoyé par : {{firstname}} {{lastname}} le {{date}}",
         "me": "Moi",
+        "messageReported": "Message signalé",
+        "noMessages": "Il n'y a aucun message",
         "title": "Messages avec {{name}}",
+        "send_button": {
+            "aria_label": "Restez appuyé pour enregister un audio ou écrivez votre message pour passer en mode envoie",
+            "send_aria_label": "Envoyer le message"
+        },
         "input": {
-            "placeholder": "Écris ton message..."
+            "placeholder": {
+                "blocked": "Le tandem est en pause, tu ne peux pas envoyer de messages",
+                "unblocked": "Écris ton message..."
+            }
+        },
+        "reportMessageButton": "Signaler le message",
+        "no_messages": "Aucun message",
+        "no_conversations": "Aucune conversation",
+        "search": {
+            "placeholder": "Rechercher dans la conversation"
+        },
+        "conversation_menu": {
+            "aria_label": "Menu de la conversation",
+            "search": "Rechercher dans la conversation",
+            "medias": "Afficher les médias"
+        },
+        "medias": {
+            "title": "Médias partagés",
+            "files": "Fichiers",
+            "images": "Images",
+            "images-alt": "Image partagée",
+            "audios": "Audios",
+            "links": "Liens"
         }
     },
-    "conversations": {
-        "title": "Ma messagerie"
-    },
     "connection_page": {
-        "connect_title": "As-tu déjà un compte ?",
+        "connect_title": "As-tu déjà un compte ??",
         "connect_button": "Se connecter",
         "signup_title": "Première fois sur l'application ?",
         "signup_button": "Créer un compte"
     },
     "confirm_modal": {
         "cancel": "Annuler",
-        "title": "Voulez-vous vraiment supprimer votre compte ?",
+        "title": "Veux-tu vraiment supprimer ton compte ?",
         "validate": "Confirmer"
     },
     "home_page": {
+        "my_university": {
+            "period": "Période d'ouverture",
+            "title": "Mon université"
+        },
+        "partner_universities": {
+            "title": "Universités partenaires"
+        },
+        "proficiency_test": {
+            "button": "Faire le test",
+            "subtitle": "Mes langues",
+            "title": "Mon niveau"
+        },
         "profile": {
             "disconnect": "Se déconnecter",
             "edit": "Editer mon profil",
@@ -115,13 +182,15 @@
             "report_button": "Signaler un problème",
             "report_sent": "Le signalement a été envoyé",
             "send_button": "Envoyer",
-            "title": "Signaler"
+            "title": "Signaler",
+            "note_required": "La note est obligatoire"
         },
         "settings": {
             "account": "Mon compte",
             "CGU": "Condition d'utilisation",
             "confidentiality": "Politique de confidentalité",
             "deletion": "Demande de suppression envoyée",
+            "edit_account": "Modifier mon inscription",
             "language": "Langue de l'application",
             "logout": "Se déconnecter",
             "notifications": "Notifications",
@@ -130,7 +199,7 @@
             "unsubscribe": "Se désinscrire"
         },
         "tandem": {
-            "title": "Mes tandems"
+            "title": "Mes tandems en cours"
         },
         "tandem_draft": {
             "button": "C'est compris !",
@@ -172,7 +241,7 @@
         "button": "Valider et continuer",
         "error": "Erreur pendant le chargement de l'instance",
         "subtitle": "Choisis ton instance dans la liste ci-dessous",
-        "title": "Votre programme"
+        "title": "Ton programme"
     },
     "languages": {
         "french": "Français",
@@ -188,9 +257,8 @@
         "invalid_password": "Mot de passe invalide",
         "sso_button": "M’authentifier",
         "sso_title": "Étudiant de l’{{name}}, connecte-toi avec des identifiants de l’université",
-        "subtitle": "Connecte-toi avec tes identifiants de l’université pour continuer à utiliser l’application",
-        "title": "Se connecter",
-        "update_instance": "Changer d'instance"
+        "subtitle": "Étudiant d'université partenaire, connecte-toi avec tes identifiants d'inscription pour continuer à utiliser l’application",
+        "title": "Se connecter"
     },
     "pairing_confirm_language_page": {
         "language_title": "Langue souhaitée",
@@ -199,7 +267,7 @@
             "description": "Vérifions ton niveau ensemble !",
             "description_joker": "Tu peux passer à la suite !",
             "description_title": "Maintenant",
-            "subtitle": "",
+            "subtitle": "Dernière étape",
             "title": "Tu y es presque !",
             "validate_button": "Confirmer"
         },
@@ -220,7 +288,7 @@
         "certificat": "Certificat",
         "none": "Passer",
         "program": "Programme spécifique",
-        "program_subtitle": "*Lorem ipsum em ipsumem ipsum",
+        "program_subtitle": "Prévu dans mon cursus universitaire",
         "same_tandem": "J'ai déjà participé au programme et je souhaite continuer avec la même personne",
         "title": "Mes options",
         "validate_button": "Valider et continuer"
@@ -243,7 +311,7 @@
         "validate_button": "Valider et continuer"
     },
     "pairing_quizz_introduction_page": {
-        "description": "",
+        "description": "Répond simplement par oui ou par non selon la compétence proposée",
         "subtitle": "Découvre ton niveau en répondant à quelques questions",
         "time": "ça prendra 10 min max",
         "title": "Ton niveau",
@@ -275,7 +343,8 @@
         "subtitle": "Quelle langue veux-tu travailler avec ton tandem ?",
         "no_languages": "Aucune langue disponible",
         "title": "Choix de la langue",
-        "validate_button": "Valider et continuer"
+        "validate_button": "Valider et continuer",
+        "required_mention": "Vous devez choisir votre langue d'apprentissage"
     },
     "pairing_level_page": {
         "know_button": "Go",
@@ -301,7 +370,8 @@
         },
         "subtitle": "Choisis tes préférences",
         "title": "Choix de la langue",
-        "validate_button": "Valider et continuer"
+        "validate_button": "Valider et continuer",
+        "choosing_another_language": "Choix d'une autre langue"
     },
     "pairing_pedagogy_page": {
         "both_button": "TANDEM OU E-TANDEM",
@@ -335,7 +405,7 @@
         "pedagogy_button": "Choisir un autre moyen de rencontre",
         "pedagogy_title": "Je souhaite choisir une autre moyen de rencontre",
         "subtitle": "Trouve des ressources et des groupes de discussion en ligne pour apprendre la langue par toi-même.",
-        "title": "Langue non disponible en tandem"
+        "title": "Langue non disponible en e-tandem"
     },
     "reset_password_page": {
         "button": "Valider",
@@ -347,7 +417,7 @@
     },
     "service_close": {
         "subtitle": "Le service est fermé pour le moment, voici les dates d'ouvertures de service {{start}} jusqu'à {{end}}",
-        "title": "Service indisponnible"
+        "title": "Service indisponible"
     },
     "signup_availabilities_page": {
         "AVAILABLE": "Peu disponible",
@@ -394,7 +464,8 @@
         "title": "Tes disponibilités",
         "TWICE_A_MONTH": "2 fois / mois",
         "TWICE_A_WEEK": "2 fois / semaine",
-        "validate_button": "Valider et continuer"
+        "validate_button": "Valider et continuer",
+        "required_mention": "Vous devez choisir votre fréquence de rencontre"
     },
     "signup_goals_page": {
         "pass_button": "Passer",
@@ -422,7 +493,8 @@
                 "1 caractère MAJUSCULE",
                 "1 caractère minuscule",
                 "1 chiffre"
-            ]
+            ],
+            "close": "Fermer les informations de mot de passe"
         },
         "cgu": {
             "confidentiality": "politique de confidentialité",
@@ -459,13 +531,15 @@
     "signup_interests_page": {
         "subtitle": "Tes centres d’intérêts nous servent à trouver un tandem qui te correspond.",
         "title": "Choisis au moins 5 centres d’intérêts",
-        "validate_button": "Valider et continuer"
+        "validate_button": "Valider et continuer",
+        "required_mention": "Vous devez choisir entre 5 et 10 centres d'intérêts"
     },
     "signup_page": {
         "country_placeholder": "Sélectionne un pays dans la liste",
+        "country_aria_label": "Sélectionner le pays de votre université, afin de choisir votre université",
         "department_title": "Département",
         "diplome_title": "Diplôme",
-        "error": "Vous ne pourrez pas aller plus loin dans le processus d’inscription",
+        "error": "Vous ne pourrez pas aller plus loin dans le processus d’inscription, les inscriptions ne sont pas ouvertes.",
         "function_title": "Fonction",
         "footer_email": "Contactez-nous à",
         "footer_university": "Votre université n'est pas encore partenaire de l'",

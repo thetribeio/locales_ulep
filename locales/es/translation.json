@@ -12,12 +12,11 @@
         "global": "Ha ocurrido un error",
         "userDoesntExist": "El usuario no existe",
         "userWrongCredentials": "Contraseña o correo electrónico incorrectos",
-        "connecteur": "",
-        "fileSizeExceed": ""
-    },
-    "error_page": {
-        "title": "",
-        "subtitle": ""
+        "ask_language": {
+            "conflit": "Usted ya ha solicitado este idioma"
+        },
+        "connecteur": "Error al recuperar la información del usuario",
+        "gateway": "Se ha producido un error al recuperar sus datos"
     },
     "forgot_password_page": {
         "button": "Enviar",
@@ -66,15 +65,15 @@
             "disconnect": "Desconectarse",
             "edit": "Editar mi perfil",
             "parameters": "Parámetros",
-            "title": "Profil"
+            "title": "Perfil"
         },
         "report": {
             "category_title": "¿Nos puedes decir qué pasó?",
             "note": "Observación",
             "report_button": "Señalar un problema",
-            "report_sent": "",
             "send_button": "Enviar",
-            "title": "Señalar"
+            "title": "Señalar",
+            "report_sent": "Notificación enviada"
         },
         "settings": {
             "account": "Mi cuenta",
@@ -112,7 +111,12 @@
             "place": "🏖️Su lugar favorito",
             "power": "⚡️Su super poder",
             "title": "Hemos encontrado tu tándem 🎉",
-            "travel": "✈ Sus viajes"
+            "travel": "✈ Sus viajes",
+            "type": {
+                "BOTH": "Etandem / Tándem",
+                "ETANDEM": "Etandem",
+                "TANDEM": "Tándem"
+            }
         },
         "waiting_tandem": {
             "button": "Realizar una nueva solicitud",
@@ -122,26 +126,15 @@
             "title": "Mis solicitudes en espera"
         }
     },
-    "instance": {
-        "button": "",
-        "error": "",
-        "subtitle": "",
-        "title": ""
-    },
-    "languages": {
-        "french": "",
-        "english": "",
-        "deutsche": "",
-        "spanish": "",
-        "chinese": ""
-    },
     "login_page": {
         "button": "Conectarse",
         "forgot": "¿Contraseña olvidada?",
         "invalid_email": "Correo electrónico inválido",
         "invalid_password": "Contraseña inválida",
         "subtitle": "Conéctate con los identificantes de la universidad para seguir utilizando la aplicación",
-        "title": "Conectarse"
+        "title": "Conectarse",
+        "sso_button": "Iniciar sesión",
+        "sso_title": "Estudiante {{name}}, identifíquese con los datos de la universidad"
     },
     "pairing_confirm_language_page": {
         "language_title": "Idioma deseado",
@@ -149,9 +142,9 @@
         "not_alone": {
             "description": "¡Comprobemos juntos tu nivel!",
             "description_title": "Ahora",
-            "subtitle": "",
             "title": "¡Casi listo!",
-            "validate_button": "Confirmar"
+            "validate_button": "Confirmar",
+            "subtitle": ""
         },
         "subtitle": "Confirma tus opciones",
         "title": "Elección del idioma",
@@ -170,10 +163,10 @@
         "certificat": "Certificado",
         "none": "Seguir",
         "program": "Programa específico",
-        "program_subtitle": "",
         "same_tandem": "Ya he participado en el programa y deseo continuar con la misma persona",
         "title": "Mis opciones",
-        "validate_button": "Validar y continuar"
+        "validate_button": "Validar y continuar",
+        "program_subtitle": "*Lorem ipsum em ipsumem ipsum"
     },
     "pairing_preference_page": {
         "none": "No tengo preferencia",
@@ -193,11 +186,11 @@
         "validate_button": "Validad y continuar"
     },
     "pairing_quizz_introduction_page": {
-        "description": "",
         "subtitle": "Descubre tu nivel respondiendo a algunas preguntas",
         "time": "Tarda máximo 10 minutos",
         "title": "Tu nivel",
-        "validate_button": "Empezar"
+        "validate_button": "Empezar",
+        "description": ""
     },
     "pairing_quizz_page": {
         "subtitle": "Responde a las siguientes preguntas",
@@ -205,25 +198,27 @@
     },
     "pairing_quizz_validation": {
         "description": "Sigue por el mismo camino",
-        "description_next_step": {
-            "A0": "",
-            "A1": "",
-            "A2": "",
-            "B1": "",
-            "B2": "",
-            "C1": "",
-            "C2": ""
-        },
         "next_button": "Genial, seguimos",
         "next_step_button": "¡Entendí!",
         "subtitle": "¡Bien, veamos tus preferencias!",
         "title": "Tu nivel",
-        "validated": "Validado"
+        "validated": "Validado",
+        "description_next_step": {
+            "A0": "¡Tandem de impacto! Amplia gama de perfiles potenciales",
+            "A1": "¡Tandem de impacto! Amplia gama de perfiles potenciales",
+            "A2": "¡Tandem de impacto! Amplia gama de perfiles potenciales",
+            "B1": "¡Tandem de impacto! Amplia gama de perfiles potenciales",
+            "B2": "¡Tandem de impacto! Amplia gama de perfiles potenciales",
+            "C1": "¡Tandem de impacto! Amplia gama de perfiles potenciales",
+            "C2": "¡Tandem de impacto! Amplia gama de perfiles potenciales"
+        }
     },
     "pairing_languages_page": {
         "subtitle": "¿Qué idiomas quieres trabajar con tu tándem?",
         "title": "Escoger el idioma",
-        "validate_button": "Validad y continuar"
+        "validate_button": "Validad y continuar",
+        "home_button": "Volver a la página principal",
+        "no_languages": "Ningún idioma disponible"
     },
     "pairing_level_page": {
         "know_button": "¡Vamos!",
@@ -247,7 +242,7 @@
             "title": "Escoger el idioma",
             "validate_button": "Solicitar agregar este idioma"
         },
-        "subtitle": "Escoje tus preferencias",
+        "subtitle": "Escoge tus preferencias",
         "title": "Escoger el idioma",
         "validate_button": "Validar y continuar"
     },
@@ -280,10 +275,10 @@
         },
         "ressource_button": "VER LOS RECURSOS DISPONIBLES",
         "ressource_title": "Los recursos para ayudarme",
-        "pedagogy_button": "",
-        "pedagogy_title": "",
         "subtitle": "Encuentra los recursos y grupos de discusión en línea para aprender el idioma por ti mismo",
-        "title": ""
+        "pedagogy_button": "Elegir otra forma de acceder",
+        "pedagogy_title": "Otra forma de acceder",
+        "title": "Idioma no disponible en tándem"
     },
     "reset_password_page": {
         "button": "Validar",
@@ -312,17 +307,17 @@
     },
     "signup_biography_page": {
         "error_message": "Mínimo 10 caracteres",
-        "incredible_placeholder": "",
         "incredible_title": "😲 Algo increíble que te haya pasado",
-        "place_placeholder": "",
         "place_title": "🏖️ Tu lugar preferido es…",
-        "power_placeholder": "",
         "power_title": "⚡ Tu super poder es…",
         "subtitle": "Sé creativo, tus respuestas podrán ser leídas por tu tándem para facilitar la primera discusión",
         "title": "Para que tu tándem te conozca un poco mejor…",
-        "travel_placeholder": "",
         "travel_title": "🌎️ Tu mejor anécdota de viaje",
-        "validate_button": "Siguiente"
+        "validate_button": "Siguiente",
+        "incredible_placeholder": "Lorem ipsum...",
+        "place_placeholder": "Lorem ipsum...",
+        "power_placeholder": "Lorem ipsum...",
+        "travel_placeholder": "Lorem ipsum..."
     },
     "signup_end_page": {
         "account": "Tu cuenta está lista 🎉",
@@ -348,45 +343,51 @@
     },
     "signup_languages_page": {
         "language": "Mi idioma",
-        "none": "",
-        "other_languages": "Otros idiomas hablados - C1 mínimo / Bilingue (opcional)",
+        "other_languages": "Otros idiomas hablados - C1 mínimo / Bilingüe (opcional)",
         "placeholder_primary_language": "Escoja su lengua materna",
         "placeholder_first_optional_language": "Puede escoger un primer idioma hablado",
         "placeholder_second_optional_language": "Puede escoger un segundo idioma hablado",
         "title": "Idiomas hablados",
-        "validate_button": "Validar y continuar"
+        "validate_button": "Validar y continuar",
+        "none": "Ningún"
     },
     "signup_informations_page": {
-        "code": "",
         "confirm_password": "Confirma tu contraseña",
-        "cgu": "Aceptar las condiciones de utilización y la política de confidencialidad para utilizar la aplicación",
+        "cgu": {
+            "confidentiality": "política de privacidad",
+            "cgu": "condiciones de uso",
+            "prefix": "Aceptarlas",
+            "separator": "para",
+            "suffix": " utilizar la aplicación."
+        },
         "error_age": "Inscriba una edad válida",
-        "error_code": "",
         "error_confirm_password": "Las contraseñas no son iguales",
-        "error_domain": "",
         "error_email": "Inscriba un correo electrónico válido",
-        "error_email_already_exist": "",
         "error_firstname": "Inscriba un nombre válido",
         "error_gender": "Escoja el género",
         "error_lastname": "Inscriba un apellido válido",
         "error_password": "Inscriba una contraseña válida",
-        "error_picture_format": "",
-        "error_picture_weight": "",
         "photo": "Agregar una foto",
         "photo_selected": "Modificar",
         "placeholder_age": "Entra tu edad",
-        "placeholder_code": "",
         "placeholder_confirm_password": "Confirma tu contraseña",
         "placeholder_email": "Agrega tu correo electrónico",
         "placeholder_firstname": "Inscribe tu nombre aquí",
         "placeholder_name": "Inscribe tu apellido aquí",
         "placeholder_password": "Inscribe tu contraseña",
         "title": "Crear mi perfil",
-        "validate_button": "Validar y continuar"
+        "validate_button": "Validar y continuar",
+        "code": "Código",
+        "error_code": "Introduzca un código válido",
+        "error_domain": "Introduzca una dirección de correo electrónico válida (compruebe el formato del correo electrónico y el nombre del dominio)",
+        "error_email_already_exist": "La dirección de correo electrónico ya ha sido utilizada",
+        "error_picture_format": "La imagen seleccionada no tiene un formato válido (JPG, PNG o JPEG)",
+        "error_picture_weight": "La imagen seleccionada es demasiado pesada",
+        "placeholder_code": "Introduzca un código de registro"
     },
     "signup_interests_page": {
         "subtitle": "Tus centros de interés nos sirven para encontrar un tándem que te corresponda",
-        "title": "Escoje al menos cinco centros de interés",
+        "title": "Escoge al menos cinco centros de interés",
         "validate_button": "Validar y continuar"
     },
     "signup_page": {
@@ -395,22 +396,24 @@
         "diplome_title": "Diploma",
         "error": "No puede seguir más allá con el proceso de inscripción",
         "function_title": "Función",
-        "footer_email": "Contactenos en",
+        "footer_email": "Contáctenos en",
         "footer_university": "Su universidad no está aún asociada a",
-        "missing_field": "",
         "profile_title": "Mi perfil",
-        "sso_button": "Iniciar mi sesión",
+        "sso_button": "Iniciar sesión",
         "staff_role": "Personal de la universidad",
         "student_role": "Estudiante",
         "title": "Mi perfil",
         "university_title": "Establecimiento",
-        "validate_button": "Validar y continuar"
+        "validate_button": "Validar y continuar",
+        "missing_field": "Rellene todos los campos"
     },
     "suspended_page": {
         "contact_us": "Contáctenos para más informaciones",
         "subtitle": "Lo sentimos mucho, pero tu cuenta ha sido cancelada por el no respeto de nuestras reglas y condiciones de utilización",
         "title": "Cuenta cancelada",
-        "validate_button": "Contactarnos"
+        "validate_button": "Contáctanos",
+        "subtitle_canceled": "Lo sentimos, pero se ha cancelado su cuenta",
+        "title_canceled": "Cuenta cancelada"
     },
     "languages_code": {
         "aa": "Afar",
@@ -426,7 +429,6 @@
         "ay": "Aimara",
         "az": "Azerí",
         "ba": "Baskir",
-        "bb": "Batak",
         "be": "Bielorruso",
         "bg": "Búlgaro",
         "bh": "Bhoyapurí",
@@ -520,7 +522,6 @@
         "mk": "Macedonio",
         "ml": "Malayalam",
         "mn": "Mongol",
-        "mo": "",
         "mr": "Maratí",
         "ms": "Malayo",
         "mt": "Maltés",
@@ -557,7 +558,6 @@
         "sd": "Sindhi",
         "se": "Sami Septentrional",
         "sg": "Sango",
-        "sh": "",
         "si": "Cingalés",
         "sk": "Eslovaco",
         "sl": "Esloveno",
@@ -600,6 +600,39 @@
         "za": "Chuan",
         "zh": "Chino",
         "zu": "Zulú",
-        "*": "Joker"
+        "*": "Joker",
+        "bb": "Batak",
+        "mo": "Moldavia",
+        "sh": "Serbocroata"
+    },
+    "error_page": {
+        "title": "Se ha producido un error",
+        "subtitle": "Lo sentimos, se ha producido un error. Por favor, actualice la página o vuelva atrás"
+    },
+    "maintenance_page": {
+        "title": "Mantenimiento en curso",
+        "subtitle": "Disculpa las molestias, mantenimiento en curso"
+    },
+    "confirm_modal": {
+        "cancel": "Anular",
+        "title": "¿Desea eliminar su cuenta?",
+        "validate": "Confirmar"
+    },
+    "instance": {
+        "button": "Validar y continuar",
+        "error": "Error al cargar la solicitud",
+        "subtitle": "Elija su solicitud en la siguiente lista",
+        "title": "Su programa"
+    },
+    "languages": {
+        "french": "Francés",
+        "english": "Inglés",
+        "deutsche": "Alemán",
+        "spanish": "Español",
+        "chinese": "Chino"
+    },
+    "service_close": {
+        "subtitle": "De momento, el servicio está cerrado aquí están las fechas de apertura del servicio {{start}} hasta {{end}}",
+        "title": "Servicio no disponible"
     }
 }
