@@ -70,5 +70,17 @@
   "reportMessage": {
     "title": "Un message a été signalé",
     "bodyHtml": "<p>Bonjour,</p><p>{{user.firstname}} {{user.lastname}} a signalé un message de {{reportedUser.firstname}} {{reportedUser.lastname}} dans l’application ULEP. </p><p>Vous pourrez retrouver les détails du signalement dans le back-office.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+  },
+  "activityPublished": {
+    "title": "Une activité a été publiée",
+    "bodyHtml": "<p>Bonjour {{user.firstname}} {{user.lastname}},</p><p>Nous sommes heureux de t’annoncer que l'activité {{activity.title}} a été publiée.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+  },
+  "activityRejected": {
+    "title": "Une activité a été rejetée",
+    "bodyHtml": "<p>Bonjour {{user.firstname}} {{user.lastname}},</p><p>Nous sommes au regret de t’annoncer que l'activité {{activity.title}} a été rejetée.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+  },
+  "activityProposal": {
+    "title": "Un utilisateur a proposé une activité",
+    "bodyHtml": "<p>Bonjour, {{user.firstname}} {{user.lastname}} a proposé une activité dans l'application ULEP au nom de {{activity.title}}.</p><p>Vous pourrez retrouver les détails de l'activité dans le back-office.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
   }
 }
