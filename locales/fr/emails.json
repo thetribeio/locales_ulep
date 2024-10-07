@@ -59,6 +59,26 @@
         "title": "Un tandem n'est plus en pause",
         "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>Nous sommes heureux de t’annoncer que nous avons enlevé la pause sur un de tes Tandem ULEP. Tu peux maintenant reprendre les communications avec ton Tandem.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
     },
+    "sessionStartDaily": {
+        "title": "Une nouvelle session va commencer avec {{partnerName}} le {{date}} à {{hour}}",
+        "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>Nous sommes heureux de t’annoncer qu'une nouvelle session va commencer le {{date}} à {{hour}}.</p><p>{{comment}}</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+    },
+    "sessionStartFifteenMinutes": {
+        "title": "Une session va commencer avec {{partnerName}} dans 15 minutes",
+        "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>Nous sommes heureux de t’annoncer que une session va commencer dans 15 minutes.</p><p>{{comment}}</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+    },
+    "sessionCancelled": {
+        "title": "Une session avec {{partnerName}} a été annulée",
+        "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>Nous sommes au regret de t’annoncer que la session du {{date}} à {{hour}} avec {{partnerName}} a été annulée.</p><p>{{comment}}</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+    },
+    "sessionCreated": {
+        "title": "{{partnerName}} vient de créer une session avec toi",
+        "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>{{partnerName}} vient de créer une session avec toi le {{date}} à {{hour}}.</p><p>{{comment}}</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+    },
+    "sessionUpdated": {
+        "title": "{{partnerName}} vient de modifier une session avec toi",
+        "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>{{partnerName}} vient de modifier une session avec toi le {{date}} à {{hour}}.</p><p>{{comment}}</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+    },
     "footer": {
         "unsubscribe": "Vous pouvez vous désinscrire en vous connectant à votre compte.",
         "downloadApps": "Téléchargez nos apps"
