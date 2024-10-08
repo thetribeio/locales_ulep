@@ -20,23 +20,23 @@
     "title": "Hello !"
   },
   "sessionStartDaily": {
-    "title": "Une nouvelle session va commencer avec {{partnerName}} le {{date}} à {{hour}}",
-    "body": "Nous sommes heureux de t’annoncer que une nouvelle session va commencer le {{date}} à {{hour}}."
+    "title": "Une nouvelle session va commencer avec {{session.partnerName}} le {{session.date}} à {{session.hour}}",
+    "body": "Nous sommes heureux de t’annoncer que une nouvelle session va commencer le {{session.date}} à {{session.hour}}."
   },
   "sessionStartFifteenMinutes": {
-    "title": "Une session va commencer avec {{partnerName}} dans 15 minutes",
+    "title": "Une session va commencer avec {{session.partnerName}} dans 15 minutes",
     "body": "Nous sommes heureux de t’annoncer que une session va commencer dans 15 minutes."
   },
   "sessionCancelled": {
-    "title": "Une session avec {{partnerName}} a été annulée",
-    "body": "Nous sommes au regret de t’annoncer que la session du {{date}} à {{hour}} avec {{partnerName}} a été annulée."
+    "title": "Une session avec {{session.partnerName}} a été annulée",
+    "body": "Nous sommes au regret de t’annoncer que la session du {{session.date}} à {{session.hour}} avec {{session.partnerName}} a été annulée."
   },
   "sessionCreated": {
-    "title": "{{partnerName}} vient de créer une session avec toi",
-    "body": "{{partnerName}} vient de créer une session avec toi le {{date}} à {{hour}}."
+    "title": "{{session.partnerName}} vient de créer une session avec toi",
+    "body": "{{session.partnerName}} vient de créer une session avec toi le {{session.date}} à {{session.hour}}."
   },
   "sessionUpdated": {
-    "title": "{{partnerName}} vient de modifier une session avec toi",
-    "body": "{{partnerName}} vient de modifier une session avec toi le {{date}} à {{hour}}."
+    "title": "{{session.partnerName}} vient de modifier une session avec toi",
+    "body": "{{session.partnerName}} vient de modifier une session avec toi le {{session.date}} à {{session.hour}}."
   }
 }
