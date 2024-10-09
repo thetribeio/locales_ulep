@@ -692,7 +692,7 @@
     },
     "service_close": {
         "subtitle": "Le service est fermé pour le moment, voici les dates d'ouvertures de service {{start}} jusqu'à {{end}}",
-        "title": "Service indisponnible"
+        "title": "Service indisponible"
     },
     "signup_availabilities_page": {
         "AVAILABLE": "Peu disponible",
