@@ -17,7 +17,7 @@
         "userWrongCredentials": "Authentification en erreur : mauvais email ou mauvais mot de passe.",
         "connecteur": "Erreur lors de la récupération des informations utilisateur",
         "gateway": "Une erreur est survenue lors de la récupération de vos données",
-        "fileSizeExceed": "Le fichier est trop volumineux, il doit être inférieur à {maxSize}Mo"
+        "fileSizeExceed": "Le fichier est trop volumineux, il doit être inférieur à {{maxSize}}Mo"
     },
     "error_page": {
         "title": "Une erreur est survenue",
@@ -41,14 +41,127 @@
             "unexpected": "Erreur inconnue"
         }
     },
+    "activity": {
+        "status": {
+            "in_validation": "Etude en cours",
+            "rejected": "Refusée",
+            "published": "Validée"
+        },
+        "list": {
+            "title": "Fiches d'activités",
+            "filter_title": "Filtre",
+            "filter_clear": "Effacer les filtres",
+            "language": "Langue",
+            "level": "Niveau",
+            "theme": "Thème",
+            "search": "Rechercher une activité",
+            "filter": {
+                "title": "Filtrer les fiches d’activité",
+                "languages": "Langues",
+                "levels": "Niveaux",
+                "themes": "Thèmes",
+                "apply": "Appliquer",
+                "cancel": "Annuler",
+                "is_mine": "Mes fiches"
+            }
+        },
+        "show": {
+            "status_rejected": "Afficher la raison du rejet",
+            "back_button": "Retour",
+            "kebab_button": "Ouvrir le menu contextuel",
+            "creator": "Créé par {{name}}",
+            "title": "Fiche d'activité",
+            "language": "Langue",
+            "level": "Niveau",
+            "theme": "Thème",
+            "created_by": "Créée par",
+            "me": "moi",
+            "share": "Partager ma fiche à la communauté",
+            "exercise": "Exercice {{index}}",
+            "vocabulary": "Vocabulaire & expressions",
+            "modal_rejected_title": "Fiche d’activité refusée",
+            "modal_rejected_description1": "Après étude par ton gestionnaire, ta fiche d’activité a été refusée. ",
+            "modal_rejected_description2": "Il y a des modifications à lui apporter, contacte ton gestionnaire pour en savoir plus.",
+            "modal_rejected_description3": "Tu peux retravailler ta fiche et la soumettre de nouveau",
+            "modal_rejected_close": "J'ai compris",
+            "modal_share_title": "Partager avec la communauté",
+            "modal_share_description1": "Ta fiche d’activité doit être validée par ton gestionnaire afin de vérifier qu'elle répond aux besoins de la communauté.",
+            "modal_share_description2": "Si elle est validée, elle sera alors accessible par les autres utilisateurs (et tu seras bien sûr créditée) !",
+            "modal_share_description3": "Quoiqu’il arrive, tu auras toujours accès à ta fiche dans ton espace personnel.",
+            "modal_share_submit": "Soumettre ma fiche",
+            "modal_share_close": "Fermer",
+            "ressource_file": "Télécharger le fichier",
+            "ressource_file_downloaded": "Fichier téléchargé",
+            "filter": {
+                "title": "Filtrer les fiches d’activité",
+                "languages": "Langues",
+                "levels": "Niveaux",
+                "themes": "Thèmes",
+                "apply": "Appliquer",
+                "cancel": "Annuler",
+                "is_mine": "Mes fiches"
+            }
+        },
+        "create": {
+            "up_excercise_button": "Déplacer l'exercice vers le haut",
+            "down_excercise_button": "Déplacer l'exercice vers le bas",
+            "delete_excercise_button": "Supprimer l'exercice",
+            "back_button": "Retour",
+            "excercise": "Exercice",
+            "excercise_placeholder": "Entrer le contenu de l'exercice",
+            "delete_image_button": "Supprimer l'image",
+            "close_ressource_url": "Fermer la ressource url",
+            "close_ressource_file": "Supprimer le document PDF",
+            "title": "Créer une fiche d’activité",
+            "title_informations": "Informations principales",
+            "title_vocabulary": "Vocabulaire & expression",
+            "subtitle_vocabulary": "Tu peux lister ici les éléments de vocabulaire liés au sujet de ta fiche",
+            "delete_pronunciation": "Supprimer la prononciation",
+            "vocabulary_placeholder": "Entrer le vocabulaire",
+            "pronunciation": "Prononciation",
+            "delete_vocabulary_button": "Ajouter un terme de vocabulaire",
+            "title_input": "Titre",
+            "title_input_placeholder": "Titre de l'activité",
+            "title_excercise": "Exercice",
+            "subtitle_excercise": "Tu peux proposer entre 3 et 6 exercices par fiche d’activité.",
+            "add_excercise_button": "Ajouter un exercice",
+            "add_vocabulary_button": "Ajouter un terme de vocabulaire",
+            "ressource_url_placeholder": "Entrer l'url",
+            "image": "Image",
+            "image_button": "Ajouter une image",
+            "credit_image_placeholder": "Crédit image",
+            "description": "Description",
+            "description_placeholder": "Description de l'activité",
+            "language": "Langue",
+            "language_placeholder": "Choisir une langue",
+            "level": "Niveau",
+            "level_placeholder": "Sélectionner le niveau de la langue",
+            "theme": "Thème",
+            "theme_placeholder": "Sélectionner un thème",
+            "ressource": "Ressource principale",
+            "ressource_infos": "La ressource principale peut être une url ou un document PDF",
+            "ressource_url": "Entrer l'url",
+            "ressource_file": "Uploader un document PDF",
+            "cancel_button": "Annuler",
+            "validate_button": "Valider",
+            "success_title": "Fiche créée !",
+            "success_description": "Votre fiche a bien été créée !",
+            "success_description_2": "Tu peux la retrouver dans ton espace apprentissage, dans l’onglet “Mes fiches”",
+            "success_navigate_button": "Voir ma fiche de préparation",
+            "success_close_button": "Fermer"
+        }
+    },
     "navigation": {
         "bottom_bar": {
             "home": "Accueil",
-            "conversations": "Conversations"
+            "conversations": "Conversations",
+            "learning": "Learning",
+            "profile": "Profil"
         },
         "sidebar": {
             "home": "Accueil",
             "conversations": "Conversations",
+            "learning": "Apprentissage",
             "disconnect": "Déconnexion",
             "profile": "Profil",
             "settings": "Paramètres"
@@ -105,7 +218,65 @@
         "required_fields_mention_part1": "Les champs suivis d'un",
         "required_fields_mention_part2": "sont obligatoires",
         "close_profile": "Fermer le profil",
-        "download": "Télécharger"
+        "download": "Télécharger",
+        "years_old": "ans"
+    },
+    "vocabulary": {
+        "list": {
+            "create": "Créer une nouvelle liste",
+            "empty": "Tu n’as pas encore créé de liste de vocabulaire pour cette langue.",
+            "go_back": "Retour",
+            "title": "Listes de vocabulaire",
+            "creator": "Créé par {{name}}",
+            "missing_pronunciation": "{{count}} prononciation à enregistrer",
+            "number_of_vocabularies": "{{count}} paires",
+            "me": "moi",
+            "add": {
+                "cancel": "Annuler",
+                "create": "Valider",
+                "origin_language": "Langue de traduction",
+                "target_language": "Langue à traduire",
+                "title": "Nouvelle liste de vocabulaire",
+                "symbol": "Symbole de la liste",
+                "name": "Nom de la liste",
+                "symbol_error": "Le symbole est obligatoire",
+                "name_error": "Le nom est obligatoire",
+                "origin_language_error": "La langue de traduction est obligatoire",
+                "target_language_error": "La langue à traduire est obligatoire"
+            },
+            "share": {
+                "cancel": "Annuler",
+                "create": "Valider",
+                "title": "À qui souhaitez-vous partager ?"
+            }
+        },
+        "pair": {
+            "go_back": "Retour",
+            "menu": "Menu",
+            "share_button": "Partager",
+            "export": "Exporter",
+            "empty": "Tu n’as pas encore créé de de paire de vocabulaire pour cette liste",
+            "create": "Nouvelle pair de mots",
+            "search": "Rechercher",
+            "aria-pressed": "Mettre à jour le vocabulaire",
+            "add": {
+                "cancel": "Annuler",
+                "save": "Enregistrer",
+                "pronunciation": "Prononciation",
+                "add_prounonciation": "Ajouter",
+                "delete_prounonciation": "Supprimer",
+                "default_translation": "Traduction",
+                "default_word": "Mot",
+                "title": "Nouvelle pair de mots",
+                "edit_title": "Editer la pair de mots"
+            },
+            "update": {
+                "delete": "Supprimer",
+                "save": "Enregistrer"
+            },
+            "without_pronunciation": "Prononciation(s) à enregistrer",
+            "every_pronunciation": "Toutes les pairs"
+        }
     },
     "chat": {
         "ariaLabelFileDownloaded": "Téléchargement du fichier : {{filename}}",
@@ -116,8 +287,9 @@
         "messageReported": "Message signalé",
         "noMessages": "Il n'y a aucun message",
         "title": "Messages avec {{name}}",
+        "video_call_aria_label": "Appeler {{name}}",
         "send_button": {
-            "aria_label": "Restez appuyé pour enregister un audio ou écrivez votre message pour passer en mode envoie",
+            "record_aria_label": "Restez appuyé pour enregister un audio ou écrivez votre message pour passer en mode envoie",
             "send_aria_label": "Envoyer le message"
         },
         "input": {
@@ -126,14 +298,17 @@
                 "unblocked": "Écris ton message..."
             }
         },
-        "reportMessageButton": "Signaler le message",
-        "no_messages": "Aucun message",
-        "no_conversations": "Aucune conversation",
         "search": {
-            "placeholder": "Rechercher dans la conversation"
+            "placeholder": "Rechercher dans la conversation",
+            "previous": "Aller au message précédent",
+            "next": "Aller au message suivant"
         },
         "conversation_menu": {
-            "aria_label": "Menu de la conversation",
+            "aria_label": "Menu de la conversation avec {{name}}",
+            "return_to_conversations_aria_label": "Retour à la liste des conversations",
+            "return_to_chat_aria_label": "Retour à la conversation avec {{name}}",
+            "conversation_aria_label": "Liste des conversations",
+            "user_aria_label": "Conversation avec {{name}}",
             "search": "Rechercher dans la conversation",
             "medias": "Afficher les médias"
         },
@@ -144,10 +319,15 @@
             "images-alt": "Image partagée",
             "audios": "Audios",
             "links": "Liens"
-        }
+        },
+        "reportMessageButton": "Signaler le message",
+        "no_messages": "Aucun message",
+        "no_conversations": "Aucune conversation",
+        "send_image_aria_label": "Envoyer une image",
+        "send_file_aria_label": "Envoyer un fichier"
     },
     "connection_page": {
-        "connect_title": "As-tu déjà un compte ??",
+        "connect_title": "As-tu déjà un compte ?",
         "connect_button": "Se connecter",
         "signup_title": "Première fois sur l'application ?",
         "signup_button": "Créer un compte"
@@ -157,6 +337,33 @@
         "title": "Veux-tu vraiment supprimer ton compte ?",
         "validate": "Confirmer"
     },
+    "conversations": {
+        "title": "Ma messagerie"
+    },
+    "proficiency_test": {
+        "button": "Faire le test",
+        "subtitle": "Mes langues",
+        "title": "Mon niveau"
+    },
+    "create_learning_language": {
+        "button": "Faire une nouvelle demande",
+        "title": "Prêt(e) à apprendre une nouvelle langue ?"
+    },
+    "partner_university": {
+        "button": "Voir la fiche",
+        "title": "Université partenaire"
+    },
+    "ressources": {
+        "title": "Ressources & documents",
+        "journal": "Journal d'apprentissage",
+        "vocabulary": "Listes de vocabulaire",
+        "activity": "Fiches d'activités",
+        "game": "Jeux & Quizzs"
+    },
+    "university_card": {
+        "button": "Voir la fiche",
+        "period": "Période d'ouverture"
+    },
     "home_page": {
         "my_university": {
             "period": "Période d'ouverture",
@@ -165,6 +372,9 @@
         "partner_universities": {
             "title": "Universités partenaires"
         },
+        "central_university": {
+            "title": "Université centrale"
+        },
         "proficiency_test": {
             "button": "Faire le test",
             "subtitle": "Mes langues",
@@ -172,7 +382,7 @@
         },
         "profile": {
             "disconnect": "Se déconnecter",
-            "edit": "Editer mon profil",
+            "edit": "Modifier mon avatar",
             "parameters": "Paramètres",
             "title": "Profile"
         },
@@ -199,7 +409,7 @@
             "unsubscribe": "Se désinscrire"
         },
         "tandem": {
-            "title": "Mes tandems en cours"
+            "title": "Mes tandems"
         },
         "tandem_draft": {
             "button": "C'est compris !",
@@ -234,14 +444,78 @@
             "tandem_draft": "En attente d'un tandem",
             "tandem_not_found": "Tandem non trouvé",
             "tandem_unavailable": "Tandem indisponible",
+            "tandem_paused": "Tandem en pause",
             "title": "Mes demandes en attentes"
+        },
+        "session": {
+            "title": "Sessions à venir ({{count}})",
+            "show_session_list_button": "Voir toutes les sessions"
+        }
+    },
+    "session": {
+        "show_title": "Session avec {{name}}",
+        "cancel_title": "Session annulée",
+        "availabilities": {
+            "open": "Ouvrir",
+            "title": "Disponibilités de {{name}}",
+            "note": "Note"
+        },
+        "form": {
+            "create_title": "Programmer une session avec {{name}}",
+            "update_title": "Modifier une session avec {{name}}",
+            "cancel": "Annuler",
+            "submit": "Valider",
+            "update": "Enregistrer"
+        },
+        "list": {
+            "title": "Sessions à venir ({{count}})",
+            "this_week": "Cette semaine ({{count}})",
+            "this_month": "Ce mois ({{count}})",
+            "at_month": "En {{month}} ({{count}})"
+        },
+        "confirm_cancel": {
+            "title": "Voulez-vous vraiment annuler la session ?",
+            "content": "Si tu annules trop régulièrement des sessions, ton tandem pourrait croire que tu n’es plus intéressé(e) !",
+            "comment_label": "N’hésite pas à écrire à ton tandem pour lui expliquer les raisons de cette annulation :",
+            "confirm_btn": "Annuler la session",
+            "cancel_btn": "Ne rien faire"
+        },
+        "card": {
+            "session_with": "Session avec {{name}}",
+            "no_session": "Vous n'avez pas encore de session programmée",
+            "create_session": "Programmer",
+            "update_session": "Modifier",
+            "cancel_session": "Annuler",
+            "join_session": "Rejoindre",
+            "show_session": "Voir",
+            "cancelled": "Annulée"
+        },
+        "date_and_hour": "Date & heure",
+        "time_for_partner": "Horaire pour {{name}} :",
+        "comment": "Commentaire",
+        "confirm_creation_title": "Proposition envoyée !",
+        "confirm_creation_message": "{{name}} sera notifiée de ta proposition.",
+        "close_modal": "Fermer",
+        "update_session_btn": "Modifier la session",
+        "cancel_session_btn": "Annuler la session",
+        "select_partner_title": "Pour quel tandem souhaitez-vous ajouter une session ?"
+    },
+    "learning": {
+        "title": "Espace apprentissage",
+        "add_language": "Ajouter une langue",
+        "card": {
+            "my_tandem": {
+                "button": "Voir le profil",
+                "title": "Mon tandem"
+            },
+            "pending_tandem": "Tandem en attente"
         }
     },
     "instance": {
         "button": "Valider et continuer",
         "error": "Erreur pendant le chargement de l'instance",
         "subtitle": "Choisis ton instance dans la liste ci-dessous",
-        "title": "Ton programme"
+        "title": "Votre programme"
     },
     "languages": {
         "french": "Français",
@@ -258,7 +532,8 @@
         "sso_button": "M’authentifier",
         "sso_title": "Étudiant de l’{{name}}, connecte-toi avec des identifiants de l’université",
         "subtitle": "Étudiant d'université partenaire, connecte-toi avec tes identifiants d'inscription pour continuer à utiliser l’application",
-        "title": "Se connecter"
+        "title": "Se connecter",
+        "update_instance": "Changer d'instance"
     },
     "pairing_confirm_language_page": {
         "language_title": "Langue souhaitée",
@@ -405,7 +680,7 @@
         "pedagogy_button": "Choisir un autre moyen de rencontre",
         "pedagogy_title": "Je souhaite choisir une autre moyen de rencontre",
         "subtitle": "Trouve des ressources et des groupes de discussion en ligne pour apprendre la langue par toi-même.",
-        "title": "Langue non disponible en e-tandem"
+        "title": "Langue non disponible en tandem"
     },
     "reset_password_page": {
         "button": "Valider",
@@ -481,19 +756,16 @@
         "placeholder_first_optional_language": "Vous pouvez selectionner une première langue maîtrisée",
         "placeholder_second_optional_language": "Vous pouvez selectionner une seconde langue maîtrisée",
         "title": "Langues parlées",
-        "validate_button": "Valider et continuer"
+        "validate_button": "Valider et continuer",
+        "aria_label": "Sélectionner votre langue natale, votre langue parlée et vos langues maîtrisées",
+        "mastered_aria_label": "Sélectionner vos langues maîtrisées"
     },
     "signup_informations_page": {
         "code": "Code",
         "confirm_password": "Confirme ton mot de passe",
         "password_infos": {
             "title": "Le mot de passe doit contenir au moins :",
-            "rules": [
-                "8 caractères",
-                "1 caractère MAJUSCULE",
-                "1 caractère minuscule",
-                "1 chiffre"
-            ],
+            "rules": ["8 caractères", "1 caractère MAJUSCULE", "1 caractère minuscule", "1 chiffre"],
             "close": "Fermer les informations de mot de passe"
         },
         "cgu": {
@@ -501,7 +773,8 @@
             "cgu": "conditions d'utilisation",
             "prefix": "Accepter les",
             "separator": "et la",
-            "suffix": " pour utiliser l'application."
+            "suffix": " pour utiliser l'application.",
+            "aria_label": "Accepter les conditions d'utilisation et la politique de confidentialité pour utiliser l'application"
         },
         "error_age": "Veuillez saisir un âge valide",
         "error_code": "Veuillez saisir un code valide",
@@ -512,8 +785,6 @@
         "error_firstname": "Veuillez saisir un prénom valide",
         "error_gender": "Veuillez choisir un genre",
         "error_lastname": "Veuillez saisir un nom valide",
-        "error_password": "Veuillez saisir un mot de passe valide",
-        "error_unauthorized": "Vous n'êtes pas autorisé à vous inscrire",
         "error_picture_format": "L'image séléctionnée n'a pas un format valide ( JPG, PNG ou JPEG )",
         "error_picture_weight": "L'image séléctionnée est trop lourde",
         "photo": "Ajouter une photo",
@@ -550,7 +821,9 @@
         "student_role": "Étudiant·e",
         "title": "Mon profil",
         "university_title": "Établissement",
-        "validate_button": "Valider et continuer"
+        "validate_button": "Valider et continuer",
+        "university_aria_label": "Sélectionner votre université",
+        "role_aria_label": "Sélectionner votre rôle dans l'université"
     },
     "suspended_page": {
         "contact_us": "Contacte-nous pour plus d'informations.",
@@ -559,6 +832,18 @@
         "title": "Compte suspendu",
         "title_canceled": "Compte annulé",
         "validate_button": "Nous contacter"
+    },
+    "edito_page": {
+        "title": "Edito",
+        "images":{
+            "editoNoImage":"Pas d'images pour l'édito de cette universitée"
+        },
+        "dates": {
+            "admission": "Dates d'admissions",
+            "service": "Date d'ouverture de service"
+        },
+        "univ_card_button": "Voir l'édito de l'université",
+        "univ_website_button": "Site web de l'universitée"
     },
     "languages_code": {
         "aa": "Afar",
