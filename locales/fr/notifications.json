@@ -38,5 +38,13 @@
   "sessionUpdated": {
     "title": "{{session.partnerName}} vient de modifier une session avec toi",
     "body": "{{session.partnerName}} vient de modifier une session avec toi le {{session.date}} à {{session.hour}}."
+  },
+  "activityPublished": {
+    "title": "Une activité a été publiée",
+    "body": "Nous sommes heureux de t’annoncer que l'activité {{activity.title}} a été publiée."
+  },
+  "activityRejected": {
+    "title": "Une activité a été rejetée",
+    "body": "Nous sommes au regret de t’annoncer que l'activité {{activity.title}} a été rejetée."
   }
 }

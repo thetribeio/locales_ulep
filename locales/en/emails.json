@@ -59,6 +59,26 @@
         "title": "A tandem will be unpaused",
         "bodyHtml":"<p>Hello {{user.firstname}},</p><p>We are pleased to announce that we have removed the pause on one of your ULEP Tandem. You can now resume communications with your Tandem.</p><p>Cordially,</p><p>The Université de Lorraine Tandem team</p>"
     },
+    "report": {
+        "title": "An user has made a report",
+        "bodyHtml": "<p>Hello,</p><p>{{user.firstname}} {{user.lastname}} has made a report in the ULEP application for the category {{reportType}}.</p><p>You can find the details of the report in the back-office.</p><p>Cordialement,</p><p>The Tandem team of the University of Lorraine</p>"
+    },
+    "reportMessage": {
+        "title": "A message has been reported",
+        "bodyHtml": "<p>Hello,</p><p>{{user.firstname}} {{user.lastname}} has reported a message from {{reportedUser.firstname}} {{reportedUser.lastname}} in the ULEP application. </p><p>You can find the details of the report in the back-office.</p><p>Cordialement,</p><p>The Tandem team of the University of Lorraine</p>"
+    },
+    "activityPublished": {
+        "title": "An activity has been published",
+        "bodyHtml": "<p>Hello {{user.firstname}} {{user.lastname}},</p><p>We are pleased to announce that the activity {{activity.title}} has been published.</p><p>Cordialement,</p><p>The Université de Lorraine Tandem team</p>"
+    },
+    "activityRejected": {
+        "title": "An activity has been rejected",
+        "bodyHtml": "<p>Hello {{user.firstname}} {{user.lastname}},</p><p>We regret to inform you that the activity {{activity.title}} has been rejected.</p><p>Cordialement,</p><p>The Université de Lorraine Tandem team</p>"
+    },
+    "activityProposal": {
+        "title": "An user has proposed an activity",
+        "bodyHtml": "<p>Hello, {{user.firstname}} {{user.lastname}} has proposed an activity in the ULEP application under the name {{activity.title}}.</p><p>You can find the details of the activity in the back-office.</p><p>Cordialement,</p><p>The Université de Lorraine Tandem team</p>"
+    },
     "footer": {
       "unsubscribe": "You can unsubscribe by connecting to your account.",
       "downloadApps": "Download our apps"

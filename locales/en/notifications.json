@@ -18,5 +18,13 @@
   "welcome": {
     "body": "Welcome to the ulep application! ",
     "title": "Hello !"
+  },
+  "activityPublished": {
+    "title": "An activity has been published",
+    "body": "We're happy to announce that the activity {{activity.title}} has been published."
+  },
+  "activityRejected": {
+    "title": "An activity has been rejected",
+    "body": "We regret to inform you that the activity {{activity.title}} has been rejected."
   }
 }
