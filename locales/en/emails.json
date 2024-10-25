@@ -81,11 +81,15 @@
   },
   "subscribedToEvent": {
     "title": "You are registered to an event",
-    "bodyHtml": "<p>Hello {{user.firstname}},</p><p>You are registered to the event: \"{{event.title}}\" on {{event.date}}.</p><p>Best regards,</p><p>Tandem's team of Lorraine University</p>"
+    "bodyHtml": "<p>Hello {{user.firstname}},</p><p>You are registered to the event: \"{{event.title}}\" by {{event.authorUniversity}} on {{event.date}}.</p><p>Best regards,</p><p>Tandem's team of Lorraine University</p>"
   },
   "unsubscribedFromEvent": {
     "title": "You are unsubscribed from an event",
-    "bodyHtml": "<p>Hello {{user.firstname}},</p><p>You are unsubscribed from the event: \"{{event.title}}\" on {{event.date}}.</p><p>Best regards,</p><p>Tandem's team of Lorraine University</p>"
+    "bodyHtml": "<p>Hello {{user.firstname}},</p><p>You are unsubscribed from the event: \"{{event.title}}\" by {{event.authorUniversity}} on {{event.date}}.</p><p>Best regards,</p><p>Tandem's team of Lorraine University</p>"
+  },
+  "deletedEvent": {
+    "title": "An event has been deleted",
+    "bodyHtml": "<p>Hello {{user.firstname}},</p><p>The event: \"{{event.title}}\" by {{event.authorUniversity}} on {{event.date}} has been deleted.</p><p>Best regards,</p><p>Tandem's team of Lorraine University</p>"
   },
   "footer": {
     "unsubscribe": "You can unsubscribe by connecting to your account.",
