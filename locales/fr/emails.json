@@ -101,11 +101,15 @@
   },
   "subscribedToEvent": {
     "title": "Vous êtes inscrit à un événement",
-    "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>Vous êtes inscrit à l'événement: \"{{event.title}}\" du {{event.date}}.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+    "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>Vous êtes inscrit à l'événement: \"{{event.title}}\" par {{event.authorUniversity}} le {{event.date}}.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
   },
   "unsubscribedFromEvent": {
     "title": "Vous êtes désinscrit d'un événement",
-    "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>Vous êtes désinscrit de l'événement: \"{{event.title}}\" du {{event.date}}.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+    "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>Vous êtes désinscrit de l'événement: \"{{event.title}}\" par {{event.authorUniversity}} le {{event.date}}.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
+  },
+  "deletedEvent": {
+    "title": "Un événement a été supprimé",
+    "bodyHtml": "<p>Bonjour {{user.firstname}},</p><p>L'événement: \"{{event.title}}\" par {{event.authorUniversity}} le {{event.date}} a été supprimé.</p><p>Cordialement,</p><p>L'équipe Tandem de l'Université de Lorraine</p>"
   },
   "footer": {
     "unsubscribe": "Vous pouvez vous désinscrire en vous connectant à votre compte.",
